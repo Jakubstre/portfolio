@@ -55,7 +55,6 @@ const pages = [
   { title: "Midheaven's Website [D]", url: "featured-work/gd-midheaven-website.html" },
 	{ title: "Event Promotion [P,D]", url: "event-promotion.html" },
 	{ title: "Na Skle Maľované [P,D]", url: "featured-work/ep-na-skle-malovane.html" },
-	{ title: "Contact [O]", url: "contact.html" },
 	{ title: "Contents [O]", url: "legend.html" },
 	{ title: "Raster Design [D]", url: "raster-design.html" },
 	{ title: "Theatre Compositions [M,S]", url: "theatre-compositions.html" },

@@ -1574,3 +1574,164 @@ hr {
   opacity: 1;
   transform: translateY(0);
 }
+.youtube-channels {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 30px;
+  width: 100%;
+  margin: 50px 0 20px;
+}
+
+.youtube-card {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  min-width: 0;
+  padding: 25px;
+  border: 2px dotted blue;
+  border-radius: 20px;
+  color: blue;
+  text-decoration: none;
+  overflow: hidden;
+  transition: .35s ease;
+}
+
+.youtube-card:hover {
+  background: blue;
+  color: white;
+  transform: translateY(-6px);
+}
+
+.youtube-profile {
+  flex: 0 0 100px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.youtube-profile img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.youtube-info {
+  min-width: 0;
+  padding-right: 35px;
+}
+
+.youtube-label {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+  opacity: .65;
+}
+
+.youtube-card h2 {
+  font-size: 32px;
+  line-height: 1;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.youtube-card p {
+  font-size: 14px;
+  line-height: 1.5;
+  opacity: .7;
+}
+
+.youtube-arrow {
+  position: absolute;
+  top: 22px;
+  right: 25px;
+  font-size: 25px;
+  transition: transform .35s ease;
+}
+
+.youtube-card:hover .youtube-arrow {
+  transform: translate(4px, -4px);
+}
+.improvement {
+  margin: 100px 0 50px;
+  padding: 45px;
+
+  border-radius: 20px;
+}
+
+.improvement-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 60px;
+  margin-bottom: 70px;
+}
+
+.improvement-label {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+}
+
+.improvement-header h2 {
+  font-size: clamp(45px, 6vw, 80px);
+  line-height: .9;
+  letter-spacing: -3px;
+  font-weight: 700;
+}
+
+.improvement-header > p {
+  max-width: 400px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0 70px;
+}
+
+.skill {
+  padding: 25px 0;
+  border-top: 1px solid rgba(0, 0, 255, .15);
+}
+
+.skill-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.skill-name span:first-child {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.skill-name span:last-child {
+  font-size: 11px;
+  letter-spacing: 2px;
+  opacity: .55;
+}
+
+.skill-level {
+  display: flex;
+  gap: 9px;
+}
+
+.circle {
+  width: 18px;
+  height: 18px;
+  border: 1.5px solid blue;
+  border-radius: 50%;
+  display: block;
+}
+
+.circle.full {
+  background: blue;
+}
