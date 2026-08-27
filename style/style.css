@@ -60,6 +60,7 @@ body.menu-open {
   font-weight: 700;
   color: blue;
   letter-spacing: -4px;
+	text-transform: uppercase;
 }
 .hero-tags {
   display: flex;
