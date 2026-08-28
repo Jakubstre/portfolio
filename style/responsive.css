@@ -162,6 +162,7 @@
   }
 .raster-title h1{ 
 	font-size: 40px;
+	margin-top: -40px;
 	
 }
   .sheet {
@@ -400,7 +401,8 @@
     font-size: 34px;
   }
 	.intro-label{ 
-	margin-top: 5%;}
+	margin-top: 10%;
+	}
   .contact-cta {
     flex-direction: column;
     padding: 45px 30px;
