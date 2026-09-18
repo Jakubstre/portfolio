@@ -17,7 +17,7 @@ menu.addEventListener("click", (e) => {
 });
 
 const lenis = new Lenis({
-  duration: 1.2,
+  duration: 2.5,
   smoothWheel: true,
   touchMultiplier: 1.5
 })
@@ -38,10 +38,6 @@ const searchInput = document.getElementById("searchInput");
 const searchResults = document.getElementById("searchResults");
 const quickLinks = document.querySelector(".quick-links");
 
-
-// =========================
-// DATA
-// =========================
 const pages = [
   { title: "Adults Are Definitely Very Weird [M,S]", url: "featured-work/tc-adults-are-definitely-very-weird.html" },
   { title: "Resume [O]", url: "resume.html" },
@@ -58,7 +54,7 @@ const pages = [
   { title: "Midheaven's Website [D]", url: "featured-work/gd-midheaven-website.html" },
 	{ title: "Event Promotion [P,D]", url: "event-promotion.html" },
 	{ title: "Na Skle Maľované [P,D]", url: "featured-work/ep-na-skle-malovane.html" },
-		{ title: "Na Skle Maľované [P,D]", url: "featured-work/gd-information-board.html" },
+		{ title: "Dolné Skaly [D]", url: "featured-work/gd-information-board.html" },
 	{ title: "Contents [O]", url: "legend.html" },
 	{ title: "Theatre Compositions [M,S]", url: "theatre-compositions.html" },
 	{ title: "Home [O]", url: "index.html" },
@@ -66,10 +62,6 @@ const pages = [
 	{ title: "About me [O]", url: "aboutme.html" }
 ];
 
-
-// =========================
-// OPEN SEARCH
-// =========================
 function openSearchOverlay() {
   searchOverlay.classList.add("active");
 
@@ -97,22 +89,17 @@ if (closeSearch) {
 }
 
 
-// =========================
-// SEARCH INPUT
-// =========================
 if (searchInput) {
   searchInput.addEventListener("input", () => {
     const value = searchInput.value.toLowerCase().trim();
 
     searchResults.innerHTML = "";
 
-    // EMPTY INPUT → SHOW QUICK LINKS
     if (value.length === 0) {
       if (quickLinks) quickLinks.style.display = "grid";
       return;
     }
 
-    // TYPING → HIDE QUICK LINKS
     if (quickLinks) quickLinks.style.display = "none";
 
     const matches = pages.filter(page =>
