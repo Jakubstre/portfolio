@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+<title>404 — Jakub Hudaček — Musician, Composer &amp; Designer</title>
+<meta
+    name="robots"
+    content="noindex, follow"
+  >
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Helvetica, Arial, sans-serif;
+}
+::selection {
+	color: white;
+	background: blue;
+}
+html, body {
+	width: 100%;
+	min-height: 100%;
+}
+body {
+	background: white;
+	color: blue;
+}
+a {
+	color: blue;
+	text-decoration: none;
+}
+.page {
+	min-height: 100vh;
+	padding: 35px 50px 40px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	display: block;
+}
+.logo img {
+	width: 75px;
+	height: auto;
+	display: block;
+	transition: transform 1s ease;
+}
+.logo:hover img {
+	transform: rotate(359deg);
+}
+.error-code {
+	font-size: 13px;
+	letter-spacing: 2px;
+	opacity: 0.6;
+}
+/* -------------------------
+       MAIN
+    ------------------------- */
+
+.main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 60px;
+	align-items: end;
+	margin: auto 0;
+	padding: 100px 0;
+}
+.number {
+	font-size: clamp(130px, 25vw, 360px);
+	line-height: 0.75;
+	letter-spacing: -15px;
+	font-weight: 700;
+}
+.content {
+	max-width: 650px;
+	padding-bottom: 10px;
+}
+.label {
+	font-size: 13px;
+	letter-spacing: 3px;
+	margin-bottom: 25px;
+	opacity: 0.6;
+}
+.content h1 {
+	font-size: clamp(42px, 6vw, 85px);
+	line-height: 0.9;
+	letter-spacing: -4px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.content p {
+	max-width: 550px;
+	font-size: 20px;
+	line-height: 1.7;
+	margin-bottom: 35px;
+}
+.home-button {
+	display: inline-flex;
+	align-items: center;
+	gap: 12px;
+	border: 1px solid blue;
+	border-radius: 30px;
+	padding: 14px 22px;
+	font-size: 15px;
+	transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+.home-button:hover {
+	background: blue;
+	color: white;
+	transform: translateY(-3px);
+}
+/* -------------------------
+       FOOTER
+    ------------------------- */
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	gap: 30px;
+	font-size: 13px;
+	line-height: 1.6;
+}
+.footer-left, .footer-right {
+	opacity: 0.6;
+}
+.footer-right {
+	text-align: right;
+}
+
+/* -------------------------
+       MOBILE
+    ------------------------- */
+
+@media (max-width: 700px) {
+.page {
+	padding: 22px;
+}
+.top {
+	align-items: flex-start;
+}
+.logo img {
+	width: 48px;
+}
+.error-code {
+	font-size: 10px;
+	letter-spacing: 1.5px;
+}
+.main {
+	grid-template-columns: 1fr;
+	gap: 45px;
+	padding: 80px 0;
+}
+.number {
+	font-size: clamp(120px, 45vw, 220px);
+	letter-spacing: -10px;
+}
+.content h1 {
+	font-size: 48px;
+	letter-spacing: -3px;
+}
+.content p {
+	font-size: 17px;
+	line-height: 1.6;
+}
+.footer {
+	font-size: 11px;
+}
+}
+
+@media (prefers-reduced-motion: reduce) {
+*, *::before, *::after {
+	scroll-behavior: auto !important;
+	transition-duration: 0.01ms !important;
+	animation-duration: 0.01ms !important;
+}
+}
+</style>
+</head>
+
+<body>
+<div class="page">
+  <main class="main">
+    <div
+        class="number"
+        aria-hidden="true"
+      > 404 </div>
+    <div class="content">
+      <p class="label">* oops... </p>
+      <h1>Looks like<br>
+        I haven't finished this page yet. </h1>
+      <p> The page you wanted to see doesn't exist,
+        has moved, or maybe it never existed
+        in the first place. </p>
+      <a
+          class="home-button"
+          href="index.html"
+        > → Your way back </a> </div>
+  </main>
+</div>
+</body>
+</html>

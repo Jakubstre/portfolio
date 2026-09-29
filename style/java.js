@@ -2,6 +2,43 @@ const toggle = document.getElementById("menuToggle");
 const menu = document.getElementById("menu");
 const body = document.body;
 
+document.addEventListener("DOMContentLoaded", function () {
+
+    const loader = document.getElementById("loadingScreen");
+
+    if (!loader) return;
+
+    /*
+     * Show loader only on the first index visit
+     * during this browser session.
+     */
+    const hasLoaded = sessionStorage.getItem("indexLoaderShown");
+
+    if (hasLoaded) {
+      loader.remove();
+      return;
+    }
+
+    sessionStorage.setItem("indexLoaderShown", "true");
+
+    /*
+     * Keep the loader visible briefly,
+     * then slide it upward.
+     */
+    setTimeout(function () {
+      loader.classList.add("is-done");
+
+      /*
+       * Remove it completely after the animation.
+       */
+      setTimeout(function () {
+        loader.remove();
+      }, 900);
+
+    }, 1000);
+
+  });
+
 toggle.addEventListener("click", () => {
   menu.classList.toggle("active");
   body.classList.toggle("menu-open");
@@ -17,9 +54,9 @@ menu.addEventListener("click", (e) => {
 });
 
 const lenis = new Lenis({
-  duration: 2.5,
+  duration: 2,
   smoothWheel: true,
-  touchMultiplier: 1.5
+  touchMultiplier: 1
 })
 
 function raf(time) {
