@@ -54,6 +54,7 @@ body {
 .loading-screen.is-done {
   transform: translateY(100%);
   pointer-events: none;
+
 }
 .loading-screen.is-done .loading-logo {
   animation-play-state: paused;
