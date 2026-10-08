@@ -87,6 +87,7 @@ const pages = [
 	{ title: "Vector Design [D]", url: "vector-design.html" },
   { title: "Detective [M,S]", url: "featured-work/tc-detective.html" },
   { title: "Cigáni Idú Do Neba [P,D]", url: "featured-work/ep-cigani-idu-do-neba.html" },
+	  { title: "Communication Strategy Brochure [D]", url: "featured-work/gd-brochure-plan.html" },
 	{ title: "Personal Portfolio [D]", url: "featured-work/gd-personal-portfolio.html" },
   { title: "Midheaven's Website [D]", url: "featured-work/gd-midheaven-website.html" },
 	{ title: "Event Promotion [P,D]", url: "event-promotion.html" },
