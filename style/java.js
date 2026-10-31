@@ -197,4 +197,68 @@ document.querySelectorAll(".video-item").forEach((video) => {
 
 });
 
+// PORTFOLIO AUDIO PLAYER
+
+const audio = document.getElementById("portfolioAudio");
+const playButton = document.getElementById("audioPlay");
+const audioIcon = document.getElementById("audioIcon");
+const progress = document.getElementById("audioProgress");
+const currentTime = document.getElementById("audioCurrent");
+const duration = document.getElementById("audioDuration");
+
+if (audio && playButton) {
+
+  function formatTime(time) {
+    if (!Number.isFinite(time)) return "0:00";
+
+    const minutes = Math.floor(time / 60);
+    const seconds = Math.floor(time % 60);
+
+    return `${minutes}:${String(seconds).padStart(2, "0")}`;
+  }
+
+  playButton.addEventListener("click", () => {
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  });
+
+  audio.addEventListener("play", () => {
+    audioIcon.innerHTML =
+      '<path d="M7 5H10V19H7Z M14 5H17V19H14Z" fill="currentColor"/>';
+    playButton.setAttribute("aria-label", "Pause");
+  });
+
+  audio.addEventListener("pause", () => {
+    audioIcon.innerHTML =
+      '<path d="M8 5L19 12L8 19V5Z" fill="currentColor"/>';
+    playButton.setAttribute("aria-label", "Play");
+  });
+
+  audio.addEventListener("loadedmetadata", () => {
+    duration.textContent = formatTime(audio.duration);
+  });
+
+  audio.addEventListener("timeupdate", () => {
+    currentTime.textContent = formatTime(audio.currentTime);
+
+    if (Number.isFinite(audio.duration)) {
+      progress.value = (audio.currentTime / audio.duration) * 100;
+    }
+  });
+
+  progress.addEventListener("input", () => {
+    if (Number.isFinite(audio.duration)) {
+      audio.currentTime = (progress.value / 100) * audio.duration;
+    }
+  });
+
+  audio.addEventListener("ended", () => {
+    progress.value = 0;
+    currentTime.textContent = "0:00";
+  });
+}
+
 

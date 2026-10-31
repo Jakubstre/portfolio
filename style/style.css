@@ -343,7 +343,7 @@ nav {
     0 2px 10px rgba(0, 0, 0, 0.06);
 }
 .left img {
-  width: 25%;
+  width: 20%;
   margin-left: 5%;
 }
 .left img:hover {
@@ -527,6 +527,136 @@ hr {
   border: none;
   border-top: 1px solid rgba(0, 0, 255, .15);
   margin: 90px 0;
+}
+/* AUDIO PLAYER */
+
+.audio-player-section {
+  margin: 70px 0;
+  padding: 25px 0;
+}
+
+
+
+.audio-player {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.audio-play {
+  width: 55px;
+  height: 55px;
+  flex-shrink: 0;
+  border: 1px solid #dedede;
+  border-radius: 50%;
+  background: transparent;
+  color: blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background .3s, color .3s;
+}
+
+.audio-play:hover {
+  background: blue;
+  color: white;
+}
+
+.audio-play svg {
+  width: 20px;
+  height: 20px;
+}
+
+.audio-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.audio-track-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+}
+
+.audio-track-title span:first-child {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+
+.audio-progress-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  color: #888;
+}
+
+#audioProgress {
+  flex: 1;
+  height: 2px;
+  appearance: none;
+  background: #dedede;
+  outline: none;
+  cursor: pointer;
+}
+
+#audioProgress::-webkit-slider-thumb {
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: blue;
+  cursor: pointer;
+}
+
+#audioProgress::-moz-range-thumb {
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 50%;
+  background: blue;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .audio-player-section {
+    margin: 50px 0;
+    padding: 22px 0;
+  }
+
+  .audio-player {
+    gap: 15px;
+  }
+
+  .audio-play {
+    width: 45px;
+    height: 45px;
+  }
+
+  .audio-track-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+  }
+
+  .audio-track-title span:first-child {
+    font-size: 14px;
+  }
+
+  .audio-track-title span:last-child {
+    font-size: 8px;
+    text-align: left;
+  }
+
+  .audio-progress-container {
+    gap: 8px;
+  }
 }
 .project-details {
   display: grid;
