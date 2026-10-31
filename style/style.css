@@ -367,7 +367,7 @@ backdrop-filter: blur(10px);
   transition: opacity 0.5s ease;
   z-index: 2000;
   overflow: visible;
-  background: white;
+  background: whitesmoke;
   backdrop-filter: blur(60px);
 }
 .menu-overlay.active {
