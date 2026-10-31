@@ -354,6 +354,40 @@
   }
 }
 @media (max-width: 600px) {
+	
+  .audio-player-section {
+    margin: 50px 0;
+    padding: 22px 0;
+  }
+
+  .audio-player {
+    gap: 15px;
+  }
+
+  .audio-play {
+    width: 45px;
+    height: 45px;
+  }
+
+  .audio-track-title {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+  }
+
+  .audio-track-title span:first-child {
+    font-size: 14px;
+  }
+
+  .audio-track-title span:last-child {
+    font-size: 8px;
+    text-align: left;
+  }
+
+  .audio-progress-container {
+    gap: 8px;
+  }
+
   .about-page {
     margin-top: 100px;
     padding-bottom: 60px;
@@ -482,3 +516,4 @@
     margin-right: 6%;
   }
 }
+
