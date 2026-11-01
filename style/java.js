@@ -92,6 +92,7 @@ const pages = [
   { title: "Midheaven's Website [D]", url: "featured-work/gd-midheaven-website.html" },
 	{ title: "Event Promotion [P,D]", url: "event-promotion.html" },
 	{ title: "Na Skle Maľované [P,D]", url: "featured-work/ep-na-skle-malovane.html" },
+	{ title: "Animated Birthday Invitation [D]", url: "featured-work/gd-invitation.html" },
 		{ title: "LARP ID Cards [D]", url: "featured-work/gd-id-cards.html" },
 		{ title: "Dolné Skaly [D]", url: "featured-work/gd-information-board.html" },
 	{ title: "Contents [O]", url: "legend.html" },

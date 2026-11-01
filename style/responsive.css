@@ -362,6 +362,7 @@
 
   .audio-player {
     gap: 15px;
+	  padding: 15px;
   }
 
   .audio-play {

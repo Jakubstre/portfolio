@@ -532,7 +532,6 @@ hr {
   border-top: 1px solid rgba(0, 0, 255, .15);
   margin: 90px 0;
 }
-/* AUDIO PLAYER */
 
 .audio-player-section {
   margin: 70px 0;
@@ -545,13 +544,16 @@ hr {
   display: flex;
   align-items: center;
   gap: 25px;
+	border: blue 1px solid;
+	padding: 30px;
+	border-radius: 99px;
 }
 
 .audio-play {
   width: 55px;
   height: 55px;
   flex-shrink: 0;
-  border: 1px solid #dedede;
+  border: 1px solid blue;
   border-radius: 50%;
   background: transparent;
   color: blue;
@@ -587,7 +589,6 @@ hr {
   font-size: 15px;
   font-variant-numeric: tabular-nums;
   color: blue;
-	opacity: .55;
 }
 
 #audioProgress {
@@ -605,6 +606,7 @@ hr {
   height: 10px;
   border-radius: 50%;
   background: blue;
+
   cursor: pointer;
 }
 
