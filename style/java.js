@@ -535,6 +535,10 @@ document.querySelectorAll(".language-option").forEach(button => {
     const language = button.dataset.lang;
 
     setLanguage(language);
+	  
+	  if (language === "sk") {
+  showTranslationNotice();
+}
 
   });
 

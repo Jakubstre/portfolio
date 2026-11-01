@@ -2,6 +2,7 @@ function setLanguage(language) {
 
     if (!translations[language]) return;
 
+
     // Translate page content
     document.querySelectorAll("[data-i18n]").forEach(element => {
 
@@ -72,3 +73,42 @@ document.addEventListener("DOMContentLoaded", function() {
     setLanguage(savedLanguage);
 
 });
+
+
+// ========================================
+// FIRST-TIME SLOVAK TRANSLATION NOTICE
+// ========================================
+
+const translationNotice = document.getElementById("translationNotice");
+const closeTranslationNotice = document.getElementById("closeTranslationNotice");
+
+function showTranslationNotice() {
+
+  if (!translationNotice) return;
+
+  // Has the visitor already seen the notice?
+  if (localStorage.getItem("translationNoticeShown")) return;
+
+  // Remember that the notice has been shown
+  localStorage.setItem("translationNoticeShown", "true");
+
+  // Show notification
+  setTimeout(() => {
+    translationNotice.classList.add("show");
+  }, 300);
+
+  // Automatically hide after 7 seconds
+  setTimeout(() => {
+    translationNotice.classList.remove("show");
+  }, 7500);
+
+}
+
+// Close button
+if (closeTranslationNotice) {
+
+  closeTranslationNotice.addEventListener("click", () => {
+    translationNotice.classList.remove("show");
+  });
+
+}
