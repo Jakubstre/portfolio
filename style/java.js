@@ -374,7 +374,7 @@ const translations = {
 
     heroMusician: "Hudobník",
     heroComposer: "Skladateľ",
-    heroDesigner: "Dizajnér",
+    heroDesigner: "Grafik",
 
 	  
     graphicDesign: "Grafický dizajn",
