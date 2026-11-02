@@ -196,9 +196,9 @@ const translations = {
     letsTalk: "Ozvi sa mi.",
     slovakia: "Slovensko",
 
-    legendMusic: "[M] Hudobná kompozícia",
-    legendDesign: "[D] Grafický dizajn",
-    legendSound: "[S] Zvuková réžia",
+    legendMusic: "[M] Hudobná Kompozícia",
+    legendDesign: "[D] Grafický Dizajn",
+    legendSound: "[S] Zvuková Réžia",
     legendPromotion: "[P] Eventové Promo",
     legendOthers: "[O] Ostatné",
     legendContents: "→ Obsah",
