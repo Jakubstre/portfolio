@@ -320,8 +320,7 @@ const translations = {
 
     milestoneAdults: "Original soundtrack and sound design created for an award-winning theatre performance.",
 
-    visualIdentity: "Visual Identity",
-    milestoneVisualIdentity: "Branding, promotional materials and websites for musical and cultural projects.",
+    milestoneSomSaso: "A self-published book, entirely written, designed, edited, and prepared for print independently.",
 
     milestoneAlbum: "Debut studio album written, produced, recorded and engineered independently.",
 
@@ -426,7 +425,7 @@ const translations = {
     milestoneAdults: "Autorský soundtrack a zvukový dizajn vytvorený pre ocenenú divadelnú inscenáciu.",
 
     visualIdentity: "Vizuálna Identita",
-    milestoneVisualIdentity: "Branding, propagačné materiály a webové stránky pre hudobné a kultúrne projekty.",
+    milestoneSomSaso: "Samostatne vydaná kniha, od autorského textu a redakčného spracovania až po grafický návrh, sadzbu a prípravu do tlače.",
 
     milestoneAlbum: "Debutový štúdiový album, ktorý vznikol v nezávislej réžii od prvotného nápadu až po produkciu, nahrávanie a zvukovú realizáciu.",
 
