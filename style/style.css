@@ -332,16 +332,28 @@ body.menu-open {
   object-fit: fill;
 }
 nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 3000;
-  padding: 30px;
-  background: hsla(0, 0%, 100%, 0.80);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.65);
+
+    /* Standard glass fallback */
+    -webkit-backdrop-filter: blur(2px) saturate(180%);
+    backdrop-filter: blur(2px) saturate(180%);
+
+    /* Depth */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+
+    box-shadow:
+        0 4px 20px rgba(0, 0, 0, 0.04),
+        inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* Experimental actual distortion */
+@supports (backdrop-filter: url(#glass-distortion)) {
+    nav {
+        backdrop-filter:
+            url(#glass-distortion)
+            blur(2px)
+            saturate(180%);
+    }
 }
 .translation-notice {
   position: fixed;
