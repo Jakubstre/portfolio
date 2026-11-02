@@ -314,7 +314,9 @@ const translations = {
     recognitionTitle: "* Recognition & Highlights",
     recognitionDescription: "→ A selection of productions, releases and projects that represent my work across theatre, music and design.",
 
-    musicCompositions: "MUSIC COMPOSITIONS",
+    musicCompositionAW: "MUSIC COMPOSITIONS",
+	  theatreCompositionAW: "THEATRE COMPOSITIONS",
+	   graphicDesignAW: "GRAPHIC DESIGN",
 
     milestoneAdults: "Original soundtrack and sound design created for an award-winning theatre performance.",
 
@@ -328,6 +330,7 @@ const translations = {
     stillLearning: "* Still learning",
     skillsDescription: "A snapshot of the tools, disciplines, and skills I currently use across my creative work.",
 
+	  graphicDesignSkill: "Graphic Design",
     musicComposition: "Music Composition",
     audioProduction: "Audio Production",
     soundEngineering: "Sound Engineering",
@@ -377,16 +380,15 @@ const translations = {
     heroDesigner: "Grafik",
 
 	  
-    graphicDesign: "Grafický dizajn",
-	  graphicDesignStar: "* Grafický Dizajn",
+    graphicDesign: "* Grafický Dizajn",
     theatreCompositions: "* Divadelná Tvorba",
     alternativeMusic: "* Alternatívna Hudba",
-    eventPromotion: "* Propagácia Podujatí",
+    eventPromotion: "* Eventové Promo",
 
     heroDescription: "je slovenský hudobník, skladateľ, zvukový technik a grafický dizajnér. Venuje sa nezávislej hudbe, autorskej divadelnej tvorbe, zvukovému dizajnu, vizuálnym identitám, webovým stránkam a propagačným projektom.",
 
     featuredWorkLink: "* Vybraná Tvorba",
-    designedBy: "→ Dizajn: Jakub Hudaček",
+    designedBy: "→ Dizajn navrhol Jakub Hudaček",
 
     introductionLabel: "→ Predstavenie",
     introductionTitle: "Ahoj, volám sa Jakub a som...",
@@ -399,58 +401,61 @@ const translations = {
     featuredWorkTitle: "* Vybraná tvorba",
     featuredWorkDescription: "→ Výber projektov, ktoré predstavujú moju najnovšiu a najobľúbenejšiu tvorbu v oblasti hudby, dizajnu a vizuálnych médií.",
 
-    birthdayInvitation: "* Animovaná narodeninová pozvánka",
-    birthdayInvitationTags: "[Grafický dizajn] · [Pohyblivá grafika] · [Propagácia podujatí]",
+    birthdayInvitation: "* Animovaná Narodeninová Pozvánka",
+    birthdayInvitationTags: "[Grafický Dizajn] · [Motion Grafika] · [Eventové Promo]",
 
-    dolneSkalyTags: "[Grafický dizajn] · [Branding]",
+    dolneSkalyTags: "[Grafický Dizajn] · [Branding]",
 
-    personalPortfolio: "* Osobné portfólio",
-    personalPortfolioTags: "[Grafický dizajn] · [Branding]",
+    personalPortfolio: "* Osobné Portfólio",
+    personalPortfolioTags: "[Grafický Dizajn] · [Branding]",
 
-    adultsAreWeirdTags: "[Divadelná hudba] · [Zvuková réžia] · [Grafický dizajn]",
+    adultsAreWeirdTags: "[Divadelná Hudba] · [Zvuková Réžia] · [Grafický Dizajn]",
 
-    resumeLabel: "→ Životopis",
+    resumeLabel: "→ Resumé",
     resumeTitle: "Sedem rokov skúseností naprieč kreatívnymi disciplínami.",
-    resumeText: "Od komponovania divadelných soundtrackov a produkcie nezávislej hudby až po tvorbu vizuálnych identít, webových stránok a propagačných kampaní som získal skúsenosti v rôznych kreatívnych oblastiach. V kompletnom životopise nájdeš moje pracovné skúsenosti, vybrané projekty, technické zručnosti a profesijné zameranie.",
-    viewResume: "→ Zobraziť životopis",
+    resumeText: "Od komponovania divadelných soundtrackov a produkcie nezávislej hudby až po tvorbu vizuálnych identít, webových stránok a propagačných kampaní som získal skúsenosti v rôznych kreatívnych oblastiach. V kompletnom resumé nájdeš moje pracovné skúsenosti, vybrané projekty, technické zručnosti a profesijné zameranie.",
+    viewResume: "→ Zobraziť Resumé",
 
     recognitionTitle: "* Ocenenia a významné projekty",
     recognitionDescription: "→ Výber inscenácií, vydaných diel a projektov, ktoré reprezentujú moju tvorbu v oblasti divadla, hudby a dizajnu.",
 
-    musicCompositions: "HUDBA A KOMPOZÍCIA",
+    musicCompositionAW: "HUDOBNÁ KOMPOZÍCIA",
+	  theatreCompositionAW: "DIVADELNÁ TVORBA",
+	  graphicDesignAW: "GRAFICKÝ DIZAJN",
 
     milestoneAdults: "Autorský soundtrack a zvukový dizajn vytvorený pre ocenenú divadelnú inscenáciu.",
 
-    visualIdentity: "Vizuálna identita",
+    visualIdentity: "Vizuálna Identita",
     milestoneVisualIdentity: "Branding, propagačné materiály a webové stránky pre hudobné a kultúrne projekty.",
 
     milestoneAlbum: "Debutový štúdiový album, ktorý vznikol v nezávislej réžii od prvotného nápadu až po produkciu, nahrávanie a zvukovú realizáciu.",
 
     milestoneChudaczek: "Autorský soundtrack a zvukový dizajn vytvorený pre divadelnú inscenáciu uvádzanú na Slovensku a v Českej republike.",
 
-    stillLearning: "* Neustále sa učím",
+    stillLearning: "* Stále sa učím",
     skillsDescription: "Prehľad nástrojov, oblastí a zručností, ktoré momentálne využívam vo svojej tvorbe.",
 
-    musicComposition: "Hudobná kompozícia",
-    audioProduction: "Audio produkcia",
-    soundEngineering: "Zvuková réžia",
-    webDevelopment: "Tvorba webových stránok",
-    projectDevelopment: "Rozvoj projektov",
+	   graphicDesignSkill: "Grafický Dizajn",
+    musicComposition: "Hudobná Kompozícia",
+    audioProduction: "Audio Produkcia",
+    soundEngineering: "Zvuková Réžia",
+    webDevelopment: "Tvorba Webov",
+    projectDevelopment: "Rozvoj Projektov",
     communication: "Komunikácia",
 
     collaborationLabel: "→ Spolupráca",
     collaborationTitle: "Hľadáš spoluprácu v oblasti hudby, dizajnu alebo čohokoľvek medzi tým?",
     collaborationText: "Som otvorený zákazkám a spolupráci v oblasti divadelnej kompozície, hudobnej produkcie, grafického dizajnu, brandingu, webových stránok a propagačných kampaní. Či už začínaš s prvotným nápadom alebo hotovým konceptom, rád prediskutujem, ako môžem prispieť k tvojmu projektu.",
-    getInTouch: "→ Kontaktovať ma",
+    getInTouch: "→ Ozvi sa",
 
     menuHome: "→ Domov",
     menuMidheaven: "→ Midheaven",
     menuTheatre: "→ Divadelná tvorba",
-    menuGraphicDesign: "→ Grafický dizajn",
-    menuEventPromotion: "→ Propagácia podujatí",
+    menuGraphicDesign: "→ Grafický Dizajn",
+    menuEventPromotion: "→ Eventové Promo",
     menuDiscography: "→ Diskografia",
-    menuResume: "→ Životopis",
-    menuAbout: "→ O mne",
+    menuResume: "→ Resumé",
+    menuAbout: "→ O Mne",
     menuContact: "→ Kontakt",
 
     letsTalk: "Ozvi sa mi.",
@@ -459,16 +464,16 @@ const translations = {
     legendMusic: "[M] Hudobná kompozícia",
     legendDesign: "[D] Grafický dizajn",
     legendSound: "[S] Zvuková réžia",
-    legendPromotion: "[P] Propagácia podujatí",
+    legendPromotion: "[P] Eventové Promo",
     legendOthers: "[O] Ostatné",
     legendContents: "→ Obsah",
 
     searchPlaceholder: "Hľadať...",
     quickLinks: "Rýchle → Odkazy",
-    quickGraphicDesign: "Grafický dizajn [D]",
+    quickGraphicDesign: "Grafický Dizajn [D]",
     quickAdults: "Adults Are Definitely Very Weird [M,S]",
     quickCigani: "Cigáni Idú Do Neba [P,D]",
-    quickResume: "Životopis [O]",
+    quickResume: "Resumé [O]",
     quickContact: "Kontakt [O]"
   }
 
