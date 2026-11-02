@@ -120,25 +120,7 @@
 </head>
 
 <body>
-	<svg class="glass-filters" xmlns="http://www.w3.org/2000/svg">
-    <filter id="glass-distortion">
-        <feturbulence
-            type="fractalNoise"
-            baseFrequency="0.015 0.025"
-            numOctaves="2"
-            seed="5"
-            result="noise"
-        />
-
-        <fedisplacementmap
-            in="SourceGraphic"
-            in2="noise"
-            scale="12"
-            xChannelSelector="R"
-            yChannelSelector="G"
-        />
-    </filter>
-</svg>
+	
 <div class="loading-screen" id="loadingScreen" aria-hidden="true"> <img
     src="images/Logo/JH-LOGO.png"
     alt=""
