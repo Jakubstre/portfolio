@@ -272,6 +272,7 @@
   .hero-tags {
     gap: 10px;
     row-gap: 12px;
+	 
   }
   .sheet {
     padding: 20px;
@@ -500,7 +501,7 @@
     width: 20%;
   }
   .right span {
-    font-size: 40px;
+    font-size: 35px;
   }
   .work-item.left, .work-item.center, .work-item.right {
     margin-top: 0;
