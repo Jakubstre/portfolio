@@ -358,6 +358,13 @@
 }
 @media (max-width: 600px) {
 	
+	
+  .translation-notice {
+    right: 15px;
+    bottom: 15px;
+  }
+	
+	
   .audio-player-section {
     margin: 50px 0;
     padding: 22px 0;

@@ -97,7 +97,7 @@ function showTranslationNotice() {
     translationNotice.classList.add("show");
   }, 300);
 
-  // Automatically hide after 7 seconds
+  // Automatically hide after 7 500 seconds
   setTimeout(() => {
     translationNotice.classList.remove("show");
   }, 7500);
