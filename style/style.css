@@ -735,8 +735,41 @@ hr {
   grid-template-columns: 450px 1fr;
   gap: 70px;
 }
+.credits-section {
+  display: grid;
+  grid-template-columns: 2fr 1.3fr 1.5fr;
+  gap: 35px;
+  align-items: start;
+}
+
+.credits-content {
+  display: contents;
+}
+
+.credit-row {
+  display: contents;
+}
+
+.details-title {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.credit-role {
+  grid-column: 2;
+
+  color: blue;
+  line-height: 1.6;
+}
+
+.credit-names {
+  grid-column: 3;
+
+  line-height: 1.7;
+  color: blue;
+}
 .details-title span {
-  font-size: 11px;
+
   letter-spacing: 2px;
   opacity: .6;
 }

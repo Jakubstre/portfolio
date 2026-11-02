@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
 @media (max-width:1000px) {
+	
+	
+	  .credit-row {
+    grid-template-columns: 0.8fr 1fr 1.4fr;
+    gap: 20px;
+  }
+	
   .work-grid {
     grid-template-columns: 1fr;
     gap: 60px;
@@ -59,7 +66,29 @@
     padding: 30px 22px;
   }
 	
+ .credits-section {
+    gap: 30px;
+  }
 
+  .credit-row {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 15px;
+    padding: 20px 0;
+  }
+
+  .credit-category {
+    grid-column: 1 / -1;
+    font-size: 13px;
+    margin-bottom: 5px;
+  }
+
+  .credit-role {
+    font-size: 13px;
+  }
+
+  .credit-names {
+    font-size: 13px;
+  }
 	
 	 .improvement {
     margin: 70px 0 40px;
@@ -527,5 +556,20 @@
   .desktop-search {
     margin-right: 6%;
   }
+}
+
+@media (max-width: 400px) {
+
+  .credit-row {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .credit-category {
+    grid-column: auto;
+    margin-bottom: 5px;
+  }
+
+
 }
 
