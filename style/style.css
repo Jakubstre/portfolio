@@ -846,25 +846,8 @@ hr {
   display: block;
   border-radius: 10px;
 }
-.event-project figcaption {
-  margin-top: 18px;
-  border-radius: 20px;
-  border: blue dotted 2px;
-  padding: 20px;
-}
-.event-project h2 {
-  margin-bottom: 8px;
-}
-.event-project h3 {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 8px;
-}
-.event-project p {
-  font-size: 15px;
-  line-height: 1.6;
-  color: blue;
-}
+
+
 .event-gallery {
   display: grid;
   grid-template-columns: 1fr;
@@ -884,9 +867,9 @@ hr {
 }
 .project figcaption {
   margin-top: 18px;
-  border-radius: 20px;
-  border: blue dotted 2px;
-  padding: 20px;
+  border-radius: 22px;
+  border: blue solid 1px;
+  padding: 22px;
 }
 .project h2 {
   margin-bottom: 8px;
