@@ -128,7 +128,7 @@ const translations = {
     introductionLabel: "→ Predstavenie",
     introductionTitle: "Ahoj, volám sa Jakub a som...",
     introductionText: "Multidisciplinárny nezávislý umelec, ktorý prepája písanie piesní, komponovanie, produkciu, dizajn a technológie. Mojou motiváciou je vytvárať zmysluplné a ucelené diela, ktoré pretrvajú. Som ochotný venovať značné množstvo času zdokonaľovaniu umeleckej aj technickej stránky svojich projektov a neuspokojiť sa s niečím, čo je iba dostatočne dobré.",
-    continueReading: "→ Čítať ďalej",
+    continueReading: "→ Čítať Ďalej",
 
     newestWorkTitle: "* Najnovšia tvorba",
     newestWorkDescription: "→ Vybraný projekt „Na skle maľované“ je oficiálna propagačná tvorba, na ktorej momentálne pracujem pre pripravovanú muzikálovú inscenáciu.",
