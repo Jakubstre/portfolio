@@ -789,21 +789,22 @@ hr {
 .intro {
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 100px;
   width: 100%;
   color: blue;
   margin: 50px auto 20px;
-  padding: 40px;
+  padding: 70px;
   border: solid blue 1px;
   border-radius: 20px;
 }
 .intro-image {
-  flex: 0 0 320px;
+
+  flex: 0 0 350px;
 }
 .intro-image img {
   width: 100%;
   display: block;
-  border-radius: 12px;
+  border-radius: 20px;
 }
 .intro-content {
   flex: 1;
@@ -821,7 +822,7 @@ hr {
 .intro-text {
   font-size: 18px;
   line-height: 1.7;
-  max-width: 650px;
+  max-width: 800px;
   margin-bottom: 35px;
 }
 .intro-button {
@@ -1157,8 +1158,6 @@ hr {
 }
 .resume-photo {
   position: relative;
-  width: 180px;
-  height: 180px;
 }
 .resume-photo img {
   width: 100%;
