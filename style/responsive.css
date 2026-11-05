@@ -1,13 +1,9 @@
 @charset "UTF-8";
-
 @media (max-width:1000px) {
-	
-	
-	  .credit-row {
+  .credit-row {
     grid-template-columns: 0.8fr 1fr 1.4fr;
     gap: 20px;
   }
-	
   .work-grid {
     grid-template-columns: 1fr;
     gap: 60px;
@@ -23,9 +19,9 @@
     gap: 35px;
     margin-top: 120px;
   }
-	.open-to-work{
-		margin-bottom: 30px;
-	}
+  .open-to-work {
+    margin-bottom: 30px;
+  }
   .hero-title h1 {
     font-size: clamp(56px, 16vw, 90px);
     line-height: 0.88;
@@ -65,111 +61,87 @@
   nav {
     padding: 30px 22px;
   }
-	
- .credits-section {
+  .credits-section {
     gap: 30px;
   }
-
   .credit-row {
     grid-template-columns: 1fr 1fr;
     gap: 10px 15px;
     padding: 20px 0;
   }
-
   .credit-category {
     grid-column: 1 / -1;
     font-size: 13px;
     margin-bottom: 5px;
   }
-
   .credit-role {
     font-size: 13px;
   }
-
   .credit-names {
     font-size: 13px;
   }
-	
-	 .improvement {
+  .improvement {
     margin: 70px 0 40px;
     padding: 20px 20px;
   }
-
   .improvement-header {
     flex-direction: column;
     align-items: flex-start;
     gap: 30px;
     margin-bottom: 45px;
   }
-
   .improvement-header h2 {
     font-size: 48px;
     letter-spacing: -2px;
   }
-
   .improvement-header > p {
     font-size: 15px;
   }
-
   .skills {
     grid-template-columns: 1fr;
   }
-
   .skill {
     padding: 20px 0;
   }
-
   .skill-name span:first-child {
     font-size: 18px;
   }
-
   .circle {
     width: 16px;
     height: 16px;
   }
-	.youtube-channels {
-  grid-template-columns: 1fr;
-  gap: 20px;
-  margin-top: 40px;
-}
-
-.youtube-card {
-  padding: 20px;
-  gap: 20px;
-}
-
-.youtube-profile {
-  flex: 0 0 75px;
-  width: 75px;
-  height: 75px;
-}
-
-.youtube-card h2 {
-  font-size: 25px;
-}
-
-.youtube-card p {
-  font-size: 13px;
-}
-
-.youtube-label {
-  font-size: 10px;
-}
-
+  .youtube-channels {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 40px;
+  }
+  .youtube-card {
+    padding: 20px;
+    gap: 20px;
+  }
+  .youtube-profile {
+    flex: 0 0 75px;
+    width: 75px;
+    height: 75px;
+  }
+  .youtube-card h2 {
+    font-size: 25px;
+  }
+  .youtube-card p {
+    font-size: 13px;
+  }
+  .youtube-label {
+    font-size: 10px;
+  }
   body.menu-open {
     overflow: hidden;
   }
-
-  .search-overlay .quick-links p,
-  .search-overlay .quick-links a,
-  .search-result {
+  .search-overlay .quick-links p, .search-overlay .quick-links a, .search-result {
     font-size: 25px !important;
   }
-
   .search-box input {
     font-size: 25px !important;
   }
-
   .menu-overlay {
     position: fixed;
     inset: 0;
@@ -192,11 +164,10 @@
   .raster-large, .raster-full, .raster-small {
     grid-column: auto;
   }
-.raster-title h1{ 
-	font-size: 40px;
-	margin-top: -40px;
-	
-}
+  .raster-title h1 {
+    font-size: 40px;
+    margin-top: -40px;
+  }
   .sheet {
     padding: 20px;
   }
@@ -301,7 +272,6 @@
   .hero-tags {
     gap: 10px;
     row-gap: 12px;
-	 
   }
   .sheet {
     padding: 20px;
@@ -387,48 +357,37 @@
   }
 }
 @media (max-width: 600px) {
-	
-	
   .translation-notice {
     right: 15px;
     bottom: 15px;
   }
-	
-	
   .audio-player-section {
     margin: 50px 0;
     padding: 22px 0;
   }
-
   .audio-player {
     gap: 15px;
-	  padding: 15px;
+    padding: 15px;
   }
-
   .audio-play {
     width: 45px;
     height: 45px;
   }
-
   .audio-track-title {
     flex-direction: column;
     align-items: flex-start;
     gap: 7px;
   }
-
   .audio-track-title span:first-child {
     font-size: 14px;
   }
-
   .audio-track-title span:last-child {
     font-size: 8px;
     text-align: left;
   }
-
   .audio-progress-container {
     gap: 8px;
   }
-
   .about-page {
     margin-top: 100px;
     padding-bottom: 60px;
@@ -475,9 +434,9 @@
   .intro h2 {
     font-size: 34px;
   }
-	.intro-label{ 
-	margin-top: 10%;
-	}
+  .intro-label {
+    margin-top: 10%;
+  }
   .contact-cta {
     flex-direction: column;
     padding: 45px 30px;
@@ -557,19 +516,13 @@
     margin-right: 6%;
   }
 }
-
 @media (max-width: 400px) {
-
   .credit-row {
     grid-template-columns: 1fr;
     gap: 6px;
   }
-
   .credit-category {
     grid-column: auto;
     margin-bottom: 5px;
   }
-
-
 }
-

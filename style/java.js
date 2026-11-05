@@ -262,3 +262,60 @@ if (audio && playButton) {
   });
 }
 
+// HERO TAGS - FLOATING IMAGE PREVIEW
+
+const heroTags = document.querySelectorAll(".hero-tags a");
+const cursorPreview = document.getElementById("cursorPreview");
+const previewImage = cursorPreview?.querySelector("img");
+
+if (cursorPreview && previewImage) {
+
+  heroTags.forEach((tag) => {
+
+    tag.addEventListener("mouseenter", () => {
+
+      const image = tag.dataset.preview;
+
+      if (image) {
+        previewImage.src = image;
+        cursorPreview.classList.add("active");
+      }
+
+    });
+
+    tag.addEventListener("mousemove", (e) => {
+
+      const offset = 150;
+
+      const previewWidth = cursorPreview.offsetWidth;
+      const previewHeight = cursorPreview.offsetHeight;
+
+      let x = e.clientX + offset;
+      let y = e.clientY + offset;
+
+      // Keep preview inside the viewport
+
+      if (x + previewWidth > window.innerWidth) {
+        x = e.clientX - previewWidth - offset;
+      }
+
+      if (y + previewHeight > window.innerHeight) {
+        y = e.clientY - previewHeight - offset;
+      }
+
+      cursorPreview.style.left = `${x}px`;
+      cursorPreview.style.top = `${y}px`;
+
+    });
+
+    tag.addEventListener("mouseleave", () => {
+
+      cursorPreview.classList.remove("active");
+
+    });
+
+  });
+
+}
+
+
