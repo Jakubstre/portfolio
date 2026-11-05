@@ -893,22 +893,15 @@ hr {
   align-items: flex-start;
   gap: 120px;
 }
-.event-tickets {
-  display: inline-flex;
+.photography img{
+	filter: grayscale(1);
 }
-.event-tickets a {
-  text-decoration: none;
-  background-color: blue;
-  color: white;
-  border: solid 1px blue;
-  border-radius: 20px;
-  font-size: 15px;
+
+.photography img:hover{
+	filter: grayscale(0);
+	transition: .3s ease;
 }
-.event-tickets a:hover {
-  background-color: white;
-  color: blue;
-  transition: 0.3s;
-}
+
 .event-gallery {
   display: grid;
   grid-template-columns: 3fr 3fr 3fr;
