@@ -37,7 +37,6 @@ const translations = {
     birthdayInvitation: "* Animated Birthday Invitation",
     birthdayInvitationTags: "[Graphic Design] · [Motion Graphics] · [Event Promotion]",
 
-    dolneSkalyTags: "[Graphic Design] · [Branding]",
 
     personalPortfolio: "* Personal Portfolio",
     personalPortfolioTags: "[Graphic Design] · [Branding]",
@@ -144,7 +143,6 @@ const translations = {
     birthdayInvitation: "* Animovaná Narodeninová Pozvánka",
     birthdayInvitationTags: "[Grafický Dizajn] · [Motion Grafika] · [Eventové Promo]",
 
-    dolneSkalyTags: "[Grafický Dizajn] · [Branding]",
 
     personalPortfolio: "* Osobné Portfólio",
     personalPortfolioTags: "[Grafický Dizajn] · [Branding]",
