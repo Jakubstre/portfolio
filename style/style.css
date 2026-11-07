@@ -204,18 +204,21 @@ body.menu-open {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  gap: 150px;
+  gap: 40px;
 }
 .hero-info p {
   line-height: 1.6;
 }
+
+
+
 .hero-info a {
   display: inline-block;
   text-decoration: none;
   color: blue;
   border: 1px solid blue;
-  padding: 14px 22px;
-  border-radius: 30px;
+  padding: 10px 18px;
+  border-radius: 100px;
   white-space: nowrap;
   flex-shrink: 0;
 }
@@ -675,12 +678,6 @@ nav::before {
   opacity: 0;
   transform: translateY(30px);
   transition: all 0.5s ease;
-}
-.menu-content a:hover {
-  transition: 0.5s ease;
-}
-.menu-content em:hover {
-  transition: 0.5s ease;
 }
 .menu-overlay {
   flex-direction: column;

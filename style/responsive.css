@@ -73,8 +73,14 @@ button, input, textarea {
     letter-spacing: -0.05em;
   }
   .hero-info {
-    gap: 35px;
+  	 
+	  display: block;
   }
+	
+	.hero-info a{
+		margin-top: 5%;
+	}
+	
   .milestones-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -378,7 +384,7 @@ button, input, textarea {
   .intro {
     flex-direction: column;
     align-items: flex-start;
-    padding: 35px;
+    padding: 60px;
     gap: 30px;
   }
   .intro-image {
@@ -493,7 +499,8 @@ button, input, textarea {
     font-size: 14px;
   }
   .hero-info a {
-    padding: 12px 18px;
+    padding: 9px 14px;
+	  font-size: 13px;
   }
   .work-grid {
     grid-template-columns: 1fr;
