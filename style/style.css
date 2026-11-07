@@ -121,7 +121,8 @@ body.menu-open {
 }
 .hero-tags span {
   display: inline-block;
-  border: 1px solid blue;
+  border: none;
+box-shadow: 0 2px 6px rgba(0, 0, 255, 0.18);
   padding: 10px 18px;
   border-radius: 100px;
   white-space: nowrap;
@@ -216,7 +217,8 @@ body.menu-open {
   display: inline-block;
   text-decoration: none;
   color: blue;
-  border: 1px solid blue;
+  border: none;
+box-shadow: 0 2px 6px rgba(0, 0, 255, 0.18);
   padding: 10px 18px;
   border-radius: 100px;
   white-space: nowrap;
@@ -553,7 +555,8 @@ nav::before {
   height: 50px;
   padding: 4px;
   box-sizing: border-box;
-  border: 1px solid blue;
+  border: none;
+box-shadow: 0 2px 6px rgba(0, 0, 255, 0.18);
   border-radius: 999px;
   gap: 0;
 }
@@ -817,7 +820,8 @@ hr {
   width: 55px;
   height: 55px;
   flex-shrink: 0;
-  border: 1px solid blue;
+  border: none;
+box-shadow: 0 2px 6px rgba(0, 0, 255, 0.18);
   border-radius: 50%;
   background: transparent;
   color: blue;
@@ -927,7 +931,8 @@ hr {
   color: blue;
   margin: 50px auto 20px;
   padding: 70px;
-  border: inset blue 1px;
+  border: none;
+box-shadow: 0 2px 6px rgba(0, 0, 255, 0.18);
   border-radius: 20px;
 }
 .intro-image {
@@ -959,7 +964,8 @@ hr {
 }
 .intro-button {
   display: inline-block;
-  border: 1px solid blue;
+  border: none;
+box-shadow: 0 2px 6px rgba(0, 0, 255, 0.18);
   color: blue;
   text-decoration: none;
   padding: 14px 24px;
