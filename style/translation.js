@@ -64,7 +64,7 @@ const translations = {
     milestoneChudaczek: "Original soundtrack and sound design created for a theatre performance played across Slovakia and Czech Republic.",
 
     stillLearning: "* Still learning",
-    skillsDescription: "A snapshot of the tools, disciplines, and skills I currently use across my creative work.",
+    skillsDescription: "→ A snapshot of the tools, disciplines, and skills I currently use across my creative work.",
 
     graphicDesignSkill: "Graphic Design",
     musicComposition: "Music Composition",
@@ -171,7 +171,7 @@ const translations = {
     milestoneChudaczek: "Autorský soundtrack a zvukový dizajn vytvorený pre divadelnú inscenáciu uvádzanú na Slovensku a v Českej republike.",
 
     stillLearning: "* Stále sa učím",
-    skillsDescription: "Prehľad nástrojov, oblastí a zručností, ktoré momentálne využívam vo svojej tvorbe.",
+    skillsDescription: "→ Prehľad nástrojov, oblastí a zručností, ktoré momentálne využívam vo svojej tvorbe.",
 
     graphicDesignSkill: "Grafický Dizajn",
     musicComposition: "Hudobná Kompozícia",

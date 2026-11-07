@@ -223,6 +223,7 @@
     letter-spacing: -2px;
     max-width: none;
   }
+
   .work-page > hr {
     margin: 55px 0;
   }
@@ -323,6 +324,11 @@
   }
 }
 @media (max-width: 900px) {
+	
+	  .references-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px 25px;}
+	
   .about-page {
     margin-top: 120px;
   }
@@ -356,7 +362,26 @@
     line-height: 1.7;
   }
 }
+
+
+@media (max-width: 768px) {
+  .references-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 35px 20px;
+  }
+}
+
 @media (max-width: 600px) {
+	
+	  .references-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .reference-card p {
+    max-width: 100%;
+  }
+	
   .translation-notice {
     right: 15px;
     bottom: 15px;
@@ -516,6 +541,18 @@
     margin-right: 6%;
   }
 }
+
+@media (max-width: 500px) {
+  .references-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .reference-image {
+    aspect-ratio: 16 / 10;
+  }
+}
+
 @media (max-width: 400px) {
   .credit-row {
     grid-template-columns: 1fr;
