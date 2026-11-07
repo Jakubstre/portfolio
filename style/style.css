@@ -143,6 +143,11 @@ box-shadow: 0 2px 6px rgba(0, 0, 255, 0.18);
   opacity: 0;
   visibility: hidden;
 	border-radius: 20px;
+	 background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(2px) saturate(180%);
+  -webkit-backdrop-filter: blur(2px) saturate(180%);
+	  border: none;
+box-shadow: 0 2px 6px rgba(0, 0, 255, 0.18);
   transform: translateY(15px) scale(0.9);
   transition:
     opacity 0.3s ease, transform 0.4s cubic-bezier(.22, 1, .36, 1), visibility 0.3s;
@@ -178,6 +183,11 @@ box-shadow: 0 2px 6px rgba(0, 0, 255, 0.18);
   visibility: hidden;
   transform: translateZ(22px) scale(0.94);
 	border-radius: 10px;
+	 background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(2px) saturate(180%);
+  -webkit-backdrop-filter: blur(2px) saturate(180%);
+	  border: none;
+box-shadow: 0 2px 6px rgba(0, 0, 255, 0.18);
   transition:
     opacity 0.25s ease, transform 0.35s cubic-bezier(.22, 1, .36, 1), visibility 0.25s ease;
   overflow: hidden;
