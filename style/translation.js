@@ -32,10 +32,12 @@ const translations = {
     featuredWorkTitle: "* Featured Work",
     featuredWorkDescription: "→ Selected projects showcasing some of my most recent and favourite creative work across music, design, and visual media.",
 
-	  samsungTags: "[Photography] · [Graphic Design]",
+	  samsungTags: "[Event Photography] · [Photo Editing] · [Graphic Design]",
+	  samsungP: "Event photography and post-production for Samsung Solve for Tomorrow.",
 	  
     birthdayInvitation: "* Animated Birthday Invitation",
     birthdayInvitationTags: "[Graphic Design] · [Motion Graphics] · [Event Promotion]",
+	  birthdayP: "An animated birthday invitation created for a 50th birthday celebration.",
 
 
     personalPortfolio: "* Personal Portfolio",
@@ -137,11 +139,13 @@ const translations = {
     featuredWorkTitle: "* Vybraná tvorba",
     featuredWorkDescription: "→ Výber projektov, ktoré predstavujú moju najnovšiu a najobľúbenejšiu tvorbu v oblasti hudby, dizajnu a vizuálnych médií.",
 	  
-  samsungTags: "[Fotografia] · [Grafický Dizajn]",
+  samsungTags: "[Event Fotografie] · [Foto Editing] · [Grafický Dizajn]",
+	    samsungP: "Fotografovanie a postprodukcia pre Samsung Solve for Tomorrow.",
 	  
 
     birthdayInvitation: "* Animovaná Narodeninová Pozvánka",
     birthdayInvitationTags: "[Grafický Dizajn] · [Motion Grafika] · [Eventové Promo]",
+	    birthdayP: "Animovaná pozvánka vytvorená na oslavu 50. narodenín.",
 
 
     personalPortfolio: "* Osobné Portfólio",

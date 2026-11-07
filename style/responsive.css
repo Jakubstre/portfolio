@@ -261,10 +261,10 @@ button, input, textarea {
   }
   .credit-role, .credit-names {
     font-size: 13px;
-  }
+  } 
   .improvement {
     margin: 70px 0 40px;
-    padding: 25px;
+    padding: 10px;
   }
   .improvement-header {
     flex-direction: column;
