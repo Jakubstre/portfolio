@@ -996,7 +996,7 @@ hr {
   color: blue;
   text-decoration: none;
   padding: 14px 24px;
-  border-radius: 99px;
+    border-radius: 11px;
   transition: .3s;
 }
 .intro-button:hover {
