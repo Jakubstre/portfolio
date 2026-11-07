@@ -411,6 +411,7 @@ button, input, textarea {
   .overlay-top {
     flex-direction: column;
     gap: 30px;
+	  margin-top: 5%;
   }
   .overlay-text, .overlay-meta {
     width: 100%;

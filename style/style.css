@@ -135,7 +135,7 @@ body.menu-open {
   position: fixed;
   top: 0;
   left: 0;
-  width: 400px;
+  width: 720px;
   z-index: 1;
   pointer-events: none;
   opacity: 0;
