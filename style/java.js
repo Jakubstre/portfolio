@@ -264,7 +264,7 @@ if (audio && playButton) {
 
 // HERO TAGS - FLOATING IMAGE PREVIEW
 
-if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+if (window.matchMedia("(min-width: 1200px) and (hover: hover) and (pointer: fine)").matches) {
 
   const heroTags = document.querySelectorAll(".hero-tags a");
   const cursorPreview = document.getElementById("cursorPreview");
@@ -313,7 +313,7 @@ if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
 }
 // MENU - FLOATING IMAGE PREVIEW
 
-if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+if (window.matchMedia("(min-width: 1200px) and (hover: hover) and (pointer: fine)").matches) {
 
   document.addEventListener("DOMContentLoaded", () => {
 
