@@ -1243,7 +1243,7 @@ textarea {
   }
 
   .hero-title h1 {
-    font-size: clamp(36px, 11vw, 43px);
+        font-size: clamp(34px, 9vw, 50px);
     letter-spacing: -0.06em;
   }
 
@@ -1357,6 +1357,13 @@ textarea {
   .left img:hover {
     transform: none;
   }
+	  .cursor-preview {
+    display: none;
+  }
+	
+	.menuImageLayer{ 
+	display: none;}
+	
 
 }
 
