@@ -2043,4 +2043,11 @@ hr {
   background: blue;
 }
 
+@media (hover: none), (pointer: coarse) {
+  .cursor-preview,
+  #menuImageLayer {
+    display: none !important;
+  }
+}
+
 

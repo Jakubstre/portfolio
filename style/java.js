@@ -264,124 +264,113 @@ if (audio && playButton) {
 
 // HERO TAGS - FLOATING IMAGE PREVIEW
 
-const heroTags = document.querySelectorAll(".hero-tags a");
-const cursorPreview = document.getElementById("cursorPreview");
-const previewImage = cursorPreview?.querySelector("img");
+if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
 
-if (cursorPreview && previewImage) {
+  const heroTags = document.querySelectorAll(".hero-tags a");
+  const cursorPreview = document.getElementById("cursorPreview");
+  const previewImage = cursorPreview?.querySelector("img");
 
-  heroTags.forEach((tag) => {
+  if (cursorPreview && previewImage) {
 
-    tag.addEventListener("mouseenter", () => {
+    heroTags.forEach((tag) => {
 
-      const image = tag.dataset.preview;
+      tag.addEventListener("mouseenter", () => {
+        const image = tag.dataset.preview;
 
-      if (image) {
-        previewImage.src = image;
-        cursorPreview.classList.add("active");
-      }
+        if (image) {
+          previewImage.src = image;
+          cursorPreview.classList.add("active");
+        }
+      });
 
-    });
+      tag.addEventListener("mousemove", (e) => {
+        const offset = 150;
 
-    tag.addEventListener("mousemove", (e) => {
+        const previewWidth = cursorPreview.offsetWidth;
+        const previewHeight = cursorPreview.offsetHeight;
 
-      const offset = 150;
+        let x = e.clientX + offset;
+        let y = e.clientY + offset;
 
-      const previewWidth = cursorPreview.offsetWidth;
-      const previewHeight = cursorPreview.offsetHeight;
+        if (x + previewWidth > window.innerWidth) {
+          x = e.clientX - previewWidth - offset;
+        }
 
-      let x = e.clientX + offset;
-      let y = e.clientY + offset;
+        if (y + previewHeight > window.innerHeight) {
+          y = e.clientY - previewHeight - offset;
+        }
 
-      // Keep preview inside the viewport
+        cursorPreview.style.left = `${x}px`;
+        cursorPreview.style.top = `${y}px`;
+      });
 
-      if (x + previewWidth > window.innerWidth) {
-        x = e.clientX - previewWidth - offset;
-      }
-
-      if (y + previewHeight > window.innerHeight) {
-        y = e.clientY - previewHeight - offset;
-      }
-
-      cursorPreview.style.left = `${x}px`;
-      cursorPreview.style.top = `${y}px`;
-
-    });
-
-    tag.addEventListener("mouseleave", () => {
-
-      cursorPreview.classList.remove("active");
+      tag.addEventListener("mouseleave", () => {
+        cursorPreview.classList.remove("active");
+      });
 
     });
-
-  });
-
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-
-  const menuImageLayer = document.getElementById("menuImageLayer");
-  const menuImageElement = document.getElementById("menuImageElement");
-
-  const menuImageLinks = document.querySelectorAll(
-    ".menu-content a[data-menu-image]"
-  );
-
-  if (!menuImageLayer || !menuImageElement) return;
-
-  menuImageLinks.forEach(link => {
-
-    link.addEventListener("mouseenter", event => {
-
-      const imagePath = link.getAttribute("data-menu-image");
-
-      if (!imagePath) return;
-
-      menuImageElement.src = imagePath;
-      menuImageLayer.classList.add("menu-image-visible");
-
-      updateMenuImagePosition(event);
-
-    });
-
-    link.addEventListener("mousemove", updateMenuImagePosition);
-
-    link.addEventListener("mouseleave", () => {
-
-      menuImageLayer.classList.remove("menu-image-visible");
-
-    });
-
-  });
-
-  function updateMenuImagePosition(event) {
-
-    const gap = 20;
-
-    const imageWidth = menuImageLayer.offsetWidth;
-    const imageHeight = menuImageLayer.offsetHeight;
-
-    let left = event.clientX + gap;
-    let top = event.clientY + gap;
-
-    if (left + imageWidth > window.innerWidth - 15) {
-      left = event.clientX - imageWidth - gap;
-    }
-
-    if (top + imageHeight > window.innerHeight - 15) {
-      top = event.clientY - imageHeight - gap;
-    }
-
-    left = Math.max(15, left);
-    top = Math.max(15, top);
-
-    menuImageLayer.style.left = `${left}px`;
-    menuImageLayer.style.top = `${top}px`;
-
   }
+}
+// MENU - FLOATING IMAGE PREVIEW
 
-});
+if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
 
+  document.addEventListener("DOMContentLoaded", () => {
 
+    const menuImageLayer = document.getElementById("menuImageLayer");
+    const menuImageElement = document.getElementById("menuImageElement");
 
+    const menuImageLinks = document.querySelectorAll(
+      ".menu-content a[data-menu-image]"
+    );
+
+    if (!menuImageLayer || !menuImageElement) return;
+
+    menuImageLinks.forEach(link => {
+
+      link.addEventListener("mouseenter", event => {
+        const imagePath = link.getAttribute("data-menu-image");
+
+        if (!imagePath) return;
+
+        menuImageElement.src = imagePath;
+        menuImageLayer.classList.add("menu-image-visible");
+
+        updateMenuImagePosition(event);
+      });
+
+      link.addEventListener("mousemove", updateMenuImagePosition);
+
+      link.addEventListener("mouseleave", () => {
+        menuImageLayer.classList.remove("menu-image-visible");
+      });
+
+    });
+
+    function updateMenuImagePosition(event) {
+      const gap = 20;
+
+      const imageWidth = menuImageLayer.offsetWidth;
+      const imageHeight = menuImageLayer.offsetHeight;
+
+      let left = event.clientX + gap;
+      let top = event.clientY + gap;
+
+      if (left + imageWidth > window.innerWidth - 15) {
+        left = event.clientX - imageWidth - gap;
+      }
+
+      if (top + imageHeight > window.innerHeight - 15) {
+        top = event.clientY - imageHeight - gap;
+      }
+
+      left = Math.max(15, left);
+      top = Math.max(15, top);
+
+      menuImageLayer.style.left = `${left}px`;
+      menuImageLayer.style.top = `${top}px`;
+    }
+
+  });
+}
 

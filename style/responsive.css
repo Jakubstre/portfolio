@@ -1384,10 +1384,9 @@ textarea {
 
 }
 
-@media (hover: none) {
-  .cursor-preview {
-    display: none;
+@media (hover: none), (pointer: coarse) {
+  .cursor-preview,
+  .menuImageLayer {
+    display: none !important;
   }
 }
-
-
