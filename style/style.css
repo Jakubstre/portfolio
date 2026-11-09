@@ -428,9 +428,7 @@ background-color: whitesmoke;
 .work-info span {
   display: block;
   margin-top: 8px;
-  font-size: 10px;
-  line-height: 1.5;
-  letter-spacing: 1.2px;
+   font-size: 15px;
   opacity: .65;
 }
 .work-grid-newest {
@@ -458,8 +456,24 @@ background-color: whitesmoke;
   align-items: center;
   gap: 25px;
   padding: 18px 8px 10px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
+
+.work-info h3 {
+  margin: 0;
+    font-size: 18px;
+}
+
+.work-info p {
+  margin: 0;
+  opacity: .75;
+	  font-size: 18px;
+}
+
+.work-info .work-description > span {
+  display: block;
+}
+
 
 .work-description {
   display: flex;
@@ -469,40 +483,23 @@ background-color: whitesmoke;
   min-width: 0;
 }
 
-.work-info h3 {
-  margin: 0;
-  font-size: clamp(19px, 1.5vw, 25px);
-  line-height: 1.2;
-  font-weight: 500;
-  letter-spacing: -0.7px;
-}
-
-.work-info p {
-  margin: 0;
-  font-size: 13px;
-  line-height: 1.6;
-  opacity: .75;
-}
-
-.work-info .work-description > span {
-  display: block;
-  opacity: .6;
-}
 
 .work-action {
   display: inline-block;
   border: none;
-	font-size: 12px;
+   font-size: 15px;
   box-shadow: 0 2px 4px rgba(0, 0, 255, 0.18);
-  padding: 10px 18px;
+   padding: 10px 18px;
   border-radius: 99px;
   white-space: nowrap;
 }
 
-.work-action .arrow {
-  font-size: 14px;
-  transition: transform .3s ease;
+.work-action:hover{
+	background-color: blue;
+	color: white;
+	transition: .3s ease;
 }
+
 
 .work-card:hover .work-action {
   gap: 14px;
