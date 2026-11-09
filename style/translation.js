@@ -27,7 +27,11 @@ const translations = {
     continueReading: "→ Continue Reading",
 
     newestWorkTitle: "* Newest Work",
-    newestWorkDescription: "→ Selected project, 'Na Skle Maľované' is an official promo work that I'm currently working on for an upcoming musical production.",
+    newestWorkDescription: "→ Selected project, 'Na Skle Maľované' is an official promotional campaign that I'm currently working on for an upcoming musical production.",
+	  
+	  naSKleTags: "[Event Promotion] · [Graphic Design]",
+	  naSkleP: "A complete promotional campaign created for the musical production Na Skle Maľované.",
+	  
 
     featuredWorkTitle: "* Featured Work",
     featuredWorkDescription: "→ Selected projects showcasing some of my most recent and favourite creative work across music, design, and visual media.",
@@ -42,8 +46,10 @@ const translations = {
 
     personalPortfolio: "* Personal Portfolio",
     personalPortfolioTags: "[Graphic Design] · [Branding]",
+	  personalPortfolioP: "A personal portfolio designed to present my work across music, theatre, graphic design and digital media.",
 
     adultsAreWeirdTags: "[Theatre Composition] · [Sound Engineering] · [Graphic Design]",
+	  adultsAreWeirdP: "An original theatre score created for the award-winning stage production Adults Are Definitely Very Weird.",
 
     resumeLabel: "→ Resume",
     resumeTitle: "Seven years of multidisciplinary creative experience.",
@@ -75,6 +81,22 @@ const translations = {
     webDevelopment: "Web Development",
     projectDevelopment: "Project Development",
     communication: "Communication",
+	  
+	  
+	  referenceTitle: "* References",
+	  referenceSubTitle: "→ A selection of some of the kind words from people I've worked with.",
+	  
+	  
+	  	  	  	  referenceSpan01: "Program Manager at digiPeers",
+	  referenceText01: "!",
+	  
+	  referenceSpan02: "Actress & Clown Doctor at the Red Noses",
+	  referenceText02: "Jakub is a self-taught professional across almost all artistic disciplines—music, singing, painting, drawing, and writing; only in acting does he fall a bit short. He is reliable and adept at handling technical requirements, whether for the sound setup of a theatrical performance or his own concerts.",
+	  
+	  
+	  referenceSpan03: "Website Administrator at digiPeers",
+	  referenceText03: "!",
+	  
 
     collaborationLabel: "→ Collaboration",
     collaborationTitle: "Looking to get in touch for collaborations in music, design, or anything in between?",
@@ -134,7 +156,10 @@ const translations = {
     continueReading: "→ Čítať Ďalej",
 
     newestWorkTitle: "* Najnovšia tvorba",
-    newestWorkDescription: "→ Vybraný projekt „Na skle maľované“ je oficiálna propagačná tvorba, na ktorej momentálne pracujem pre pripravovanú muzikálovú inscenáciu.",
+    newestWorkDescription: "→ Vybraný projekt „Na skle maľované“ je oficiálna propagačná kampaň, na ktorej momentálne pracujem pre pripravovanú muzikálovú inscenáciu.",
+	  
+	  	  naSkleTags: "[Eventové Promo] · [Grafický Dizajn]",
+	  naSkleP: "Kompletná propagačná kampaň vytvorená pre muzikálovú produkciu Na Skle Maľované.",
 
     featuredWorkTitle: "* Vybraná tvorba",
     featuredWorkDescription: "→ Výber projektov, ktoré predstavujú moju najnovšiu a najobľúbenejšiu tvorbu v oblasti hudby, dizajnu a vizuálnych médií.",
@@ -150,8 +175,10 @@ const translations = {
 
     personalPortfolio: "* Osobné Portfólio",
     personalPortfolioTags: "[Grafický Dizajn] · [Branding]",
+	    personalPortfolioP: "Osobné portfólio vytvorené na prezentáciu mojej tvorby v oblasti hudby, divadla, grafického dizajnu a digitálnych médií.",
 
     adultsAreWeirdTags: "[Divadelná Hudba] · [Zvuková Réžia] · [Grafický Dizajn]",
+	   adultsAreWeirdP: "Originálna divadelná hudba vytvorená pre oceňovanú inscenáciu Adults Are Definitely Very Weird.",
 
     resumeLabel: "→ Resumé",
     resumeTitle: "Sedem rokov skúseností naprieč kreatívnymi disciplínami.",
@@ -184,6 +211,20 @@ const translations = {
     webDevelopment: "Tvorba Webov",
     projectDevelopment: "Rozvoj Projektov",
     communication: "Komunikácia",
+	  
+	  referenceTitle: "* Referencie",
+	  referenceSubTitle: "→ Výber niekoľkých milých slov od ľudí, s ktorými som spolupracoval.",
+	  
+	  	  
+	  	  referenceSpan01: "Programový Manažér v digiPeers",
+	  referenceText01: "!",
+	  
+	  
+	  referenceSpan02: "Herečka & Klaunka v organizácii Červený Nos",
+	  referenceText02: "Jakub je profesionálny samouk skoro vo všetkých umeleckých smeroch. Hudba, spev, maľba, kresba, písanie, iba v herectve trošku pokuľháva. Je spoľahlivý a obratný v požiadavkách počas zvučenia predstavenia aj svojich koncertov.",
+
+	  referenceSpan03: "Administrátor Webovej Stránky v digiPeers",
+	  referenceText03: "!",
 
     collaborationLabel: "→ Spolupráca",
     collaborationTitle: "Hľadáš spoluprácu v oblasti hudby, dizajnu alebo čohokoľvek medzi tým?",

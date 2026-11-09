@@ -378,6 +378,18 @@ button, input, textarea {
   .featured-work, .milestones {
     margin-top: 60px;
   }
+	 .featured-work {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .featured-header {
+    position: static;
+  }
+
+  .section-header p {
+    max-width: 700px;
+  }
   .designed {
     margin-top: 40px;
   }

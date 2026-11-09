@@ -339,7 +339,6 @@ body.menu-open {
   margin: 0;
   max-width: 95%;
 }
-
 .card-top {
   display: flex;
   align-items: center;
@@ -396,7 +395,7 @@ body.menu-open {
 }
 .section-header p {
   margin-top: 20px;
-  max-width: 700px;
+  max-width: 50%;
   font-size: 22px;
   line-height: 1.6;
 }
@@ -406,30 +405,25 @@ body.menu-open {
   gap: 35px;
   width: 100%;
 }
-
 .work-card {
   display: flex;
   flex-direction: column;
   min-width: 0;
   width: 100%;
-
   text-decoration: none;
   color: blue;
-  border: none;
- 
   transition: box-shadow .3s ease, transform .3s ease;
+	
+
 }
-
-
-
 .work-card img {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 10;
-  object-fit: cover;
+  object-fit: contain;
   border-radius: 22px;
+background-color: whitesmoke;
 }
-
 .work-info {
   display: flex;
   flex-direction: column;
@@ -437,7 +431,6 @@ body.menu-open {
   padding: 5px 8px 10px;
   gap: 10px;
 }
-
 .work-info h3 {
   margin: 0;
   font-size: clamp(19px, 1.5vw, 25px);
@@ -445,35 +438,36 @@ body.menu-open {
   font-weight: 500;
   letter-spacing: -0.7px;
 }
-
 .work-info p {
   margin: 0;
   font-size: 14px;
-	  line-height: 1.6;
+  line-height: 1.6;
 }
-
 .work-info span {
   display: block;
   margin-top: 8px;
   font-size: 10px;
   line-height: 1.5;
   letter-spacing: 1.2px;
-
   opacity: .65;
 }
 .work-grid-newest {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  width: 100%;
 }
 .work-card-newest {
   display: block;
-  text-decoration: none;
-  color: blue;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 22px;
+background-color: whitesmoke;
 }
 .work-card-newest img {
   width: 100%;
   border-radius: 18px;
   display: block;
+  object-fit: contain;
   transition: .4s;
 }
 .work-info {
@@ -487,10 +481,10 @@ body.menu-open {
   overflow-wrap: break-word;
 }
 .work-info p {
-	font-size: 13px;
+  font-size: 13px;
   letter-spacing: 2px;
   opacity: .7;
-	}
+}
 .work-info span {
   font-size: 13px;
   letter-spacing: 2px;
@@ -838,8 +832,8 @@ hr {
   display: flex;
   align-items: center;
   gap: 25px;
-	border: none;
-   box-shadow: 0 1px 4px rgba(0, 0, 255, 0.18);
+  border: none;
+  box-shadow: 0 1px 4px rgba(0, 0, 255, 0.18);
   padding: 30px;
   border-radius: 99px;
 }
@@ -996,7 +990,7 @@ hr {
   color: blue;
   text-decoration: none;
   padding: 14px 24px;
-    border-radius: 11px;
+  border-radius: 99px;
   transition: .3s;
 }
 .intro-button:hover {
