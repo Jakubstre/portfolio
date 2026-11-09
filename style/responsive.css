@@ -375,6 +375,16 @@ button, input, textarea {
     font-size: 11px;
     letter-spacing: 1.5px;
   }
+	.work-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+
+}
+	.work-action{
+		text-align: center;
+		width: 30%;
+	}
   .featured-work, .milestones {
     margin-top: 60px;
   }
