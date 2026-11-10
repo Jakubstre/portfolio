@@ -338,8 +338,8 @@ button, input, textarea {
     margin-top: 110px;
   }
   .work-hero {
-    height: clamp(260px, 45vw, 420px);
-    margin-bottom: 45px;
+    height: 100%;
+
   }
   .work-hero img {
     border-radius: 14px;
@@ -381,7 +381,7 @@ button, input, textarea {
 }
 	.work-action{
 		text-align: center;
-		width: 35%;
+		width: 40%;
 	}
   .featured-work, .milestones {
     margin-top: 60px;
@@ -620,10 +620,6 @@ button, input, textarea {
   }
   .work-hero {
     height: 260px;
-  }
-  .project-intro {
-    gap: 35px;
-    margin-bottom: 45px;
   }
   .project-meta h2 {
     font-size: 29px;

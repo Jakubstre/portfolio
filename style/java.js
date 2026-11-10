@@ -85,16 +85,13 @@ const pages = [
 		{ title: "Raster Design [D]", url: "raster-design.html" },
 		{ title: "Video Design [D]", url: "video-design.html" },
 	{ title: "Vector Design [D]", url: "vector-design.html" },
-  { title: "Detective [M,S]", url: "featured-work/tc-detective.html" },
-  { title: "Cigáni Idú Do Neba [P,D]", url: "featured-work/ep-cigani-idu-do-neba.html" },
-	  { title: "Communication Strategy Brochure [D]", url: "featured-work/gd-brochure-plan.html" },
+ 
 	{ title: "Personal Portfolio [D]", url: "featured-work/gd-personal-portfolio.html" },
-  { title: "Midheaven's Website [D]", url: "featured-work/gd-midheaven-website.html" },
+
 	{ title: "Event Promotion [P,D]", url: "event-promotion.html" },
 	{ title: "Na Skle Maľované [P,D]", url: "featured-work/ep-na-skle-malovane.html" },
 	{ title: "Animated Birthday Invitation [D]", url: "featured-work/gd-invitation.html" },
-		{ title: "LARP ID Cards [D]", url: "featured-work/gd-id-cards.html" },
-		{ title: "Dolné Skaly [D]", url: "featured-work/gd-information-board.html" },
+
 	{ title: "Contents [O]", url: "legend.html" },
 	{ title: "Theatre Compositions [M,S]", url: "theatre-compositions.html" },
 	{ title: "Home [O]", url: "index.html" },
