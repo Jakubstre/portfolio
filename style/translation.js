@@ -65,7 +65,7 @@ const translations = {
 
     milestoneAlbum: "Midheaven's album Not That Far Away caught the attention of Radio Rapes, leading to an invitation for an interview and a feature discussing the album and the band's music.",
 
-    milestoneChudaczek: "As part of the Chudacźek theatre production, I contributed to a work presented at multiple festivals, including Kremnické Gagy 2025. The production was also featured in an interview with its lead actress, published by Denník N.",
+    milestoneChudaczek: "As part of the Chudacźek theatre production, I contributed to a work presented at multiple festivals, including Kremnické Gagy. The production was also featured in an interview with its lead actress, published by Denník N.",
 
     stillLearning: "* Still learning",
     skillsDescription: "→ A snapshot of the tools, disciplines, and skills I currently use across my creative work.",
@@ -92,7 +92,7 @@ const translations = {
 	  referenceText01: "!",
 	  
 	  referenceSpan02: "Actress & Clown Doctor at the Red Noses",
-	  referenceText02: "Jakub is a self-taught professional across almost all artistic disciplines—music, singing, painting, drawing, and writing; only in acting does he fall a bit short. He is reliable and adept at handling technical requirements, whether for the sound setup of a theatrical performance or his own concerts.",
+	  referenceText02: "Jakub is a self-taught professional across almost all artistic disciplines. Music, singing, painting, drawing, and writing; only in acting does he fall a bit short. He is reliable and adept at handling technical requirements, whether for the sound setup of a theatrical performance or his own concerts.",
 	  
 	  
 	  referenceSpan03: "Website Administrator at digiPeers",
@@ -200,7 +200,7 @@ const translations = {
 
     milestoneAlbum: "Album skupiny Midheaven s názvom Not That Far Away zaujal redakciu rádia Rapes, čo viedlo k pozvaniu na rozhovor a k vzniku relácie venovanej albumu a hudobnej tvorbe kapely.",
 
-    milestoneChudaczek: "V rámci divadelnej inscenácie Chudacźek som sa podieľal na tvorbe diela, ktoré bolo uvedené na viacerých festivaloch vrátane podujatia Kremnické gagy 2025. Inscenácia sa dostala aj do povedomia médií prostredníctvom rozhovoru s hlavnou predstaviteľkou, ktorý publikoval Denník N.",
+    milestoneChudaczek: "V rámci divadelnej inscenácie Chudacźek som sa podieľal na tvorbe diela, ktoré bolo uvedené na viacerých festivaloch vrátane podujatia Kremnické gagy. Inscenácia sa dostala aj do povedomia médií prostredníctvom rozhovoru s hlavnou predstaviteľkou, ktorý publikoval Denník N.",
 
     stillLearning: "* Stále sa učím",
     skillsDescription: "→ Prehľad nástrojov, oblastí a zručností, ktoré momentálne využívam vo svojej tvorbe.",

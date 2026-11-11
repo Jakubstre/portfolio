@@ -410,6 +410,7 @@ button, input, textarea {
     width: 100%;
     max-width: 350px;
     flex: none;
+	  	margin-bottom: 15px;
   }
   .intro h2 {
     font-size: clamp(30px, 5vw, 40px);
