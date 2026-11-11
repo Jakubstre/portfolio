@@ -498,9 +498,8 @@ background-color: whitesmoke;
 
   display: flex;
   align-items: center;
-  gap: 7px;
 
-  padding: 7px 9px;
+   padding: 8px 12px;
 
   background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(12px);
@@ -512,8 +511,8 @@ background-color: whitesmoke;
 
 .work-software img {
   display: block;
-  width: 20px;
-  height: 30px;
+  width: 30px;
+	background-color: transparent;
 }
 
 .work-date {
