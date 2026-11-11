@@ -65,11 +65,11 @@ const translations = {
 
     milestoneAdults: "My original theatrical score was composed for Adults Are Definitely Very Weird, a stage production that received second place at the regional round of the Vajanského Martin theatre competition.",
 
-    milestoneSomSaso: "A self-written and designed book exploring the paradox of the sad clown. The publication traces the history of theatre and clowning, from traditional theatrical practices and clown performance to contemporary initiatives such as Red Noses International. Developed and produced in two formats: a square edition and a half-A5 edition.",
+    milestoneSomSaso: "A self-written and designed book exploring the paradox of the sad clown. The publication traces the history of theatre and clowning, from traditional theatrical practices and clown performance to contemporary initiatives such as Red Noses International.",
 
     milestoneAlbum: "Midheaven's album Not That Far Away caught the attention of Radio Rapes, leading to an invitation for an interview and a feature discussing the album and the band's music.",
 
-    milestoneChudaczek: "As part of the Chudacźek theatre production, I contributed to a work presented at multiple festivals, including Kremnické Gagy 2025. The production also received media coverage through an interview with one of its actresses, published by Denník N.",
+    milestoneChudaczek: "As part of the Chudacźek theatre production, I contributed to a work presented at multiple festivals, including Kremnické Gagy 2025. The production was also featured in an interview with its lead actress, published by Denník N.",
 
     stillLearning: "* Still learning",
     skillsDescription: "→ A snapshot of the tools, disciplines, and skills I currently use across my creative work.",
@@ -192,14 +192,14 @@ const translations = {
     theatreCompositionAW: "DIVADELNÁ TVORBA",
     graphicDesignAW: "GRAFICKÝ DIZAJN",
 
-    milestoneAdults: "Autorský soundtrack a zvukový dizajn vytvorený pre ocenenú divadelnú inscenáciu.",
+    milestoneAdults: "Moja autorská divadelná hudba vznikla pre inscenáciu Adults Are Definitely Very Weird, ktorá získala druhé miesto v krajskom kole divadelnej súťaže Vajanského Martin.",
 
     visualIdentity: "Vizuálna Identita",
-    milestoneSomSaso: "Samostatne vydaná kniha, od autorského textu a redakčného spracovania až po grafický návrh, sadzbu a prípravu do tlače.",
+    milestoneSomSaso: "Vlastnoručne napísaná a graficky navrhnutá publikácia skúmajúca paradox smutného klauna. Publikácia mapuje dejiny divadla a klaunérie. A to od tradičných divadelných praktík a klaunských vystúpení až po súčasné iniciatívy, ako je Red Noses International.",
 
-    milestoneAlbum: "Debutový štúdiový album, ktorý vznikol v nezávislej réžii od prvotného nápadu až po produkciu, nahrávanie a zvukovú realizáciu.",
+    milestoneAlbum: "Album skupiny Midheaven s názvom Not That Far Away zaujal redakciu rádia Rapes, čo viedlo k pozvaniu na rozhovor a k vzniku relácie venovanej albumu a hudobnej tvorbe kapely.",
 
-    milestoneChudaczek: "Autorský soundtrack a zvukový dizajn vytvorený pre divadelnú inscenáciu uvádzanú na Slovensku a v Českej republike.",
+    milestoneChudaczek: "V rámci divadelnej inscenácie Chudacźek som sa podieľal na tvorbe diela, ktoré bolo uvedené na viacerých festivaloch vrátane podujatia Kremnické gagy 2025. Inscenácia sa dostala aj do povedomia médií prostredníctvom rozhovoru s hlavnou predstaviteľkou, ktorý publikoval Denník N.",
 
     stillLearning: "* Stále sa učím",
     skillsDescription: "→ Prehľad nástrojov, oblastí a zručností, ktoré momentálne využívam vo svojej tvorbe.",

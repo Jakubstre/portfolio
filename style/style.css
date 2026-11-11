@@ -267,12 +267,13 @@ body.menu-open {
 .milestones-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 50px;
+  gap: 100px;
 }
 .milestone-card {
-  border: 1px solid rgba(0, 0, 255, .15);
-  border-radius: 16px;
-  padding: 28px;
+	padding: 40px;
+	 border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 255, 0.18);
+border-radius: 22px;
   min-height: 330px;
   display: flex;
   flex-direction: column;
