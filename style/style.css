@@ -15,6 +15,13 @@ html {
 [id] {
   scroll-margin-top: 200px;
 }
+
+
+h1 	{
+	  font-size: 45px;
+  font-weight: 500;
+	letter-spacing: -10px;}
+
 body {
   display: flex;
   justify-content: center;
@@ -67,10 +74,7 @@ body {
     transition: none;
   }
 }
-h1 {
-  font-size: 45px;
-  font-weight: 500;
-}
+
 body.menu-open {
   overflow: visible;
 }
@@ -105,8 +109,9 @@ body.menu-open {
   line-height: .9;
   font-weight: 700;
   color: blue;
-  : -4px;
   text-transform: uppercase;
+
+
 }
 .hero-tags {
   display: flex;
@@ -256,7 +261,6 @@ body.menu-open {
   font-size: clamp(38px, 6vw, 78px);
   line-height: .95;
   font-weight: 700;
-  : -3px;
 }
 .milestones-sub {
   margin-top: 20px;
