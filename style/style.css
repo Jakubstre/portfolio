@@ -383,10 +383,7 @@ background-color: whitesmoke;
 .featured-work {
   margin-top: 2.5%;
 }
-.featured-work img:hover {
-  transform: translateY(-8px);
-  transition: .3s ease;
-}
+
 .section-header {
   margin-bottom: 50px;
 }
@@ -507,24 +504,19 @@ background-color: whitesmoke;
 
   display: inline-block;
   font-size: 15px;
-  padding: 10px 10px;
-  border-radius: 11px;
+  padding: 15px;
   white-space: nowrap;
 
    background: rgba(255, 255, 255, 0.68);
   backdrop-filter: blur(11px) saturate(180%);
   -webkit-backdrop-filter: blur(11px) saturate(180%);
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
-
+border-radius: 11px;
 
   transition: .3s ease;
 }
 
-.work-action:hover{
-	background-color: blue;
-	color: white;
-	transition: .3s ease;
-}
+
 
 
 .work-card:hover .work-action {
@@ -532,9 +524,7 @@ background-color: whitesmoke;
   color: white;
 	
 }
-.work-card:hover .work-action .arrow {
-  transform: translate(2px, -2px);
-}
+
 .container {
   width: 100%;
   display: flex;
