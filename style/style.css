@@ -11,7 +11,7 @@
 }
 html {
   scroll-behavior: smooth;
-} 
+}
 [id] {
   scroll-margin-top: 200px;
 }
@@ -239,12 +239,11 @@ body.menu-open {
 }
 .work-hero img {
   display: block;
-	height: 300px;
+  height: 300px;
   width: 100%;
-
   object-fit: contain;
   border-radius: 22px;
-background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 .milestones {
   margin-top: 60px;
@@ -383,7 +382,6 @@ background-color: whitesmoke;
 .featured-work {
   margin-top: 2.5%;
 }
-
 .section-header {
   margin-bottom: 50px;
 }
@@ -412,8 +410,6 @@ background-color: whitesmoke;
   text-decoration: none;
   color: blue;
   transition: box-shadow .3s ease, transform .3s ease;
-	
-
 }
 .work-card img {
   display: block;
@@ -421,13 +417,12 @@ background-color: whitesmoke;
   aspect-ratio: 16 / 10;
   object-fit: contain;
   border-radius: 22px;
-background-color: whitesmoke;
+  background-color: whitesmoke;
 }
-
 .work-info span {
   display: block;
   margin-top: 8px;
-   font-size: 15px;
+  font-size: 15px;
   opacity: .65;
 }
 .work-grid-newest {
@@ -450,16 +445,14 @@ background-color: whitesmoke;
   aspect-ratio: 16 / 10;
   object-fit: contain;
   border-radius: 22px;
-background-color: whitesmoke;
+  background-color: whitesmoke;
 }
-
 .work-image {
   position: relative;
   width: 100%;
   overflow: hidden;
   border-radius: 22px;
 }
-
 .work-image > img {
   display: block;
   width: 100%;
@@ -468,167 +461,108 @@ background-color: whitesmoke;
   border-radius: 22px;
   background-color: whitesmoke;
 }
-
-
 .work-label {
   position: absolute;
   top: 14px;
   left: 14px;
   z-index: 2;
-
   padding: 8px 12px;
-
   font-size: 13px;
   font-weight: 500;
   color: blue;
-
- background: rgba(255, 255, 255, 0.68);
-  backdrop-filter: blur(11px) saturate(180%);
-  -webkit-backdrop-filter: blur(11px) saturate(180%);
-
+  background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(22px) saturate(180%);
+  -webkit-backdrop-filter: blur(22px) saturate(180%);
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 11px;
-
   white-space: nowrap;
 }
-
-.work-label {
-  position: absolute;
-  top: 14px;
-  left: 14px;
-  z-index: 2;
-
-  padding: 8px 12px;
-
-  font-size: 13px;
-  font-weight: 500;
-  color: blue;
-
- background: rgba(255, 255, 255, 0.68);
-  backdrop-filter: blur(11px) saturate(180%);
-  -webkit-backdrop-filter: blur(11px) saturate(180%);
-
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  border-radius: 11px;
-
-  white-space: nowrap;
-}
-
-
-
 .work-software {
   position: absolute;
   top: 14px;
   right: 14px;
   z-index: 2;
-
   display: flex;
   align-items: center;
-
-   padding: 8px 12px;
-
- background: rgba(255, 255, 255, 0.68);
-  backdrop-filter: blur(11px) saturate(180%);
-  -webkit-backdrop-filter: blur(11px) saturate(180%);
-
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(22px) saturate(180%);
+  -webkit-backdrop-filter: blur(22px) saturate(180%);
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 11px;
 }
-
 .work-software img {
   display: block;
   width: 30px;
-	height: auto;
-	background-color: transparent;
+  height: auto;
+  background-color: transparent;
 }
-
 .work-software-newest {
   position: absolute;
   top: 14px;
   right: 14px;
   z-index: 2;
-gap: 10px;
+  gap: 10px;
   display: flex;
   align-items: center;
-
-   padding: 8px 12px;
-
- background: rgba(255, 255, 255, 0.68);
-  backdrop-filter: blur(11px) saturate(180%);
-  -webkit-backdrop-filter: blur(11px) saturate(180%);
-
+  padding: 8px 12px;
+  background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(22px) saturate(180%);
+  -webkit-backdrop-filter: blur(22px) saturate(180%);
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 11px;
 }
-
 .work-software-newest img {
   display: block;
   width: 20px;
-	height: auto;
-	background-color: transparent;
+  height: auto;
+  background-color: transparent;
 }
-
 .work-date {
   position: absolute;
   bottom: 14px;
   left: 14px;
   z-index: 2;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
   min-width: 55px;
   padding: 7px 9px;
-
   color: blue;
- background: rgba(255, 255, 255, 0.68);
-  backdrop-filter: blur(11px) saturate(180%);
-  -webkit-backdrop-filter: blur(11px) saturate(180%);
-
+  background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(22px) saturate(180%);
+  -webkit-backdrop-filter: blur(22px) saturate(180%);
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 11px;
-
-
 }
-
-
-
 .work-date span {
   font-size: 13px;
   font-weight: 400;
 }
-
 .work-date strong {
   margin-top: 3px;
   font-size: 17px;
   font-weight: 600;
 }
-
 .work-info {
   padding: 18px 8px 10px;
   margin-top: 5px;
 }
-
 .work-info h3 {
   margin: 0;
   font-size: 18px;
 }
-
 .work-info p {
   font-size: 18px;
   line-height: 1.7;
 }
-
 .work-info span {
   display: block;
   margin-top: 8px;
   font-size: 15px;
   opacity: .65;
 }
-
-
 .work-description {
   display: flex;
   flex-direction: column;
@@ -636,34 +570,25 @@ gap: 10px;
   gap: 9px;
   min-width: 0;
 }
-
 .work-action {
   position: absolute;
-	align-content: flex-end;
+  align-content: flex-end;
   left: 20px;
   bottom: 20px;
-
   display: inline-block;
   font-size: 15px;
   padding: 10px;
   white-space: nowrap;
-background-color: white;	
+  background-color: white;
   box-shadow:
     0 3px 1px rgba(0, 0, 0, 0.035), inset 0 1px 0 rgba(255, 255, 255, 0.6);
-border-radius: 11px;
-
+  border-radius: 11px;
   transition: .3s ease;
 }
-
-
-
-
 .work-card:hover .work-action {
   background-color: blue;
   color: white;
-	
 }
-
 .container {
   width: 100%;
   display: flex;
@@ -751,7 +676,7 @@ nav::before {
   padding: 4px;
   box-sizing: border-box;
   border: none;
-    box-shadow:
+  box-shadow:
     0 3px 1px rgba(0, 0, 0, 0.035), inset 0 1px 0 rgba(255, 255, 255, 0.6);
   border-radius: 999px;
   gap: 0;
@@ -1275,7 +1200,7 @@ hr {
 .overlay-gallery {
   display: grid;
   grid-template-columns:
-   3fr  3fr  3fr;
+    3fr 3fr 3fr;
   gap: 28px;
   align-items: start;
 }
