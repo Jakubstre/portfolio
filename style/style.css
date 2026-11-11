@@ -11,7 +11,7 @@
 }
 html {
   scroll-behavior: smooth;
-}
+} 
 [id] {
   scroll-margin-top: 200px;
 }
@@ -598,7 +598,8 @@ nav::before {
   padding: 4px;
   box-sizing: border-box;
   border: none;
-  box-shadow: 0 2px 6px rgba(0, 0, 255, 0.18); 
+    box-shadow:
+    0 3px 1px rgba(0, 0, 0, 0.035), inset 0 1px 0 rgba(255, 255, 255, 0.6);
   border-radius: 999px;
   gap: 0;
 }
@@ -1534,7 +1535,7 @@ hr {
   transform-origin: center center;
 }
 .arrow:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
   transition: .3s ease;
 }
 .arrow.open {
@@ -1566,7 +1567,7 @@ hr {
   justify-content: center;
 }
 .search-icon:hover {
-  transform: scale(1.1);
+  transform: scale(0.9);
   transition: .3s ease;
 }
 .search-icon svg {

@@ -37,19 +37,19 @@ const translations = {
     featuredWorkDescription: "→ Selected projects showcasing some of my most recent and favourite creative work across music, design, and visual media.",
 
 	  samsungTags: "[Event Photography] · [Photo Editing] · [Graphic Design]",
-	  samsungP: "Event photography and post-production for Samsung Solve for Tomorrow.",
+	  samsungP: "Event photography, image selection and post-production for Samsung Solve for Tomorrow, including the preparation of final photographs for client delivery.",
 	  
     birthdayInvitation: "* Animated Birthday Invitation",
     birthdayInvitationTags: "[Graphic Design] · [Motion Graphics] · [Event Promotion]",
-	  birthdayP: "An animated birthday invitation created for a 50th birthday celebration.",
+	  birthdayP: "An original animated invitation produced for a 50th birthday celebration, combining motion graphics, video editing and custom-composed music.",
 
 
     personalPortfolio: "* Personal Portfolio",
     personalPortfolioTags: "[Graphic Design] · [Branding]",
-	  personalPortfolioP: "A personal portfolio designed to present my work across music, theatre, graphic design and digital media.",
+	  personalPortfolioP: "A self-designed and developed portfolio website presenting my work across music composition, theatre, graphic design and digital media.",
 
     adultsAreWeirdTags: "[Theatre Composition] · [Sound Engineering] · [Graphic Design]",
-	  adultsAreWeirdP: "An original theatre score created for the award-winning stage production Adults Are Definitely Very Weird.",
+	  adultsAreWeirdP: "An original theatrical score composed for the award-winning stage production Adults Are Definitely Very Weird.",
 
     resumeLabel: "→ Resume",
     resumeTitle: "Seven years of multidisciplinary creative experience.",
@@ -165,20 +165,20 @@ const translations = {
     featuredWorkDescription: "→ Výber projektov, ktoré predstavujú moju najnovšiu a najobľúbenejšiu tvorbu v oblasti hudby, dizajnu a vizuálnych médií.",
 	  
   samsungTags: "[Event Fotografie] · [Foto Editing] · [Grafický Dizajn]",
-	    samsungP: "Fotografovanie a postprodukcia pre Samsung Solve for Tomorrow.",
+	    samsungP: "Fotografovanie podujatia, výber záberov a postprodukcia pre projekt Samsung Solve for Tomorrow, vrátane prípravy finálnych fotografií na odovzdanie klientovi.",
 	  
 
     birthdayInvitation: "* Animovaná Narodeninová Pozvánka",
     birthdayInvitationTags: "[Grafický Dizajn] · [Motion Grafika] · [Eventové Promo]",
-	    birthdayP: "Animovaná pozvánka vytvorená na oslavu 50. narodenín.",
+	    birthdayP: "Originálna animovaná pozvánka vytvorená na oslavu 50. narodenín, ktorá kombinuje pohybovú grafiku, strih videa a hudbu zloženú na mieru.",
 
 
     personalPortfolio: "* Osobné Portfólio",
     personalPortfolioTags: "[Grafický Dizajn] · [Branding]",
-	    personalPortfolioP: "Osobné portfólio vytvorené na prezentáciu mojej tvorby v oblasti hudby, divadla, grafického dizajnu a digitálnych médií.",
+	    personalPortfolioP: "Vlastnoručne navrhnuté a vytvorené portfólio, ktorá prezentuje moju tvorbu v oblastiach hudobnej kompozície, divadla, grafického dizajnu a digitálnych médií.",
 
     adultsAreWeirdTags: "[Divadelná Hudba] · [Zvuková Réžia] · [Grafický Dizajn]",
-	   adultsAreWeirdP: "Originálna divadelná hudba vytvorená pre oceňovanú inscenáciu Adults Are Definitely Very Weird.",
+	   adultsAreWeirdP: "Originálna scénická hudba zložená pre oceňovanú divadelnú inscenáciu Adults Are Definitely Very Weird.",
 
     resumeLabel: "→ Resumé",
     resumeTitle: "Sedem rokov skúseností naprieč kreatívnymi disciplínami.",
