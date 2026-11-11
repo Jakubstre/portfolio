@@ -482,9 +482,9 @@ background-color: whitesmoke;
   font-weight: 500;
   color: blue;
 
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+ background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(11px) saturate(180%);
+  -webkit-backdrop-filter: blur(11px) saturate(180%);
 
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 11px;
@@ -504,9 +504,9 @@ background-color: whitesmoke;
   font-weight: 500;
   color: blue;
 
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+ background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(11px) saturate(180%);
+  -webkit-backdrop-filter: blur(11px) saturate(180%);
 
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 11px;
@@ -527,9 +527,9 @@ background-color: whitesmoke;
 
    padding: 8px 12px;
 
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+ background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(11px) saturate(180%);
+  -webkit-backdrop-filter: blur(11px) saturate(180%);
 
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 11px;
@@ -553,9 +553,9 @@ gap: 10px;
 
    padding: 8px 12px;
 
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+ background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(11px) saturate(180%);
+  -webkit-backdrop-filter: blur(11px) saturate(180%);
 
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 11px;
@@ -583,10 +583,9 @@ gap: 10px;
   padding: 7px 9px;
 
   color: blue;
-  background: rgba(255, 255, 255, 0.88);
-
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+ background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(11px) saturate(180%);
+  -webkit-backdrop-filter: blur(11px) saturate(180%);
 
   border: 1px solid rgba(255, 255, 255, 0.7);
   border-radius: 11px;
@@ -618,9 +617,8 @@ gap: 10px;
 }
 
 .work-info p {
-  margin: 0;
-  opacity: .75;
   font-size: 18px;
+  line-height: 1.7;
 }
 
 .work-info span {
