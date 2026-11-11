@@ -170,7 +170,7 @@ const translations = {
 
     birthdayInvitation: "* Animovaná Narodeninová Pozvánka",
     birthdayInvitationTags: "[Grafický Dizajn] · [Motion Grafika] · [Eventové Promo]",
-	    birthdayP: "Originálna animovaná pozvánka vytvorená na oslavu 50. narodenín, ktorá kombinuje pohybovú grafiku, strih videa a hudbu zloženú na mieru.",
+	    birthdayP: "Originálna animovaná pozvánka vytvorená na oslavu 50. narodenín, ktorá kombinuje motion grafiku, strih videa a hudbu zloženú na mieru.",
 
 
     personalPortfolio: "* Osobné Portfólio",

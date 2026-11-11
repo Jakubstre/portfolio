@@ -453,28 +453,42 @@ background-color: whitesmoke;
   object-fit: contain;
   transition: .4s;
 }
+
+.work-image {
+  position: relative;
+  width: 100%;
+}
+
+.work-image img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: contain;
+  border-radius: 22px;
+  background-color: whitesmoke;
+}
+
 .work-info {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: center;
-  gap: 25px;
   padding: 18px 8px 10px;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .work-info h3 {
   margin: 0;
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .work-info p {
   margin: 0;
   opacity: .75;
-	  font-size: 18px;
+  font-size: 18px;
 }
 
-.work-info .work-description > span {
+.work-info span {
   display: block;
+  margin-top: 8px;
+  font-size: 15px;
+  opacity: .65;
 }
 
 
@@ -486,15 +500,24 @@ background-color: whitesmoke;
   min-width: 0;
 }
 
-
 .work-action {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+
   display: inline-block;
-  border: none;
-   font-size: 15px;
-  box-shadow: 0 2px 4px rgba(0, 0, 255, 0.18);
-   padding: 10px 18px;
-  border-radius: 99px;
+  font-size: 15px;
+  padding: 10px 10px;
+  border-radius: 11px;
   white-space: nowrap;
+
+   background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(11px) saturate(180%);
+  -webkit-backdrop-filter: blur(11px) saturate(180%);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+
+
+  transition: .3s ease;
 }
 
 .work-action:hover{
@@ -505,9 +528,10 @@ background-color: whitesmoke;
 
 
 .work-card:hover .work-action {
-  gap: 14px;
+  background-color: blue;
+  color: white;
+	
 }
-
 .work-card:hover .work-action .arrow {
   transform: translate(2px, -2px);
 }
