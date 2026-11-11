@@ -73,6 +73,11 @@ const translations = {
 
     stillLearning: "* Still learning",
     skillsDescription: "→ A snapshot of the tools, disciplines, and skills I currently use across my creative work.",
+	  
+	  	  Advanced: "Advanced",
+	  Intermediate: "Intermediate",
+	  
+	
 
     graphicDesignSkill: "Graphic Design",
     musicComposition: "Music Composition",
@@ -203,6 +208,9 @@ const translations = {
 
     stillLearning: "* Stále sa učím",
     skillsDescription: "→ Prehľad nástrojov, oblastí a zručností, ktoré momentálne využívam vo svojej tvorbe.",
+	  
+	    Advanced: "Pokročilý",
+	  Intermediate: "Stredne Pokročilý",
 
     graphicDesignSkill: "Grafický Dizajn",
     musicComposition: "Hudobná Kompozícia",
