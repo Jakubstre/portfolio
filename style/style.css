@@ -267,7 +267,7 @@ body.menu-open {
 .milestones-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 24px;
+  gap: 50px;
 }
 .milestone-card {
   border: 1px solid rgba(0, 0, 255, .15);

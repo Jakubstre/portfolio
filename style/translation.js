@@ -63,13 +63,13 @@ const translations = {
     theatreCompositionAW: "THEATRE COMPOSITIONS",
     graphicDesignAW: "GRAPHIC DESIGN",
 
-    milestoneAdults: "Original soundtrack and sound design created for an award-winning theatre performance.",
+    milestoneAdults: "My original theatrical score was composed for Adults Are Definitely Very Weird, a stage production that received second place at the regional round of the Vajanského Martin theatre competition.",
 
-    milestoneSomSaso: "A self-published book, entirely written, designed, edited, and prepared for print independently.",
+    milestoneSomSaso: "A self-written and designed book exploring the paradox of the sad clown. The publication traces the history of theatre and clowning, from traditional theatrical practices and clown performance to contemporary initiatives such as Red Noses International. Developed and produced in two formats: a square edition and a half-A5 edition.",
 
-    milestoneAlbum: "Debut studio album written, produced, recorded and engineered independently.",
+    milestoneAlbum: "Midheaven's album Not That Far Away caught the attention of Radio Rapes, leading to an invitation for an interview and a feature discussing the album and the band's music.",
 
-    milestoneChudaczek: "Original soundtrack and sound design created for a theatre performance played across Slovakia and Czech Republic.",
+    milestoneChudaczek: "As part of the Chudacźek theatre production, I contributed to a work presented at multiple festivals, including Kremnické Gagy 2025. The production also received media coverage through an interview with one of its actresses, published by Denník N.",
 
     stillLearning: "* Still learning",
     skillsDescription: "→ A snapshot of the tools, disciplines, and skills I currently use across my creative work.",
