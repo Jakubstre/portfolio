@@ -334,7 +334,7 @@ border-radius: 22px;
 .reference-info span {
   line-height: 1.5;
   color: blue;
-  opacity: .8;
+  opacity: .80;
 }
 .reference-card p {
   line-height: 1.7;
@@ -351,7 +351,7 @@ border-radius: 22px;
   font-size: 10px;
   : 2px;
   white-space: nowrap;
-  opacity: .55;
+  opacity: .80;
 }
 .card-top hr {
   flex: 1;
@@ -378,7 +378,7 @@ border-radius: 22px;
 }
 .milestone-card p {
   line-height: 1.8;
-  opacity: .75;
+  opacity: .805;
 }
 .featured-work {
   margin-top: 2.5%;
@@ -424,7 +424,7 @@ border-radius: 22px;
   display: block;
   margin-top: 8px;
   font-size: 15px;
-  opacity: .65;
+  opacity: .805;
 }
 .work-grid-newest {
   display: grid;
@@ -562,7 +562,7 @@ border-radius: 22px;
   display: block;
   margin-top: 8px;
   font-size: 15px;
-  opacity: .65;
+  opacity: .805;
 }
 .work-description {
   display: flex;
@@ -651,7 +651,7 @@ nav::before {
   font-size: 10px;
   : 2px;
   margin-bottom: 15px;
-  opacity: .65;
+  opacity: .805;
 }
 .translation-notice p {
   font-size: 15px;
@@ -906,7 +906,7 @@ nav::before {
   display: block;
   font-size: 11px;
   : 2px;
-  opacity: .55;
+  opacity: .80;
   margin-bottom: 8px;
 }
 .meta-block p {
@@ -1030,7 +1030,7 @@ hr {
 }
 .details-title span {
   : 2px;
-  opacity: .6;
+  opacity: .80;
 }
 .details-title h2 {
   margin-top: 10px;
@@ -1448,7 +1448,7 @@ hr {
 .resume-kicker {
   font-size: 12px;
   : 3px;
-  opacity: .6;
+  opacity: .80;
   margin-bottom: 18px;
 }
 .resume-hero h1 {
@@ -1496,7 +1496,7 @@ hr {
   display: block;
   font-size: 11px;
   : 2px;
-  opacity: .55;
+  opacity: .80;
   margin-bottom: 14px;
 }
 .resume-highlight strong {
@@ -1516,7 +1516,7 @@ hr {
 .section-label {
   font-size: 12px;
   : 3px;
-  opacity: .6;
+  opacity: .80;
   margin-bottom: 18px;
 }
 .section-copy {
@@ -1544,7 +1544,7 @@ hr {
 .item-head span {
   font-size: 13px;
   : 1px;
-  opacity: .65;
+  opacity: .805;
 }
 .resume-item ul {
   padding-left: 18px;
@@ -1582,7 +1582,7 @@ hr {
 .sidebar-block span {
   display: block;
   font-size: 13px;
-  opacity: .65;
+  opacity: .805;
   margin-top: 6px;
 }
 .resume-signature {
@@ -1754,7 +1754,7 @@ hr {
     opacity .5s ease, transform .7s cubic-bezier(.22, 1, .36, 1);
 }
 .search-overlay.active .quick-links p {
-  opacity: .75;
+  opacity: .805;
   transform: translateY(0);
   transition-delay: .32s;
 }
@@ -1843,7 +1843,7 @@ hr {
 .about-kicker {
   font-size: 13px;
   : 3px;
-  opacity: .55;
+  opacity: .80;
   margin-bottom: 25px;
 }
 .about-hero h1 {
@@ -1956,7 +1956,7 @@ hr {
   : 1.5px;
 }
 .raster-item figcaption span:last-child {
-  opacity: .55;
+  opacity: .80;
   white-space: nowrap;
 }
 .raster-large {
@@ -2084,7 +2084,7 @@ hr {
   font-size: 12px;
   : 1.5px;
   margin-bottom: 10px;
-  opacity: .65;
+  opacity: .805;
 }
 .youtube-card h2 {
   font-size: 32px;
@@ -2095,7 +2095,7 @@ hr {
 .youtube-card p {
   font-size: 14px;
   line-height: 1.5;
-  opacity: .7;
+  opacity: .80;
 }
 .youtube-arrow {
   position: absolute;
@@ -2151,6 +2151,7 @@ hr {
 }
 .skill-name span:last-child {
   font-size: 14px;
+	opacity: .80;
 }
 .skill-level {
   display: flex;
