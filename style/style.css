@@ -2137,7 +2137,7 @@ hr {
 }
 .skill {
   padding: 25px 0;
-  border-top: 1px solid rgba(0, 0, 255, .15);
+
 }
 .skill-name {
   display: flex;
@@ -2150,9 +2150,7 @@ hr {
   font-weight: 600;
 }
 .skill-name span:last-child {
-  font-size: 11px;
-  : 2px;
-  opacity: .55;
+  font-size: 14px;
 }
 .skill-level {
   display: flex;
