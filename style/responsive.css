@@ -318,6 +318,7 @@ button, input, textarea {
   .raster-gallery {
     grid-template-columns: 1fr;
     gap: 40px;
+	  padding: 0;
   }
   .raster-large, .raster-full, .raster-small {
     grid-column: auto;
