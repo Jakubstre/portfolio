@@ -59,15 +59,15 @@ const translations = {
     theatreCompositionAW: "THEATRE COMPOSITIONS",
     graphicDesignAW: "GRAPHIC DESIGN",
 
-    milestoneAdults: "My original theatrical score was composed for Adults Are Definitely Very Weird, a stage production that received second place at the regional round of the Vajanského Martin theatre competition.",
+    milestoneAdults: "I composed the original music for the theatre production Adults Are Definitely Very Weird, a stage production that received second place at the regional round of the Vajanského Martin theatre competition.",
 
-    milestoneSomSaso: "A self-written and designed book exploring the paradox of the sad clown. The publication traces the history of theatre and clowning, from traditional theatrical practices and clown performance to contemporary initiatives such as Red Noses International.",
+    milestoneSomSaso: "A graduation project written and designed around the paradox of the sad clown. The book explores the history of theatre and clowning, from traditional theatrical practices to contemporary initiatives such as Red Noses International. Developed in two formats: a square edition and a half-A5 edition.",
 
     milestoneAlbum: "Midheaven's album Not That Far Away caught the attention of Radio Rapes, leading to an invitation for an interview and a feature discussing the album and the band's music.",
 
-    milestoneChudaczek: "As part of the Chudacźek theatre production, I contributed to a work presented at multiple festivals, including Kremnické Gagy. The production was also featured in an interview with its lead actress, published by Denník N.",
+    milestoneChudaczek: "I composed the original music for the theatre production Chudacźek. My work extended beyond composition to include live sound engineering and the creation of venue-specific sound designs, adapting the production’s sonic environment to each performance space. The production was presented at several festivals, including Kremnické Gagy, and received media coverage through an interview with the lead actress published by Denník N.",
 
-    stillLearning: "* Still learning",
+    stillLearning: "* Skills & Technologies",
     skillsDescription: "→ A snapshot of the tools, disciplines, and skills I currently use across my creative work.",
 	  
 	  	  Advanced: "Advanced",
@@ -193,16 +193,16 @@ const translations = {
     theatreCompositionAW: "DIVADELNÁ TVORBA",
     graphicDesignAW: "GRAFICKÝ DIZAJN",
 
-    milestoneAdults: "Moja autorská divadelná hudba vznikla pre inscenáciu Adults Are Definitely Very Weird, ktorá získala druhé miesto v krajskom kole divadelnej súťaže Vajanského Martin.",
+    milestoneAdults: "Zložil som pôvodnú hudbu k divadelnej inscenácii Adults Are Definitely Very Weird, ktorá získala druhé miesto v krajskom kole divadelnej súťaže Vajanského Martin.",
 
     visualIdentity: "Vizuálna Identita",
-    milestoneSomSaso: "Vlastnoručne napísaná a graficky navrhnutá publikácia skúmajúca paradox smutného klauna. Publikácia mapuje dejiny divadla a klaunérie. A to od tradičných divadelných praktík a klaunských vystúpení až po súčasné iniciatívy, ako je Red Noses International.",
+    milestoneSomSaso: "Maturitný projekt, ktorého textová a vizuálna stránka vychádzajú z paradoxu smutného klauna. Kniha skúma históriu divadla a klaunstva. A to od tradičných divadelných postupov až po súčasné iniciatívy, ako je napríklad Red Noses International. Projekt je spracovaný v dvoch formátoch: štvorcovom a vo formáte polovičného A5.",
 
     milestoneAlbum: "Album skupiny Midheaven s názvom Not That Far Away zaujal redakciu rádia Rapes, čo viedlo k pozvaniu na rozhovor a k vzniku relácie venovanej albumu a hudobnej tvorbe kapely.",
 
-    milestoneChudaczek: "V rámci divadelnej inscenácie Chudacźek som sa podieľal na tvorbe diela, ktoré bolo uvedené na viacerých festivaloch vrátane podujatia Kremnické gagy. Inscenácia sa dostala aj do povedomia médií prostredníctvom rozhovoru s hlavnou predstaviteľkou, ktorý publikoval Denník N.",
+    milestoneChudaczek: "Zložil som pôvodnú hudbu k divadelnej inscenácii Chudacźek. Táto spolupráca zahŕňala okrem samotnej kompozície aj živé zvukové ozvučenie a tvorbu zvukových dizajnov prispôsobených konkrétnym priestorom, v ktorých sa inscenácia uvádzala. Inscenácia bola predstavená na viacerých festivaloch vrátane festivalu Kremnické Gagy a získala mediálnu pozornosť aj prostredníctvom rozhovoru s hlavnou herečkou, ktorý publikoval Denník N.",
 
-    stillLearning: "* Stále sa učím",
+    stillLearning: "* Zručnosti & Technológie",
     skillsDescription: "→ Prehľad nástrojov, oblastí a zručností, ktoré momentálne využívam vo svojej tvorbe.",
 	  
 	    Advanced: "Pokročilý",
