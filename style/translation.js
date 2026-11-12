@@ -45,7 +45,7 @@ const translations = {
 	  personalPortfolioP: "A self-designed and developed portfolio website presenting my work across music composition, theatre, graphic design and digital media.",
 
     adultsAreWeirdTags: "[Theatre Composition] · [Sound Engineering] · [Graphic Design]",
-	  adultsAreWeirdP: "An original theatrical score composed for the award-winning stage production Adults Are Definitely Very Weird.",
+	  adultsAreWeirdP: "Two original orchestral compositions created for the award-winning stage production Adults Are Definitely Very Weird.",
 
     resumeLabel: "→ Resume",
     resumeTitle: "Seven years of multidisciplinary creative experience.",
@@ -179,7 +179,7 @@ const translations = {
 	    personalPortfolioP: "Vlastnoručne navrhnuté a vytvorené portfólio, ktorá prezentuje moju tvorbu v oblastiach hudobnej kompozície, divadla, grafického dizajnu a digitálnych médií.",
 
     adultsAreWeirdTags: "[Divadelná Hudba] · [Zvuková Réžia] · [Grafický Dizajn]",
-	   adultsAreWeirdP: "Originálna scénická hudba zložená pre oceňovanú divadelnú inscenáciu Adults Are Definitely Very Weird.",
+	   adultsAreWeirdP: "Dve originálne orchestrálne skladby vytvorené pre oceňovanú divadelnú inscenáciu Adults Are Definitely Very Weird.",
 
     resumeLabel: "→ Resumé",
     resumeTitle: "Sedem rokov skúseností naprieč kreatívnymi disciplínami.",
