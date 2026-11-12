@@ -1941,7 +1941,6 @@ hr {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 10px;
   transition: transform .4s ease;
 	  background-color: whitesmoke;
 }
