@@ -25,8 +25,8 @@ const translations = {
     newestWorkTitle: "* Newest Work",
     newestWorkDescription: "→ Selected project, 'Na Skle Maľované' is an official promotional campaign that I'm currently working on for an upcoming musical production.",
 	  
-	  naSKleTags: "[Event Promotion] · [Graphic Design]",
-	  naSkleP: "A complete promotional campaign created for the musical production Na Skle Maľované.",
+	  naSKleTags: "[Event Promotion] · [Social Media Management] · [Campaign Development] · [Graphic Design]",
+	  naSkleP: "A local promotional campaign developed for the musical production Na Skle Maľované, produced by Ján Ďurovčík.",
 	  
 
     featuredWorkTitle: "* Featured Work",
@@ -159,8 +159,8 @@ const translations = {
     newestWorkTitle: "* Najnovšia tvorba",
     newestWorkDescription: "→ Vybraný projekt „Na skle maľované“ je oficiálna propagačná kampaň, na ktorej momentálne pracujem pre pripravovanú muzikálovú inscenáciu.",
 	  
-	  	  naSkleTags: "[Eventové Promo] · [Grafický Dizajn]",
-	  naSkleP: "Kompletná propagačná kampaň vytvorená pre muzikálovú produkciu Na Skle Maľované.",
+	  	  naSkleTags: "[Eventové Promo] · [Správa Sociálnych Sietí] · [Tvorba Kampane] · [Grafický Dizajn]",
+	  naSkleP: "Lokálna propagačná kampaň vyvinutá pre muzikálovú inscenáciu Na Skle Maľované v produkcii Jána Ďurovčíka",
 
     featuredWorkTitle: "* Vybraná tvorba",
     featuredWorkDescription: "→ Výber projektov, ktoré predstavujú moju najnovšiu a najobľúbenejšiu tvorbu v oblasti hudby, dizajnu a vizuálnych médií.",
