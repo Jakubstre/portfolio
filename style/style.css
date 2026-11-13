@@ -476,10 +476,7 @@ body.menu-open {
   font-size: 13px;
   font-weight: 500;
   color: blue;
-  background: rgba(255, 255, 255, 0.68);
-  backdrop-filter: blur(22px) saturate(180%);
-  -webkit-backdrop-filter: blur(22px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.7);
+ background-color: white;
   border-radius: 11px;
   white-space: nowrap;
 }
@@ -536,10 +533,7 @@ body.menu-open {
   min-width: 55px;
   padding: 7px 9px;
   color: blue;
-  background: rgba(255, 255, 255, 0.68);
-  backdrop-filter: blur(22px) saturate(180%);
-  -webkit-backdrop-filter: blur(22px) saturate(180%);
-  border: 1px solid rgba(255, 255, 255, 0.7);
+ background-color: white;
   border-radius: 11px;
 }
 .work-date span {
