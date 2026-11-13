@@ -175,7 +175,7 @@ const translations = {
 
 
     personalPortfolio: "* Osobné Portfólio",
-    personalPortfolioTags: "[Web-Dizajn] · [Front-End Vývoj] · [SEO]",
+    personalPortfolioTags: "[Web Dizajn] · [Front-end Vývoj] · [SEO]",
 	    personalPortfolioP: "Vlastnoručne navrhnuté a vytvorené portfólio, ktorá prezentuje moju tvorbu v oblastiach hudobnej kompozície, divadla, grafického dizajnu a digitálnych médií.",
 
     adultsAreWeirdTags: "[Divadelná Hudba] · [Zvuková Réžia] · [Grafický Dizajn]",
