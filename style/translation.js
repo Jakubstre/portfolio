@@ -41,7 +41,7 @@ const translations = {
 
 
     personalPortfolio: "* Personal Portfolio",
-    personalPortfolioTags: "[Graphic Design] · [Branding]",
+    personalPortfolioTags: "[Web Design] · [Front-end Development] · [SEO]",
 	  personalPortfolioP: "A self-designed and developed portfolio website presenting my work across music composition, theatre, graphic design and digital media.",
 
     adultsAreWeirdTags: "[Theatre Composition] · [Sound Engineering] · [Graphic Design]",
@@ -175,7 +175,7 @@ const translations = {
 
 
     personalPortfolio: "* Osobné Portfólio",
-    personalPortfolioTags: "[Grafický Dizajn] · [Branding]",
+    personalPortfolioTags: "[Web-Dizajn] · [Front-End Vývoj] · [SEO]",
 	    personalPortfolioP: "Vlastnoručne navrhnuté a vytvorené portfólio, ktorá prezentuje moju tvorbu v oblastiach hudobnej kompozície, divadla, grafického dizajnu a digitálnych médií.",
 
     adultsAreWeirdTags: "[Divadelná Hudba] · [Zvuková Réžia] · [Grafický Dizajn]",
