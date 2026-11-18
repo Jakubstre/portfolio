@@ -208,7 +208,7 @@ body.menu-open {
   width: 100%;
   border-radius: 20px;
   object-fit: cover;
-	filter: grayscale(1);
+  filter: grayscale(1);
 }
 .hero-info {
   margin-top: 40px;
@@ -595,54 +595,42 @@ body.menu-open {
   position: relative;
   object-fit: fill;
 }
-
 nav {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-
-    width: min(500px, calc(103vw - 48px));
-    z-index: 3000;
-
-    padding: 13px 22px;
-    box-sizing: border-box;
-
-    background-color: #fff;
-    border-radius: 0 0 22px 22px;
-
-    isolation: isolate;
-    overflow: visible;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(500px, calc(103vw - 48px));
+  z-index: 3000;
+  padding: 13px 22px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border-radius: 0 0 22px 22px;
+	  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.10), 0 1px 3px rgba(0, 0, 0, 0.06);
+  isolation: isolate;
+  overflow: visible;
 }
-
-nav::before,
-nav::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 24px;
-    height: 24px;
-    background: transparent;
-    pointer-events: none;
-    z-index: -1;
+nav::before, nav::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 24px;
+  height: 24px;
+  background: transparent;
+  pointer-events: none;
+  z-index: -1;
 }
-
 nav::before {
-    left: -24px;
-    border-top-right-radius: 22px;
-    box-shadow: 10px -10px 0 10px #fff;
+  left: -24px;
+  border-top-right-radius: 22px;
+  box-shadow: 10px -10px 0 10px #fff;
 }
-
 nav::after {
-    right: -24px;
-    border-top-left-radius: 22px;
-    box-shadow: -10px -10px 0 10px #fff;
+  right: -24px;
+  border-top-left-radius: 22px;
+  box-shadow: -10px -10px 0 10px #fff;
 }
-
-
-
-
-
 .translation-notice {
   position: fixed;
   right: 30px;
@@ -728,7 +716,7 @@ nav::after {
   left: 7px;
   width: 40px;
   height: 40px;
-  	border-radius: 50%;
+  border-radius: 50%;
   background: blue;
   pointer-events: none;
   transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
@@ -764,7 +752,7 @@ nav::after {
 .left img {
   width: 20px;
   margin-left: 5%;
-	  transition: 1s ease;
+  transition: 1s ease;
 }
 .left img:hover {
   transform: rotate(359deg);
@@ -1623,7 +1611,7 @@ hr {
   cursor: pointer;
   transition: transform .3s ease;
   transform-origin: center;
-	margin-bottom: 1%;
+  margin-bottom: 1%;
 }
 .arrow:hover {
   transform: scale(0.9);
@@ -1655,7 +1643,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-	 transition: transform .3s ease;
+  transition: transform .3s ease;
 }
 .search-icon:hover {
   transform: scale(0.9);
@@ -2178,7 +2166,7 @@ hr {
 }
 .collaborations {
   width: 100%;
-  padding-top: 8%;
+  padding-top: 12%;
   padding-bottom: 10%;
   margin: 0 auto;
   background-color: #fff;
@@ -2208,7 +2196,7 @@ hr {
   height: auto;
   object-fit: contain;
   filter: grayscale(100%);
-  opacity: 0.65;
+  opacity: 0.4;
   transition: .3s ease;
 }
 .collaboration-logo:hover img {
@@ -2223,6 +2211,7 @@ hr {
 .site-footer {
   position: relative;
   margin: 0 auto;
+	margin-top: 5%;
   padding: 100px 0 0;
   overflow: visible;
   background-color: blue;
@@ -2230,11 +2219,10 @@ hr {
   border-radius: 150px 150px 0 0;
   isolation: isolate;
 }
-
 .footer-top {
   display: grid;
   grid-template-columns: 2.2fr 0.8fr 0.7fr 0.7fr;
-  gap: 45px;
+  gap: 125px;
   padding: 0 5.5% 100px;
   align-items: start;
 }
@@ -2267,9 +2255,9 @@ hr {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 42px;
-  padding: 5px 18px;
-  border-radius: 75px;
+  min-height: 40px;
+  padding: 5px 14px;
+  border-radius: 99px;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
@@ -2285,7 +2273,6 @@ hr {
   align-items: flex-start;
   gap: 9px;
   padding-top: 8px;
-	
 }
 .footer-column h3 {
   font-size: 14px;
@@ -2310,7 +2297,7 @@ hr {
   overflow: hidden;
   color: white;
   opacity: .1;
-  font-size: clamp(150px, 25vw, 390px);
+  font-size: clamp(150px, 25vw, 400px);
   font-weight: 900;
   line-height: .72;
   letter-spacing: -.085em;

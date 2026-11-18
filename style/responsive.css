@@ -1067,9 +1067,9 @@ button, input, textarea {
 }
 @media (max-width: 600px) {
   .site-footer {
+	  margin-top: 10%;
     padding: 50px 10px 10px 10px;
     border-radius: 50px 50px 0 0;
-	  margin-top: 10%;
   }
   .footer-top {
     grid-template-columns: 1fr;
@@ -1079,16 +1079,13 @@ button, input, textarea {
   .footer-contact {
     grid-column: 1 / -1;
     margin-bottom: 15px;
-	
   }
   .footer-contact h2 {
     font-size: clamp(45px, 11vw, 65px);
     letter-spacing: -3px;
     margin-bottom: 30px;
-	 
   }
   .footer-column h3 {
-
     font-size: 14px;
     margin-bottom: 15px;
   }
@@ -1099,7 +1096,7 @@ button, input, textarea {
     font-size: 21vw;
     letter-spacing: -.08em;
     line-height: .8;
-	  margin-top: -20%;
+    margin-top: -20%;
   }
 }
 @media (prefers-reduced-motion: reduce) {

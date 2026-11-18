@@ -130,7 +130,24 @@ const translations = {
     quickAdults: "Adults Are Definitely Very Weird [M,S]",
     quickCigani: "Cigáni Idú Do Neba [P,D]",
     quickResume: "Resume [O]",
-    quickContact: "Contact [O]"
+    quickContact: "Contact [O]",
+	  
+	  footerHeading: "* Wanna Work Together?",
+sendEmail: "Send me an e-mail",
+giveCall: "Give me a call",
+footerDisciplines: "* Disciplines",
+footerExplore: "* Explore",
+footerSocials: "* Socials",
+theatreCompositions: "Theatre Compositions",
+independentMusic: "Independent Music",
+graphicDesign: "Graphic Design",
+eventPromotion: "Event Promotion",
+aboutMe: "About Me",
+resume: "Resume",
+discography: "Discography"
+	  
+	  
+	  
   },
 
 
@@ -261,7 +278,21 @@ const translations = {
     quickAdults: "Adults Are Definitely Very Weird [M,S]",
     quickCigani: "Cigáni Idú Do Neba [P,D]",
     quickResume: "Resumé [O]",
-    quickContact: "Kontakt [O]"
+    quickContact: "Kontakt [O]",
+	  
+	  	  footerHeading: "* Chceš Spoluprácu?",
+sendEmail: "Napíš mi e-mail",
+giveCall: "Ozvi sa mi",
+footerDisciplines: "* Disciplíny",
+footerExplore: "* Preskúmaj",
+footerSocials: "* Sociálne Siete",
+theatreCompositions: "Divadelná Tvorba",
+independentMusic: "Nezávislá Hudba",
+graphicDesign: "Grafický Dizajn",
+eventPromotion: "Eventové Promo",
+aboutMe: "O Mne",
+resume: "Resumé",
+discography: "Diskografia"
   }
 
 };
