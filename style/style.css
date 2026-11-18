@@ -602,7 +602,7 @@ nav {
     left: 50%;
     transform: translateX(-50%);
 
-    width: min(500px, calc(100vw - 48px));
+    width: min(500px, calc(90vw - 48px));
     z-index: 3000;
 
     padding: 13px 22px;
