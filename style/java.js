@@ -95,7 +95,6 @@ const pages = [
 	{ title: "Contents [O]", url: "legend.html" },
 	{ title: "Theatre Compositions [M,S]", url: "theatre-compositions.html" },
 	{ title: "Home [O]", url: "index.html" },
-		{ title: "Database [O]", url: "databases.html" },
 	{ title: "About me [O]", url: "aboutme.html" }
 ];
 
