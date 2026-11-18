@@ -238,9 +238,7 @@ button, input, textarea {
    TABLETS — 800px
 ========================================================= */
 @media (max-width: 800px) {
-  nav {
-    padding: 24px;
-  }
+
   .sheet {
     padding: 25px;
   }
@@ -375,7 +373,6 @@ button, input, textarea {
     grid-template-columns: 1fr;
     align-items: center;
   }
-  .work-action {}
   .featured-work, .milestones {
     margin-top: 60px;
   }
@@ -494,12 +491,16 @@ button, input, textarea {
   html {
     scroll-padding-top: 90px;
   }
+	
+
+
+
+
+	
   .sheet {
     padding: 20px;
   }
-  nav {
-    padding: 20px;
-  }
+
   .left img {
     width: 20px;
     height: auto;
@@ -895,7 +896,7 @@ button, input, textarea {
   .sheet {
     padding: 16px 16px 0;
   }
-  nav {
+   {
     padding: 17px;
   }
   .hero {
@@ -981,7 +982,7 @@ button, input, textarea {
   .sheet {
     padding: 12px;
   }
-  nav {
+   {
     padding: 14px;
   }
   .left img {
@@ -1032,7 +1033,7 @@ button, input, textarea {
    LANDSCAPE PHONES
 ========================================================= */
 @media (max-height: 500px) and (orientation: landscape) {
-  nav {
+   {
     padding: 12px 25px;
   }
   .hero {
@@ -1117,6 +1118,9 @@ button, input, textarea {
     font-size: 10px;
   }
 }
+
+
+
 @media (prefers-reduced-motion: reduce) {
   .footer-buttons a, .footer-column a {
     transition: none;
