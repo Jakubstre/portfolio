@@ -12,11 +12,10 @@ html {
 }
 body {
   width: 96%;
-	margin: 0 auto;
+  margin: 0 auto;
   min-width: 0;
   overflow-x: clip;
 }
-
 img, video, iframe, svg {
   max-width: 100%;
 }
@@ -75,14 +74,11 @@ button, input, textarea {
     letter-spacing: -0.05em;
   }
   .hero-info {
-  	 
-	  display: block;
+    display: block;
   }
-	
-	.hero-info a{
-		margin-top: 5%;
-	}
-	
+  .hero-info a {
+    margin-top: 5%;
+  }
   .milestones-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -263,7 +259,7 @@ button, input, textarea {
   }
   .credit-role, .credit-names {
     font-size: 13px;
-  } 
+  }
   .improvement {
     margin: 70px 0 40px;
     padding: 10px;
@@ -320,7 +316,7 @@ button, input, textarea {
   .raster-gallery {
     grid-template-columns: 1fr;
     gap: 40px;
-	  padding: 0;
+    padding: 0;
   }
   .raster-large, .raster-full, .raster-small {
     grid-column: auto;
@@ -342,7 +338,6 @@ button, input, textarea {
   }
   .work-hero {
     height: 100%;
-
   }
   .work-hero img {
     border-radius: 14px;
@@ -371,32 +366,26 @@ button, input, textarea {
   .work-page > hr {
     margin: 55px 0;
   }
-  .work-info h3 {
-  }
+  .work-info h3 {}
   .work-info span {
     letter-spacing: 1.5px;
   }
-	.work-info {
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-
-}
-	.work-action{
-	
-	}
+  .work-info {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+  .work-action {}
   .featured-work, .milestones {
     margin-top: 60px;
   }
-	 .featured-work {
+  .featured-work {
     grid-template-columns: 1fr;
     gap: 30px;
   }
-
   .featured-header {
     position: static;
   }
-
   .section-header p {
     max-width: 700px;
   }
@@ -413,14 +402,11 @@ button, input, textarea {
     width: 100%;
     max-width: 350px;
     flex: none;
-	  	margin-bottom: 15px;
+    margin-bottom: 15px;
   }
   .intro h2 {
     font-size: clamp(30px, 5vw, 40px);
   }
-	
-	
-	
   .contact-cta {
     flex-direction: column;
     align-items: flex-start;
@@ -437,7 +423,7 @@ button, input, textarea {
   .overlay-top {
     flex-direction: column;
     gap: 30px;
-	  margin-top: 5%;
+    margin-top: 5%;
   }
   .overlay-text, .overlay-meta {
     width: 100%;
@@ -479,14 +465,13 @@ button, input, textarea {
     margin-bottom: 35px;
   }
 }
-
 @media (max-width: 768px) {
-    .footer-big-type {
-        margin-top: 30px;
-        line-height: 0.8;
-        letter-spacing: -0.075em;
-    }
-	 .collaborations {
+  .footer-big-type {
+    margin-top: 30px;
+    line-height: 0.8;
+    letter-spacing: -0.075em;
+  }
+  .collaborations {
     padding: 60px 20px 60px;
   }
   .collaborations h2 {
@@ -505,7 +490,6 @@ button, input, textarea {
     max-height: 35px;
   }
 }
-
 @media (max-width: 600px) {
   html {
     scroll-padding-top: 90px;
@@ -550,9 +534,8 @@ button, input, textarea {
     font-size: 14px;
   }
   .hero-info a {
-	  
     padding: 9px 14px;
-	  font-size: 14px;
+    font-size: 14px;
   }
   .work-grid {
     grid-template-columns: 1fr;
@@ -820,10 +803,9 @@ button, input, textarea {
     font-size: 15px;
     line-height: 1.7;
   }
-	
-	.intro-button{
-	margin-bottom:15px;}
-	
+  .intro-button {
+    margin-bottom: 15px;
+  }
   .intro-label {
     margin-top: 0;
   }
@@ -893,7 +875,6 @@ button, input, textarea {
     width: 100%;
   }
 }
-
 @media (max-width: 480px) {
   .collaborations-logos {
     column-gap: 25px;
@@ -907,7 +888,6 @@ button, input, textarea {
     max-height: 32px;
   }
 }
-
 /* =========================================================
    SMALL PHONES — 400px
 ========================================================= */
@@ -1082,7 +1062,6 @@ button, input, textarea {
     height: 230px;
   }
 }
-
 /* =========================================
    FOOTER RESPONSIVE
 ========================================= */
@@ -1102,7 +1081,7 @@ button, input, textarea {
 @media (max-width: 600px) {
   .site-footer {
     padding-top: 50px;
-	  border-radius: 50px 50px 0 0 	;
+    border-radius: 50px 50px 0 0;
   }
   .footer-top {
     grid-template-columns: 1fr 1fr;
@@ -1138,9 +1117,6 @@ button, input, textarea {
     font-size: 10px;
   }
 }
-
-
-
 @media (prefers-reduced-motion: reduce) {
   .footer-buttons a, .footer-column a {
     transition: none;
@@ -1170,8 +1146,7 @@ button, input, textarea {
 }
 /* Hide previews on narrow screens and touch devices */
 @media (max-width: 1199px), (hover: none), (pointer: coarse) {
-  .cursor-preview,
-  #menuImageLayer {
+  .cursor-preview, #menuImageLayer {
     display: none !important;
   }
 }
