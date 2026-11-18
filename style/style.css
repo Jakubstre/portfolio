@@ -401,6 +401,7 @@ body.menu-open {
   text-decoration: none;
   color: blue;
   transition: box-shadow .3s ease, transform .3s ease;
+		  transition: .3s ease;
 }
 .work-card img {
   display: block;
@@ -412,7 +413,7 @@ body.menu-open {
 }
 .work-card:hover {
   opacity: .8;
-  transition: .3s;
+		  transition: .3s ease;
 }
 .work-info span {
   display: block;
@@ -597,9 +598,9 @@ body.menu-open {
 nav {
   position: fixed;
   top: 0;
-  left: 2%;
+  left: 2.5%;
 	margin: 0 auto;
-  width: 96%;
+  width: 95%;
   z-index: 3000;
   padding: 30px;
 	border-radius: 0px 0px 20px 20px;
@@ -2157,19 +2158,12 @@ hr {
   background: blue;
 }
 .collaborations {
-  margin-top: 10%;
-	margin-bottom: 7%;
+
   width: 100%;
-  padding: 75px 5% 85px;
-  text-align: center;
+	padding-top: 10%;
+	padding-bottom: 10%;
+ margin: 0 auto;
   background-color: #fff;
-}
-.collaborations h2 {
-  font-size: 16px;
-  font-weight: 600;
-  color: blue;
-  opacity: .8;
-  margin-bottom: 55px;
 }
 .collaborations-logos {
   max-width: 1080px;
@@ -2178,7 +2172,7 @@ hr {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  column-gap: 55px;
+  column-gap: 100px;
   row-gap: 35px;
 }
 .collaboration-logo {
@@ -2197,11 +2191,14 @@ hr {
   object-fit: contain;
   filter: grayscale(100%);
   opacity: 0.65;
-  transition: opacity 0.25s ease, filter 0.25s ease;
+
+		transition: .3s ease;
 }
 .collaboration-logo:hover img {
   filter: grayscale(0%);
   opacity: 1;
+	transform: scale(1.1);
+
 }
 
 .site-footer {
@@ -2297,7 +2294,8 @@ margin: 0 auto;
   display: block;
   width: 100%;
   overflow: hidden;
-  color: #FFFFFF;
+  color: white;
+	opacity: .1;
   font-size: clamp(150px, 25vw, 390px);
   font-weight: 900;
   line-height: .72;
