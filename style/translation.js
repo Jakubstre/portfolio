@@ -59,7 +59,7 @@ const translations = {
     theatreCompositionAW: "THEATRE COMPOSITIONS",
     graphicDesignAW: "GRAPHIC DESIGN",
 
-    milestoneAdults: "I composed the original music for the theatre production Adults Are Definitely Very Weird, a stage production that received second place at the regional round of the Vajanského Martin theatre competition.",
+    milestoneAdults: "I composed the original music for the theatre production Adults Are Definitely Very Weird, a stage production that received third place at the national round of the 72nd Hviezdoslavov Kubín competition.",
 
     milestoneSomSaso: "A graduation project written and designed around the paradox of the sad clown. The book explores the history of theatre and clowning, from traditional theatrical practices to contemporary initiatives such as Red Noses International. Developed in two formats: a square edition and a half-A5 edition.",
 
@@ -193,7 +193,7 @@ const translations = {
     theatreCompositionAW: "DIVADELNÁ TVORBA",
     graphicDesignAW: "GRAFICKÝ DIZAJN",
 
-    milestoneAdults: "Zložil som pôvodnú hudbu k divadelnej inscenácii Adults Are Definitely Very Weird, ktorá získala druhé miesto v krajskom kole divadelnej súťaže Vajanského Martin.",
+    milestoneAdults: "Zložil som pôvodnú hudbu k divadelnej inscenácii Adults Are Definitely Very Weird, ktorá získala tretie miesto v celoštátnom kole 72. ročníka Hviezdoslavov Kubín.",
 
     visualIdentity: "Vizuálna Identita",
     milestoneSomSaso: "Maturitný projekt, ktorého textová a vizuálna stránka vychádzajú z paradoxu smutného klauna. Kniha skúma históriu divadla a klaunstva. A to od tradičných divadelných postupov až po súčasné iniciatívy, ako je napríklad Red Noses International. Projekt je spracovaný v dvoch formátoch: štvorcovom a vo formáte polovičného A5.",

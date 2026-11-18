@@ -11,10 +11,12 @@ html {
   scroll-padding-top: 120px;
 }
 body {
-  width: 100%;
+  width: 96%;
+	margin: 0 auto;
   min-width: 0;
   overflow-x: clip;
 }
+
 img, video, iframe, svg {
   max-width: 100%;
 }
@@ -477,9 +479,33 @@ button, input, textarea {
     margin-bottom: 35px;
   }
 }
-/* =========================================================
-   MOBILE AND FOLDABLE PHONES — 600px
-========================================================= */
+
+@media (max-width: 768px) {
+    .footer-big-type {
+        margin-top: 30px;
+        line-height: 0.8;
+        letter-spacing: -0.075em;
+    }
+	 .collaborations {
+    padding: 60px 6% 65px;
+  }
+  .collaborations h2 {
+    margin-bottom: 40px;
+  }
+  .collaborations-logos {
+    column-gap: 35px;
+    row-gap: 30px;
+  }
+  .collaboration-logo {
+    max-width: 125px;
+    height: 45px;
+  }
+  .collaboration-logo img {
+    max-width: 120px;
+    max-height: 35px;
+  }
+}
+
 @media (max-width: 600px) {
   html {
     scroll-padding-top: 90px;
@@ -867,12 +893,27 @@ button, input, textarea {
     width: 100%;
   }
 }
+
+@media (max-width: 480px) {
+  .collaborations-logos {
+    column-gap: 25px;
+    row-gap: 25px;
+  }
+  .collaboration-logo {
+    max-width: 105px;
+  }
+  .collaboration-logo img {
+    max-width: 100px;
+    max-height: 32px;
+  }
+}
+
 /* =========================================================
    SMALL PHONES — 400px
 ========================================================= */
 @media (max-width: 400px) {
   .sheet {
-    padding: 16px;
+    padding: 16px 16px 0;
   }
   nav {
     padding: 17px;
@@ -1039,6 +1080,70 @@ button, input, textarea {
   }
   .work-hero {
     height: 230px;
+  }
+}
+
+/* =========================================
+   FOOTER RESPONSIVE
+========================================= */
+@media (max-width: 1000px) {
+  .footer-top {
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 50px 30px;
+  }
+  .footer-contact {
+    grid-column: 1 / -1;
+    margin-bottom: 20px;
+  }
+  .footer-big-type {
+    font-size: 21vw;
+  }
+}
+@media (max-width: 600px) {
+  .site-footer {
+    padding-top: 50px;
+	  border-radius: 50px 50px 0 0 	;
+  }
+  .footer-top {
+    grid-template-columns: 1fr 1fr;
+    gap: 45px 20px;
+    padding: 0 22px 90px;
+  }
+  .footer-contact {
+    grid-column: 1 / -1;
+    margin-bottom: 15px;
+  }
+  .footer-contact h2 {
+    font-size: clamp(45px, 11vw, 65px);
+    letter-spacing: -3px;
+    margin-bottom: 30px;
+  }
+  .footer-column h3 {
+    font-size: 11px;
+    margin-bottom: 15px;
+  }
+  .footer-column a {
+    font-size: 11px;
+  }
+  .footer-big-type {
+    font-size: 21vw;
+    letter-spacing: -.08em;
+    line-height: .8;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 22px;
+    font-size: 10px;
+  }
+}
+
+
+
+@media (prefers-reduced-motion: reduce) {
+  .footer-buttons a, .footer-column a {
+    transition: none;
   }
 }
 /* =========================================================
