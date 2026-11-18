@@ -238,7 +238,6 @@ button, input, textarea {
    TABLETS — 800px
 ========================================================= */
 @media (max-width: 800px) {
-
   .sheet {
     padding: 25px;
   }
@@ -463,11 +462,6 @@ button, input, textarea {
   }
 }
 @media (max-width: 768px) {
-  .footer-big-type {
-    margin-top: 30px;
-    line-height: 0.8;
-    letter-spacing: -0.075em;
-  }
   .collaborations {
     padding: 60px 20px 60px;
   }
@@ -491,16 +485,9 @@ button, input, textarea {
   html {
     scroll-padding-top: 90px;
   }
-	
-
-
-
-
-	
   .sheet {
     padding: 20px;
   }
-
   .left img {
     width: 20px;
     height: auto;
@@ -896,7 +883,7 @@ button, input, textarea {
   .sheet {
     padding: 16px 16px 0;
   }
-   {
+    {
     padding: 17px;
   }
   .hero {
@@ -982,7 +969,7 @@ button, input, textarea {
   .sheet {
     padding: 12px;
   }
-   {
+    {
     padding: 14px;
   }
   .left img {
@@ -1033,7 +1020,7 @@ button, input, textarea {
    LANDSCAPE PHONES
 ========================================================= */
 @media (max-height: 500px) and (orientation: landscape) {
-   {
+    {
     padding: 12px 25px;
   }
   .hero {
@@ -1099,28 +1086,18 @@ button, input, textarea {
     margin-bottom: 30px;
   }
   .footer-column h3 {
-    font-size: 11px;
+    font-size: 14px;
     margin-bottom: 15px;
   }
   .footer-column a {
-    font-size: 11px;
+    font-size: 14px;
   }
   .footer-big-type {
     font-size: 21vw;
     letter-spacing: -.08em;
     line-height: .8;
   }
-  .footer-bottom {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
-    padding: 22px;
-    font-size: 10px;
-  }
 }
-
-
-
 @media (prefers-reduced-motion: reduce) {
   .footer-buttons a, .footer-column a {
     transition: none;

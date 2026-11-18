@@ -602,7 +602,7 @@ nav {
     left: 50%;
     transform: translateX(-50%);
 
-    width: min(500px, calc(90vw - 48px));
+    width: min(500px, calc(100vw - 48px));
     z-index: 3000;
 
     padding: 13px 22px;
@@ -2260,7 +2260,7 @@ hr {
   gap: 10px;
 }
 .footer-buttons img {
-  width: 25px;
+  width: 20px;
   margin-right: 10px;
 }
 .footer-buttons a {
@@ -2269,23 +2269,15 @@ hr {
   justify-content: center;
   min-height: 42px;
   padding: 5px 18px;
-  border-radius: 10px;
+  border-radius: 75px;
   font-size: 14px;
   font-weight: 600;
   text-decoration: none;
   transition: .3s ease;
 }
-.rights {
-  opacity: 8;
-  margin-top: 3%;
-}
 .footer-hello {
   background-color: #FFFFFF;
   color: blue;
-}
-.footer-hello:hover {
-  background-color: #E4EAF2;
-  transform: translateY(-2px);
 }
 .footer-column {
   display: flex;
@@ -2293,6 +2285,7 @@ hr {
   align-items: flex-start;
   gap: 9px;
   padding-top: 8px;
+	
 }
 .footer-column h3 {
   font-size: 14px;
