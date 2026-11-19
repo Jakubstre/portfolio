@@ -431,16 +431,11 @@ const resumeTranslations = {
 };
 
 
-// Add resume translations to the existing Slovak dictionary
+
 Object.assign(translations.sk, resumeTranslations);
 
 
-// ========================================
-// APPLY LANGUAGE
-// ========================================
 
-// Store the original HTML of each translatable element.
-// This allows the page to return to its original English content.
 
 const originalI18nContent = new WeakMap();
 
@@ -525,6 +520,37 @@ if (languageToggle) {
   localStorage.setItem("portfolioLanguage", language);
 
 }
+
+
+// ========================================
+// LANGUAGE FLAG ANIMATION
+// ========================================
+
+function showLanguageFlag(language) {
+
+  const languageToggle = document.getElementById("languageToggle");
+
+  if (!languageToggle) return;
+
+  const rect = languageToggle.getBoundingClientRect();
+
+  const flag = document.createElement("span");
+
+  flag.className = "language-flag-animation";
+  flag.textContent = language === "sk" ? "🇸🇰" : "🇬🇧";
+  flag.setAttribute("aria-hidden", "true");
+
+  flag.style.left = `${rect.left + rect.width / 2}px`;
+  flag.style.top = `${rect.top + rect.height / 2}px`;
+
+  document.body.appendChild(flag);
+
+  flag.addEventListener("animationend", () => {
+    flag.remove();
+  }, { once: true });
+
+}
+
 // ========================================
 // LANGUAGE TOGGLE EVENT
 // ========================================
@@ -541,9 +567,11 @@ if (languageToggle) {
 
     setLanguage(newLanguage);
 
-    if (newLanguage === "sk" && typeof showTranslationNotice === "function") {
-      showTranslationNotice();
-    }
+showLanguageFlag(newLanguage);
+
+if (newLanguage === "sk" && typeof showTranslationNotice === "function") {
+  showTranslationNotice();
+}
 
   });
 

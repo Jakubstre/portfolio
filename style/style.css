@@ -676,6 +676,41 @@ body.menu-open {
   width: 25px;
   height: 25px;
 }
+
+.language-flag-animation {
+  position: fixed;
+  z-index: 99999;
+  pointer-events: none;
+
+  font-size: 27px;
+  line-height: 1;
+
+  transform-origin: center;
+  animation: flagFall 2s cubic-bezier(.22, .61, .36, 1) forwards;
+
+  will-change: transform, opacity;
+}
+
+@keyframes flagFall {
+
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  12% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(3),;
+  }
+
+  
+
+  100% {
+    opacity: 0;
+    transform: translate(-25%, 115px) scale(0.8);
+  }
+
+}
 .left {
   display: flex;
   align-items: center;
@@ -872,6 +907,10 @@ body.menu-open .arrow {
 .footer-left p, .footer-middle p, .footer-right p {
   margin: 0;
 }
+.footer-middle p {
+	display: none;
+}
+
 .footer-right {
   align-items: flex-end;
   text-align: right;
