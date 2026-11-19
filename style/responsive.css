@@ -570,7 +570,7 @@ button, input, textarea {
   }
   
   .search-overlay .quick-links p, .search-overlay .quick-links a, .search-result {
-    font-size: clamp(19px, 5vw, 25px) !important;
+    font-size: 14px !important;
   }
   .search-box {
     width: min(325px, 100%);
@@ -1129,6 +1129,7 @@ button, input, textarea {
   .menu-overlay {
     padding-left: 21px;
     padding-right: 21px;
+	  height: 100%;
   }
 }
 
