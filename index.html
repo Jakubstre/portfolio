@@ -131,10 +131,16 @@
       <div class="top">
         <div class="left"> <a href="index.html"> <img src="images/Logo/JH-LOGO.png" alt="Jakub Hudaček - Logo"> </a> </div>
         <div class="right">
-          <div class="language-switch" aria-label="Choose language">
-            <button class="language-option active" data-lang="en">EN</button>
-            <button class="language-option" data-lang="sk">SK</button>
-          </div>
+      <div class="language-switch">
+  <button class="language-toggle" id="languageToggle" aria-label="Switch language">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <circle cx="12" cy="12" r="9.5"/>
+      <path d="M2.5 12h19"/>
+      <path d="M12 2.5c2.5 2.6 3.7 5.8 3.7 9.5s-1.2 6.9-3.7 9.5"/>
+      <path d="M12 2.5c-2.5 2.6-3.7 5.8-3.7 9.5s1.2 6.9 3.7 9.5"/>
+    </svg>
+  </button>
+</div>
           <button class="search-icon desktop-search-btn" id="openSearchDesktop">
           <svg width="28" height="28" viewBox="0 0 20 20" fill="none">
             <circle cx="11" cy="11" r="7" stroke="blue" stroke-width="2"/>
@@ -157,10 +163,10 @@
             <span data-i18n="heroDesigner">Designer</span> </h1>
         </div>
         <div class="hero-tags"> <a href="design.html"
-     data-preview="images/Legend/Menu/Untitled-2_0001_Layer-9.png"> <span data-i18n="graphicDesign">* Graphic Design</span> </a> <a href="theatre-compositions.html"
-     data-preview="images/Legend/Menu/Untitled-2_0006_Layer-6.png"> <span data-i18n="theatreCompositions">* Theatre Compositions</span> </a> <a href="https://midheavenband.github.io"
-     data-preview="images/Legend/Menu/Untitled-2_0007_Layer-7.png"> <span data-i18n="alternativeMusic">* Alternative Music</span> </a> <a href="event-promotion.html"
-     data-preview="images/Legend/Menu/Untitled-2_0005_Layer-5.png"> <span data-i18n="eventPromotion">* Event Promotion</span> </a> </div>
+     data-preview="images/Legend/Menu/Untitled-2_0001_Layer-9.png"> <span data-i18n="graphicDesignIndex">* Graphic Design</span> </a> <a href="theatre-compositions.html"
+     data-preview="images/Legend/Menu/Untitled-2_0006_Layer-6.png"> <span data-i18n="theatreCompositionsIndex">* Theatre Compositions</span> </a> <a href="https://midheavenband.github.io"
+     data-preview="images/Legend/Menu/Untitled-2_0007_Layer-7.png"> <span data-i18n="alternativeMusicIndex">* Alternative Music</span> </a> <a href="event-promotion.html"
+     data-preview="images/Legend/Menu/Untitled-2_0005_Layer-5.png"> <span data-i18n="eventPromotionIndex">* Event Promotion</span> </a> </div>
         <div class="cursor-preview" id="cursorPreview"> <img src="#" alt="Project preview"> </div>
       </div>
       <div class="hero-right"> <img
@@ -289,30 +295,25 @@
       </div>
       <div class="milestones-grid">
         <article class="milestone-card">
-        
           <div class="card-icon">✦</div>
           <h3>Chudacźek</h3>
           <p data-i18n="milestoneChudaczek"> Composed the original music for Chudacźek, a theatre production written and performed by Katarína Hudačková. The work extended beyond composition to live audio engineering and the creation of venue-specific sound designs, adapting the production's sonic environment to each performance space. The production was presented at multiple festivals, including Kremnické Gagy 2025, and received press coverage through an interview with Katarína Hudačková published by Denník N.</p>
         </article>
-		         <article class="milestone-card">
-      
+        <article class="milestone-card">
           <div class="card-icon">✦</div>
           <h3 data-i18n="somSaso">Som Šašo a som len na smiech?</h3>
           <p data-i18n="milestoneSomSaso"> A graduation project written and designed around the paradox of the sad clown. The book explores the history of theatre and clowning, from traditional theatrical practices to contemporary initiatives such as Red Noses International. Developed in two formats: a square edition and a half-A5 edition. </p>
         </article>
         <article class="milestone-card">
-       
           <div class="card-icon">✦</div>
           <h3>Adults Are Definitely Very Weird</h3>
           <p data-i18n="milestoneAdults"> My original theatrical score was composed for Adults Are Definitely Very Weird, a stage production that received second place at the regional round of the Vajanského Martin theatre competition.</p>
         </article>
         <article class="milestone-card">
-         
           <div class="card-icon">✦</div>
           <h3>Not That Far Away</h3>
           <p data-i18n="milestoneAlbum"> Midheaven's album Not That Far Away caught the attention of Radio Rapes, leading to an invitation for an interview and a feature discussing the album and the band's music. </p>
         </article>
- 
       </div>
     </section>
     <hr>
@@ -361,59 +362,25 @@
       </div>
     </section>
     <footer class="site-footer reveal">
-  <div class="footer-top">
-
-    <div class="footer-contact">
-      <h2 data-i18n="footerHeading">* Wanna Work<br>
-        Together?</h2>
-
-      <p data-i18n="collaborationText">I'm available for commissions and collaborations across theatre composition, music production, graphic design, branding, websites, and promotional campaigns. Whether you're starting with a rough idea or a finished concept, I'd be glad to discuss how I can contribute to your project.</p>
-
-      <div class="footer-buttons">
-        <a href="mailto:hudacekjakub04@gmail.com" class="footer-hello">
-          <img src="images/Software/Jt3oS7gRvTk8QUA3V7uPyCRpJeE.webp.png" alt="E-mail Icon">
-          <span data-i18n="sendEmail">Send me an e-mail</span>
-        </a>
-
-        <a href="tel:+421940791709" class="footer-hello">
-          <img src="images/Software/493154.webp.png" alt="Phone - Icon">
-          <span data-i18n="giveCall">Give me a call</span>
-        </a>
+      <div class="footer-top">
+        <div class="footer-contact">
+          <h2 data-i18n="footerHeading">* Wanna Work<br>
+            Together?</h2>
+          <p data-i18n="collaborationText">I'm available for commissions and collaborations across theatre composition, music production, graphic design, branding, websites, and promotional campaigns. Whether you're starting with a rough idea or a finished concept, I'd be glad to discuss how I can contribute to your project.</p>
+          <div class="footer-buttons"> <a href="mailto:hudacekjakub04@gmail.com" class="footer-hello"> <img src="images/Software/Jt3oS7gRvTk8QUA3V7uPyCRpJeE.webp.png" alt="E-mail Icon"> <span data-i18n="sendEmail">Send me an e-mail</span> </a> <a href="tel:+421940791709" class="footer-hello"> <img src="images/Software/493154.webp.png" alt="Phone - Icon"> <span data-i18n="giveCall">Give me a call</span> </a> </div>
+        </div>
+        <div class="footer-column">
+          <h3 data-i18n="footerDisciplines">* Disciplines</h3>
+          <a href="theatre-compositions.html" data-i18n="theatreCompositions">Theatre Compositions</a> <a href="https://midheavenband.github.io" data-i18n="independentMusic">Independent Music</a> <a href="design.html" data-i18n="graphicDesign">Graphic Design</a> <a href="event-promotion.html" data-i18n="eventPromotion">Event Promotion</a> </div>
+        <div class="footer-column">
+          <h3 data-i18n="footerExplore">* Explore</h3>
+          <a href="aboutme.html" data-i18n="aboutMe">About Me</a> <a href="resume.html" data-i18n="resume">Resume</a> <a href="full-discography.html" data-i18n="discography">Discography</a> <a href="featured-work/ep-na-skle-malovane.html">Na Skle Maľované</a> <a href="featured-work/ep-gd-ssft.html">Samsung Solve for Tomorrow</a> <a href="featured-work/tc-adults-are-definitely-very-weird.html">Adults Are Definitely Very Weird</a> </div>
+        <div class="footer-column">
+          <h3 data-i18n="footerSocials">* Socials</h3>
+          <a href="https://linktr.ee/jacoobhud" target="_blank" rel="noopener noreferrer">Linktree</a> <a href="https://www.instagram.com/_jacoobh_/" target="_blank" rel="noopener noreferrer">Instagram</a> <a href="https://www.facebook.com/jakub.hudacek.3" target="_blank" rel="noopener noreferrer">Facebook</a> <a href="https://www.linkedin.com/in/jakub-hudaček-288231382/" target="_blank" rel="noopener noreferrer">LinkedIn</a> <a href="https://open.spotify.com/artist/4lZSjm81pZbAOygKIvVibA?si=4mbcJWpmSeuK-UDr6bBAJw" target="_blank" rel="noopener noreferrer">Spotify</a> <a href="https://www.youtube.com/@jakubhudacek04" target="_blank" rel="noopener noreferrer">YouTube</a> </div>
       </div>
-    </div>
-
-    <div class="footer-column">
-      <h3 data-i18n="footerDisciplines">* Disciplines</h3>
-      <a href="theatre-compositions.html" data-i18n="theatreCompositions">Theatre Compositions</a>
-      <a href="https://midheavenband.github.io" data-i18n="independentMusic">Independent Music</a>
-      <a href="design.html" data-i18n="graphicDesign">Graphic Design</a>
-      <a href="event-promotion.html" data-i18n="eventPromotion">Event Promotion</a>
-    </div>
-
-    <div class="footer-column">
-      <h3 data-i18n="footerExplore">* Explore</h3>
-      <a href="aboutme.html" data-i18n="aboutMe">About Me</a>
-      <a href="resume.html" data-i18n="resume">Resume</a>
-      <a href="full-discography.html" data-i18n="discography">Discography</a>
-      <a href="featured-work/ep-na-skle-malovane.html">Na Skle Maľované</a>
-      <a href="featured-work/ep-gd-ssft.html">Samsung Solve for Tomorrow</a>
-      <a href="featured-work/tc-adults-are-definitely-very-weird.html">Adults Are Definitely Very Weird</a>
-    </div>
-
-    <div class="footer-column">
-      <h3 data-i18n="footerSocials">* Socials</h3>
-      <a href="https://linktr.ee/jacoobhud" target="_blank" rel="noopener noreferrer">Linktree</a>
-      <a href="https://www.instagram.com/_jacoobh_/" target="_blank" rel="noopener noreferrer">Instagram</a>
-      <a href="https://www.facebook.com/jakub.hudacek.3" target="_blank" rel="noopener noreferrer">Facebook</a>
-      <a href="https://www.linkedin.com/in/jakub-hudaček-288231382/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-      <a href="https://open.spotify.com/artist/4lZSjm81pZbAOygKIvVibA?si=4mbcJWpmSeuK-UDr6bBAJw" target="_blank" rel="noopener noreferrer">Spotify</a>
-      <a href="https://www.youtube.com/@jakubhudacek04" target="_blank" rel="noopener noreferrer">YouTube</a>
-    </div>
-
-  </div>
-
-  <div class="footer-big-type">JH©2026</div>
-</footer>
+      <div class="footer-big-type">JH©2026</div>
+    </footer>
   </div>
 </div>
 <div class="menu-overlay" id="menu">

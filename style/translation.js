@@ -6,6 +6,12 @@ const translations = {
     heroMusician: "Musician",
     heroComposer: "Composer",
     heroDesigner: "Designer",
+	  
+	  
+	  	  graphicDesignIndex: "* Graphic Design",
+	  theatreCompositionsIndex : "* Theatre Compositions",
+	  alternativeMusicIndex : "* Alternative Music",
+	  eventPromotionIndex: "* Event Promotion",
 
     graphicDesign: "* Graphic Design",
     theatreCompositions: "* Theatre Compositions",
@@ -157,6 +163,11 @@ discography: "Discography"
     heroComposer: "Skladateľ",
     heroDesigner: "Grafik",
 
+	  
+	  graphicDesignIndex: "* Grafický Dizajn",
+	  theatreCompositionsIndex : "* Divadelná Tvorba",
+	  alternativeMusicIndex : "* Alternatívna Hudba",
+	  eventPromotionIndex: "* Eventové Promo",
 
     graphicDesign: "* Grafický Dizajn",
     theatreCompositions: "* Divadelná Tvorba",
@@ -488,15 +499,22 @@ function setLanguage(language) {
   });
 
 
-  // Update active language button
-  document.querySelectorAll(".language-option").forEach(button => {
+  // Update language toggle
+const languageToggle = document.getElementById("languageToggle");
 
-    button.classList.toggle(
-      "active",
-      button.dataset.lang === language
-    );
+if (languageToggle) {
+  languageToggle.setAttribute(
+    "aria-label",
+    language === "en" ? "Switch to Slovak" : "Switch to English"
+  );
 
-  });
+  languageToggle.setAttribute(
+    "title",
+    language === "en" ? "Slovenčina" : "English"
+  );
+
+  languageToggle.dataset.lang = language;
+}
 
 
   // Update document language
@@ -507,27 +525,29 @@ function setLanguage(language) {
   localStorage.setItem("portfolioLanguage", language);
 
 }
-
-
 // ========================================
-// LANGUAGE BUTTON EVENTS
+// LANGUAGE TOGGLE EVENT
 // ========================================
 
-document.querySelectorAll(".language-option").forEach(button => {
+const languageToggle = document.getElementById("languageToggle");
 
-  button.addEventListener("click", () => {
+if (languageToggle) {
 
-    const language = button.dataset.lang;
+  languageToggle.addEventListener("click", () => {
 
-    setLanguage(language);
+    const currentLanguage = document.documentElement.lang || "en";
 
-    if (language === "sk" && typeof showTranslationNotice === "function") {
+    const newLanguage = currentLanguage === "en" ? "sk" : "en";
+
+    setLanguage(newLanguage);
+
+    if (newLanguage === "sk" && typeof showTranslationNotice === "function") {
       showTranslationNotice();
     }
 
   });
 
-});
+}
 
 
 // ========================================
