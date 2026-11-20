@@ -66,7 +66,7 @@ const translations = {
     theatreCompositionAW: "THEATRE COMPOSITIONS",
     graphicDesignAW: "GRAPHIC DESIGN",
 
-    milestoneAdults: "I composed the original music for the theatre production Adults Are Definitely Very Weird. The production received second place at the regional round of Vajanského Martin.",
+    milestoneAdults: "I composed the original music for the theatre production Adults Are Definitely Very Weird. The production received second place at the national round of 72nd Hviezdoslavov Kubín.",
 
     milestoneSomSaso: "A graduation project written and designed around the paradox of the sad clown. The book explores the history of theatre and clowning, from traditional theatrical practices to contemporary initiatives such as Red Noses International. Developed in two formats: a square edition and a half-A5 edition.",
 
@@ -213,7 +213,7 @@ const translations = {
     theatreCompositionAW: "DIVADELNÁ TVORBA",
     graphicDesignAW: "GRAFICKÝ DIZAJN",
 
-    milestoneAdults: "Zložil som pôvodnú hudbu k divadelnej inscenácii Adults Are Definitely Very Weird. Inscenácia získala druhé miesto v regionálnom kole súťaže Vajanského Martin.",
+    milestoneAdults: "Zložil som pôvodnú hudbu k divadelnej inscenácii Adults Are Definitely Very Weird. Inscenácia získala druhé miesto v celoštátnom kole súťaže 72. ročníku Hviezdoslavov Kubín.",
 
     visualIdentity: "Vizuálna Identita",
 
@@ -306,7 +306,6 @@ const resumeTranslations = {
   resumeHeadline: "Grafický dizajnér · Digitálny dizajn · Vizuálna identita",
   resumeSummary: "Grafický dizajnér so skúsenosťami od roku 2018 v oblasti vizuálnych identít, digitálnej a tlačenej komunikácie, webdizajnu a kreatívnej produkcie. Dizajnérsky prístup prepája s praktickými skúsenosťami v hudbe, divadle, propagácii podujatí a audiovizuálnej tvorbe.",
   resumeLocation: "Žilina a Poprad, Slovensko",
-  resumeLinkedIn: "Profil na LinkedIn",
 
   resumeExperience: "SKÚSENOSTI",
   resumeYears: "Od roku 2018",
