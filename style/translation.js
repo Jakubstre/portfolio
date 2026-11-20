@@ -1,5 +1,8 @@
-const translations = {
+// ========================================
+// TRANSLATIONS
+// ========================================
 
+const translations = {
   en: {
     openToWork: "Open to Work",
 
@@ -7,16 +10,15 @@ const translations = {
     heroComposer: "Composer",
     heroDesigner: "Designer",
 
-
     graphicDesignIndex: "* Graphic Design",
     theatreCompositionsIndex: "* Theatre Compositions",
     alternativeMusicIndex: "* Alternative Music",
     eventPromotionIndex: "* Event Promotion",
 
-    graphicDesign: "* Graphic Design",
-    theatreCompositions: "* Theatre Compositions",
-    alternativeMusic: "* Alternative Music",
-    eventPromotion: "* Event Promotion",
+    graphicDesign: "Graphic Design",
+    theatreCompositions: "Theatre Compositions",
+    alternativeMusic: "Alternative Music",
+    eventPromotion: "Event Promotion",
 
     heroDescription: "is a Slovak musician, composer, sound engineer, producer and graphic designer creating independent music, original theatre compositions, sound design, visual identities, websites and promotional work.",
 
@@ -34,7 +36,6 @@ const translations = {
     naSKleTags: "[Event Promotion] · [Social Media Management] · [Campaign Development] · [Graphic Design]",
     naSkleP: "A local promotional campaign developed for the musical production Na Skle Maľované, produced by Ján Ďurovčík.",
 
-
     featuredWorkTitle: "* Featured Work",
     featuredWorkDescription: "→ Selected projects showcasing some of my most recent and favourite creative work across music, design, and visual media.",
 
@@ -44,7 +45,6 @@ const translations = {
     birthdayInvitation: "* Animated Birthday Invitation",
     birthdayInvitationTags: "[Graphic Design] · [Motion Graphics] · [Event Promotion]",
     birthdayP: "An original animated invitation produced for a 50th birthday celebration, combining motion graphics, video editing and custom-composed music.",
-
 
     personalPortfolio: "* Personal Portfolio",
     personalPortfolioTags: "[Web Design] · [Front-end Development] · [SEO]",
@@ -65,7 +65,7 @@ const translations = {
     theatreCompositionAW: "THEATRE COMPOSITIONS",
     graphicDesignAW: "GRAPHIC DESIGN",
 
-    milestoneAdults: "I composed the original music for the theatre production Adults Are Definitely Very Weird, a stage production that received third place at the national round of the 72nd Hviezdoslavov Kubín competition.",
+    milestoneAdults: "I composed the original music for the theatre production Adults Are Definitely Very Weird. The production received second place at the regional round of Vajanského Martin.",
 
     milestoneSomSaso: "A graduation project written and designed around the paradox of the sad clown. The book explores the history of theatre and clowning, from traditional theatrical practices to contemporary initiatives such as Red Noses International. Developed in two formats: a square edition and a half-A5 edition.",
 
@@ -79,7 +79,6 @@ const translations = {
     Advanced: "Advanced",
     Intermediate: "Intermediate",
 
-
     graphicDesignSkill: "Graphic Design",
     musicComposition: "Music Composition",
     audioProduction: "Audio Production",
@@ -88,10 +87,8 @@ const translations = {
     projectDevelopment: "Project Development",
     communication: "Communication",
 
-
     referenceTitle: "* References",
     referenceSubTitle: "→ A selection of some of the kind words from people I've worked with.",
-
 
     referenceSpan01: "Program Manager at digiPeers",
     referenceText01: "!",
@@ -99,10 +96,8 @@ const translations = {
     referenceSpan02: "Actress & Clown Doctor at the Red Noses",
     referenceText02: "Jakub is a self-taught professional across almost all artistic disciplines. Music, singing, painting, drawing, and writing; only in acting does he fall a bit short. He is reliable and adept at handling technical requirements, whether for the sound setup of a theatrical performance or his own concerts.",
 
-
     referenceSpan03: "Website Administrator at digiPeers",
     referenceText03: "!",
-
 
     collaborationLabel: "→ Collaboration",
     collaborationTitle: "Looking to get in touch for collaborations in music, design, or anything in between?",
@@ -143,34 +138,32 @@ const translations = {
     footerDisciplines: "* Disciplines",
     footerExplore: "* Explore",
     footerSocials: "* Socials",
-    theatreCompositions: "Theatre Compositions",
-    independentMusic: "Independent Music",
-    graphicDesign: "Graphic Design",
-    eventPromotion: "Event Promotion",
+
+    footerTheatreCompositions: "Theatre Compositions",
+    footerIndependentMusic: "Independent Music",
+    footerGraphicDesign: "Graphic Design",
+    footerEventPromotion: "Event Promotion",
     aboutMe: "About Me",
     resume: "Resume",
     discography: "Discography"
-
-
   },
 
-
   sk: {
+    openToWork: "Otvorený spolupráci",
 
     heroMusician: "Hudobník",
     heroComposer: "Skladateľ",
     heroDesigner: "Grafik",
-
 
     graphicDesignIndex: "* Grafický Dizajn",
     theatreCompositionsIndex: "* Divadelná Tvorba",
     alternativeMusicIndex: "* Alternatívna Hudba",
     eventPromotionIndex: "* Eventové Promo",
 
-    graphicDesign: "* Grafický Dizajn",
-    theatreCompositions: "* Divadelná Tvorba",
-    alternativeMusic: "* Alternatívna Hudba",
-    eventPromotion: "* Eventové Promo",
+    graphicDesign: "Grafický Dizajn",
+    theatreCompositions: "Divadelná Tvorba",
+    alternativeMusic: "Alternatívna Hudba",
+    eventPromotion: "Eventové Promo",
 
     heroDescription: "je slovenský hudobník, skladateľ, zvukový technik, producent a grafický dizajnér. Venuje sa nezávislej hudbe, autorskej divadelnej tvorbe, zvukovému dizajnu, vizuálnym identitám, webovým stránkam a propagačným projektom.",
 
@@ -185,8 +178,8 @@ const translations = {
     newestWorkTitle: "* Najnovšia tvorba",
     newestWorkDescription: "→ Vybraný projekt „Na skle maľované“ je oficiálna propagačná kampaň, na ktorej momentálne pracujem pre pripravovanú muzikálovú inscenáciu.",
 
-    naSkleTags: "[Eventové Promo] · [Správa Sociálnych Sietí] · [Tvorba Kampane] · [Grafický Dizajn]",
-    naSkleP: "Lokálna propagačná kampaň vyvinutá pre muzikálovú inscenáciu Na Skle Maľované v produkcii Jána Ďurovčíka",
+    naSKleTags: "[Eventové Promo] · [Správa Sociálnych Sietí] · [Tvorba Kampane] · [Grafický Dizajn]",
+    naSkleP: "Lokálna propagačná kampaň vyvinutá pre muzikálovú inscenáciu Na skle maľované v produkcii Jána Ďurovčíka.",
 
     featuredWorkTitle: "* Vybraná tvorba",
     featuredWorkDescription: "→ Výber projektov, ktoré predstavujú moju najnovšiu a najobľúbenejšiu tvorbu v oblasti hudby, dizajnu a vizuálnych médií.",
@@ -194,15 +187,13 @@ const translations = {
     samsungTags: "[Event Fotografie] · [Foto Editing] · [Grafický Dizajn]",
     samsungP: "Fotografovanie podujatia, výber záberov a postprodukcia pre projekt Samsung Solve for Tomorrow, vrátane prípravy finálnych fotografií na odovzdanie klientovi.",
 
-
     birthdayInvitation: "* Animovaná Narodeninová Pozvánka",
     birthdayInvitationTags: "[Grafický Dizajn] · [Motion Grafika] · [Eventové Promo]",
     birthdayP: "Originálna animovaná pozvánka vytvorená na oslavu 50. narodenín, ktorá kombinuje motion grafiku, strih videa a hudbu zloženú na mieru.",
 
-
     personalPortfolio: "* Osobné Portfólio",
     personalPortfolioTags: "[Web Dizajn] · [Front-end Vývoj] · [SEO]",
-    personalPortfolioP: "Vlastnoručne navrhnuté a vytvorené portfólio, ktorá prezentuje moju tvorbu v oblastiach hudobnej kompozície, divadla, grafického dizajnu a digitálnych médií.",
+    personalPortfolioP: "Vlastnoručne navrhnuté a vytvorené portfólio, ktoré prezentuje moju tvorbu v oblastiach hudobnej kompozície, divadla, grafického dizajnu a digitálnych médií.",
 
     adultsAreWeirdTags: "[Divadelná Hudba] · [Zvuková Réžia] · [Grafický Dizajn]",
     adultsAreWeirdP: "Dve originálne orchestrálne skladby vytvorené pre oceňovanú divadelnú inscenáciu Adults Are Definitely Very Weird.",
@@ -219,9 +210,10 @@ const translations = {
     theatreCompositionAW: "DIVADELNÁ TVORBA",
     graphicDesignAW: "GRAFICKÝ DIZAJN",
 
-    milestoneAdults: "Zložil som pôvodnú hudbu k divadelnej inscenácii Adults Are Definitely Very Weird, ktorá získala tretie miesto v celoštátnom kole 72. ročníka Hviezdoslavov Kubín.",
+    milestoneAdults: "Zložil som pôvodnú hudbu k divadelnej inscenácii Adults Are Definitely Very Weird. Inscenácia získala druhé miesto v regionálnom kole súťaže Vajanského Martin.",
 
     visualIdentity: "Vizuálna Identita",
+
     milestoneSomSaso: "Maturitný projekt, ktorého textová a vizuálna stránka vychádzajú z paradoxu smutného klauna. Kniha skúma históriu divadla a klaunstva. A to od tradičných divadelných postupov až po súčasné iniciatívy, ako je napríklad Red Noses International. Projekt je spracovaný v dvoch formátoch: štvorcovom a vo formáte polovičného A5.",
 
     milestoneAlbum: "Album skupiny Midheaven s názvom Not That Far Away zaujal redakciu rádia Rapes, čo viedlo k pozvaniu na rozhovor a k vzniku relácie venovanej albumu a hudobnej tvorbe kapely.",
@@ -245,13 +237,11 @@ const translations = {
     referenceTitle: "* Referencie",
     referenceSubTitle: "→ Výber niekoľkých milých slov od ľudí, s ktorými som spolupracoval.",
 
-
     referenceSpan01: "Programový Manažér v digiPeers",
     referenceText01: "!",
 
-
     referenceSpan02: "Herečka & Klaunka v organizácii Červený Nos",
-    referenceText02: "Jakub je profesionálny samouk skoro vo všetkých umeleckých smeroch. Hudba, spev, maľba, kresba, písanie, iba v herectve trošku pokuľháva. Je spoľahlivý a obratný v požiadavkách počas zvučenia predstavenia aj svojich koncertov.",
+    referenceText02: "Jakub je profesionálny samouk skoro vo všetkých umeleckých smeroch. Hudba, spev, maľba, kresba, písanie, iba v herectve trošku pokrivkáva. Je spoľahlivý a obratný v požiadavkách počas zvučenia predstavenia aj svojich koncertov.",
 
     referenceSpan03: "Administrátor Webovej Stránky v digiPeers",
     referenceText03: "!",
@@ -295,15 +285,15 @@ const translations = {
     footerDisciplines: "* Disciplíny",
     footerExplore: "* Preskúmaj",
     footerSocials: "* Sociálne Siete",
-    theatreCompositions: "Divadelná Tvorba",
-    independentMusic: "Nezávislá Hudba",
-    graphicDesign: "Grafický Dizajn",
-    eventPromotion: "Eventové Promo",
+
+    footerTheatreCompositions: "Divadelná Tvorba",
+    footerIndependentMusic: "Nezávislá Hudba",
+    footerGraphicDesign: "Grafický Dizajn",
+    footerEventPromotion: "Eventové Promo",
     aboutMe: "O Mne",
     resume: "Resumé",
     discography: "Diskografia"
   }
-
 };
 
 
@@ -312,7 +302,6 @@ const translations = {
 // ========================================
 
 const resumeTranslations = {
-
   resumeKicker: "→ Resumé",
   resumeSummary: "Multidisciplinárny kreatívny profesionál pôsobiaci v oblasti hudobnej kompozície, zvukovej produkcie, grafického dizajnu, vizuálnej identity a divadelnej hudby.",
 
@@ -429,18 +418,21 @@ const resumeTranslations = {
 };
 
 
+// Add resume translations to the Slovak dictionary.
 Object.assign(translations.sk, resumeTranslations);
 
+
+// ========================================
+// LANGUAGE SWITCHING
+// ========================================
 
 const originalI18nContent = new WeakMap();
 
 function setLanguage(language) {
-
   if (!translations[language]) return;
 
-
+  // Translate text elements.
   document.querySelectorAll("[data-i18n]").forEach(element => {
-
     const key = element.getAttribute("data-i18n");
 
     if (!originalI18nContent.has(element)) {
@@ -450,41 +442,36 @@ function setLanguage(language) {
     const translation = translations[language][key];
 
     if (translation !== undefined) {
-
       element.textContent = translation;
-
     } else {
-
       element.innerHTML = originalI18nContent.get(element);
-
     }
-
   });
 
-
+  // Translate placeholders.
   document.querySelectorAll("[data-i18n-placeholder]").forEach(element => {
-
     const key = element.getAttribute("data-i18n-placeholder");
 
     if (!originalI18nContent.has(element)) {
-      originalI18nContent.set(element, element.getAttribute("placeholder") || "");
+      originalI18nContent.set(
+        element,
+        element.getAttribute("placeholder") || ""
+      );
     }
 
     const translation = translations[language][key];
 
     if (translation !== undefined) {
-
       element.setAttribute("placeholder", translation);
-
     } else {
-
-      element.setAttribute("placeholder", originalI18nContent.get(element));
-
+      element.setAttribute(
+        "placeholder",
+        originalI18nContent.get(element)
+      );
     }
-
   });
 
-
+  // Update language toggle accessibility labels.
   const languageToggle = document.getElementById("languageToggle");
 
   if (languageToggle) {
@@ -495,22 +482,29 @@ function setLanguage(language) {
 
     languageToggle.setAttribute(
       "title",
-      language === "en" ? "Sloven?iina" : "English"
+      language === "en" ? "Slovenčina" : "English"
     );
 
     languageToggle.dataset.lang = language;
   }
 
+  // Update document language.
   document.documentElement.lang = language;
 
-
-  localStorage.setItem("portfolioLanguage", language);
-
+  // Save language preference.
+  try {
+    localStorage.setItem("portfolioLanguage", language);
+  } catch (error) {
+    console.warn("Could not save language preference:", error);
+  }
 }
 
 
-function showLanguageFlag(language) {
+// ========================================
+// LANGUAGE FLAG ANIMATION
+// ========================================
 
+function showLanguageFlag(language) {
   const languageToggle = document.getElementById("languageToggle");
 
   if (!languageToggle) return;
@@ -520,7 +514,11 @@ function showLanguageFlag(language) {
   const flag = document.createElement("span");
 
   flag.className = "language-flag-animation";
-  flag.textContent = language === "sk" ? "🇸🇰" : "🇬🇧";
+
+  flag.textContent = language === "sk"
+    ? "\u{1F1F8}\u{1F1F0}"
+    : "\u{1F1EC}\u{1F1E7}";
+
   flag.setAttribute("aria-hidden", "true");
 
   flag.style.left = `${rect.left + rect.width / 2}px`;
@@ -533,36 +531,57 @@ function showLanguageFlag(language) {
   }, {
     once: true
   });
-
 }
 
 
-const languageToggle = document.getElementById("languageToggle");
+// ========================================
+// INITIALIZATION
+// ========================================
 
-if (languageToggle) {
+function initializeLanguage() {
+  let savedLanguage = "en";
 
-  languageToggle.addEventListener("click", () => {
+  try {
+    savedLanguage = localStorage.getItem("portfolioLanguage") || "en";
+  } catch (error) {
+    console.warn("Could not read saved language preference:", error);
+  }
 
-    const currentLanguage = document.documentElement.lang || "en";
-
-    const newLanguage = currentLanguage === "en" ? "sk" : "en";
-
-    setLanguage(newLanguage);
-
-    showLanguageFlag(newLanguage);
-
-    if (newLanguage === "sk" && typeof showTranslationNotice === "function") {
-      showTranslationNotice();
-    }
-
-  });
-
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-
-  const savedLanguage = localStorage.getItem("portfolioLanguage") || "en";
+  if (!translations[savedLanguage]) {
+    savedLanguage = "en";
+  }
 
   setLanguage(savedLanguage);
 
-});
+  const languageToggle = document.getElementById("languageToggle");
+
+  if (languageToggle && !languageToggle.dataset.initialized) {
+    languageToggle.dataset.initialized = "true";
+
+    languageToggle.addEventListener("click", () => {
+      const currentLanguage = document.documentElement.lang || "en";
+
+      const newLanguage = currentLanguage === "en" ? "sk" : "en";
+
+      setLanguage(newLanguage);
+      showLanguageFlag(newLanguage);
+
+      if (
+        newLanguage === "sk" &&
+        typeof showTranslationNotice === "function"
+      ) {
+        showTranslationNotice();
+      }
+    });
+  }
+}
+
+
+// Run initialization after the document is ready.
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", initializeLanguage, {
+    once: true
+  });
+} else {
+  initializeLanguage();
+}
