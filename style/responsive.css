@@ -222,6 +222,7 @@ button, input, textarea {
   }
   .intro {
     gap: 25px;
+	  width: 100%;
   }
   .intro-image {
     flex-basis: 260px;

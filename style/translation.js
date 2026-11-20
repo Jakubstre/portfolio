@@ -28,7 +28,7 @@ const translations = {
     introductionLabel: "→ Introduction",
     introductionTitle: "Hi, my name is Jakub and I'm a...",
     introductionText: "Multidisciplinary independent artist who combines songwriting, composition, production, design, and technology. I'm motivated by building meaningful, cohesive work that lasts, and I'm willing to invest significant time refining both the artistic and technical sides of my projects rather than settling for something merely good enough.",
-    continueReading: "→ Continue Reading",
+    continueReading: "Continue Reading",
 
     newestWorkTitle: "* Newest Work",
     newestWorkDescription: "→ Selected project, 'Na Skle Maľované' is an official promotional campaign that I'm currently working on for an upcoming musical production.",
@@ -56,7 +56,8 @@ const translations = {
     resumeLabel: "→ Resume",
     resumeTitle: "Seven years of multidisciplinary creative experience.",
     resumeText: "From composing theatre soundtracks and producing independent music to designing visual identities, websites and promotional campaigns, I've built experience across multiple creative disciplines. Explore my professional background, selected projects, technical skills and work history in my complete resume.",
-    viewResume: "→ View Resume",
+    viewResume: "View the Resume",
+	  downloadResume: "Download the Resume",
 
     recognitionTitle: "* Recognition & Highlights",
     recognitionDescription: "→ A selection of productions, releases and projects that represent my work across theatre, music and design.",
@@ -173,13 +174,13 @@ const translations = {
     introductionLabel: "→ Predstavenie",
     introductionTitle: "Ahoj, volám sa Jakub a som...",
     introductionText: "Multidisciplinárny nezávislý umelec, ktorý prepája písanie piesní, komponovanie, produkciu, dizajn a technológie. Mojou motiváciou je vytvárať zmysluplné a ucelené diela, ktoré pretrvajú. Som ochotný venovať značné množstvo času zdokonaľovaniu umeleckej aj technickej stránky svojich projektov a neuspokojiť sa s niečím, čo je iba dostatočne dobré.",
-    continueReading: "→ Čítať Ďalej",
+    continueReading: "Čítať Ďalej",
 
     newestWorkTitle: "* Najnovšia tvorba",
-    newestWorkDescription: "→ Vybraný projekt „Na skle maľované“ je oficiálna propagačná kampaň, na ktorej momentálne pracujem pre pripravovanú muzikálovú inscenáciu.",
+    newestWorkDescription: "→ Vybraný projekt „Na Skle Maľované“ je oficiálna propagačná kampaň, na ktorej momentálne pracujem pre pripravovanú muzikálovú inscenáciu.",
 
     naSKleTags: "[Eventové Promo] · [Správa Sociálnych Sietí] · [Tvorba Kampane] · [Grafický Dizajn]",
-    naSkleP: "Lokálna propagačná kampaň vyvinutá pre muzikálovú inscenáciu Na skle maľované v produkcii Jána Ďurovčíka.",
+    naSkleP: "Lokálna propagačná kampaň vyvinutá pre muzikálovú inscenáciu Na Skle Maľované v produkcii Jána Ďurovčíka.",
 
     featuredWorkTitle: "* Vybraná tvorba",
     featuredWorkDescription: "→ Výber projektov, ktoré predstavujú moju najnovšiu a najobľúbenejšiu tvorbu v oblasti hudby, dizajnu a vizuálnych médií.",
@@ -201,7 +202,8 @@ const translations = {
     resumeLabel: "→ Resumé",
     resumeTitle: "Sedem rokov skúseností naprieč kreatívnymi disciplínami.",
     resumeText: "Od komponovania divadelných soundtrackov a produkcie nezávislej hudby až po tvorbu vizuálnych identít, webových stránok a propagačných kampaní som získal skúsenosti v rôznych kreatívnych oblastiach. V kompletnom resumé nájdeš moje pracovné skúsenosti, vybrané projekty, technické zručnosti a profesijné zameranie.",
-    viewResume: "→ Zobraziť Resumé",
+    viewResume: "Zobraziť Resumé",
+	  	  downloadResume: "Stiahnuť Resumé",
 
     recognitionTitle: "* Ocenenia a významné projekty",
     recognitionDescription: "→ Výber inscenácií, vydaných diel a projektov, ktoré reprezentujú moju tvorbu v oblasti divadla, hudby a dizajnu.",

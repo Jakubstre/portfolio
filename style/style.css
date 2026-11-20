@@ -410,8 +410,10 @@ body.menu-open {
   border-radius: 22px;
   background-color: whitesmoke;
 }
+
+
 .work-card:hover {
-  opacity: .8;
+  opacity: .85;
   transition: .3s ease;
 }
 .work-info span {
@@ -736,6 +738,7 @@ nav {
   border-radius: 0 0 var(--notch-radius) var(--notch-radius);
   isolation: isolate;
   overflow: visible;
+	background-color: white;
   transition:
     width var(--notch-transition), box-shadow 0.4s ease, background 0.4s ease;
 }
@@ -747,12 +750,14 @@ nav::before, nav::after {
   height: 24px;
   background: transparent;
   pointer-events: none;
+	
   z-index: -1;
 }
 nav::before {
   left: -24px;
   border-top-right-radius: var(--notch-radius);
   box-shadow: 10px -10px 0 10px white;
+	
 }
 nav::after {
   right: -24px;
@@ -1081,7 +1086,7 @@ hr {
   display: flex;
   align-items: center;
   gap: 50px;
-  width: 100%;
+  width: 70%;
   color: blue;
   margin: 50px auto 20px;
   padding: 70px;
@@ -1118,7 +1123,10 @@ hr {
   margin-bottom: 35px;
 }
 .intro-button {
-  display: inline-flex;
+    display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 3px;
   border: none;
   box-shadow:
     0 4px 12px rgba(0, 0, 0, 0.10), 0 1px 3px rgba(0, 0, 0, 0.06), inset 0 1px 0 rgba(255, 255, 255, 0.6);
@@ -1126,8 +1134,14 @@ hr {
 	margin: 0 20px 0 0;
   text-decoration: none;
   padding: 14px 24px;
-  border-radius: 99px;
+  border-radius: 11px;
   transition: .3s;
+}
+
+.intro-button img{
+  width: 20px;
+  margin-right: 10px;
+	
 }
 
 
@@ -1639,7 +1653,7 @@ hr {
   font-size: 25px;
   line-height: 1;
   cursor: pointer;
-  transition: transform 1s ease;
+  transition: transform .3s ease;
   transform-origin: center;
   margin-bottom: 2%;
 }
