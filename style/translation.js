@@ -162,6 +162,7 @@ const translations = {
     eventPromotionIndex: "* Eventové Promo",
 
     graphicDesign: "Grafický Dizajn",
+	independentMusic: "Nezávislá Hudba",
     theatreCompositions: "Divadelná Tvorba",
     alternativeMusic: "Alternatívna Hudba",
     eventPromotion: "Eventové Promo",
@@ -299,126 +300,153 @@ const translations = {
 };
 
 
-// ========================================
-// RESUME TRANSLATIONS
-// ========================================
-
 const resumeTranslations = {
+  // Header and profile
   resumeKicker: "→ Resumé",
-  resumeSummary: "Multidisciplinárny kreatívny profesionál pôsobiaci v oblasti hudobnej kompozície, zvukovej produkcie, grafického dizajnu, vizuálnej identity a divadelnej hudby.",
+  resumeHeadline: "Grafický dizajnér · Digitálny dizajn · Vizuálna identita",
+  resumeSummary: "Grafický dizajnér so skúsenosťami od roku 2018 v oblasti vizuálnych identít, digitálnej a tlačenej komunikácie, webdizajnu a kreatívnej produkcie. Dizajnérsky prístup prepája s praktickými skúsenosťami v hudbe, divadle, propagácii podujatí a audiovizuálnej tvorbe.",
+  resumeLocation: "Žilina a Poprad, Slovensko",
+  resumeLinkedIn: "Profil na LinkedIn",
 
   resumeExperience: "SKÚSENOSTI",
+  resumeYears: "Od roku 2018",
   resumeDisciplines: "ODBORY",
   resumeDisciplinesValue: "Dizajn, Hudba, Divadlo",
   resumeTools: "NÁSTROJE",
-  resumeToolsValue: "Adobe Suite, Web, Logic Pro",
+  resumeToolsValue: "Adobe Suite, HTML/CSS/JS, Logic Pro",
   resumeLanguages: "JAZYKY",
 
   resumeProfile: "→ Profil",
-  resumeProfileCopy: "Grafický dizajnér a multidisciplinárny kreatívny profesionál s viac ako 7-ročnými skúsenosťami v oblasti vizuálnej komunikácie, tvorby vizuálnych identít, redakčného dizajnu a digitálnych médií. Venuje sa tvorbe vizuálnych konceptov a dizajnových systémov pre tlač aj digitálne prostredie, od úvodného kreatívneho smerovania až po finálnu realizáciu. Jeho tvorba prepája grafický dizajn, vývoj webových stránok, hudbu a vizuálne rozprávanie. Má skúsenosti so samostatným vedením kreatívnych projektov, tvorbou jednotných vizuálnych identít a pretavovaním konceptov do funkčných vizuálnych výstupov.",
+  resumeProfileCopy: "Grafický dizajnér s multidisciplinárnym zázemím v oblasti vizuálnej komunikácie, brandingu, digitálneho obsahu a webdizajnu. Od roku 2018 vytváram vizuálne koncepty a dizajnové materiály pre nezávislé projekty, kultúrne produkcie a online platformy. Moja práca zahŕňa vizuálne identity, propagačné kampane, redakčný a tlačený dizajn, grafiku pre sociálne siete a responzívne webové stránky. Popri dizajne mám praktické skúsenosti s hudobnou produkciou, divadelnou kompozíciou, zvukovou réžiou a eventovou fotografiou. Projekty dokážem samostatne viesť od prvotného zadania cez tvorbu konceptu a produkciu až po finálne odovzdanie.",
 
-  resumeExperienceSection: "→ Prax",
+  resumeExperienceSection: "→ Pracovné skúsenosti",
 
-  resumeFreelance: "Grafický dizajnér — Freelance a samostatná tvorba",
-  resumeFreelance1: "Tvorba digitálnej grafiky a vizuálov pre online komunikáciu",
-  resumeFreelance2: "Grafika a obsah pre sociálne siete",
-  resumeFreelance3: "Bannery, reklama a propagačné materiály",
-  resumeFreelance4: "Plagáty a vizuály pre kampane a podujatia",
-  resumeFreelance5: "Tvorba vizuálnych identít a značiek",
-  resumeFreelance6: "Typografia, kompozícia a vizuálna hierarchia",
-  resumeFreelance7: "Tvorba vizuálneho smerovania projektov",
-  resumeFreelance8: "Tvorba a úprava vizuálneho a video obsahu",
-  resumeFreelance9: "Samostatné vedenie projektov od konceptu po finálny výstup",
-  resumeFreelance10: "Tvorba jednoduchých webových stránok pomocou HTML, CSS a JavaScriptu",
+  // Freelance design
+  resumeFreelance: "Grafický dizajnér - Freelance a samostatné projekty",
+  resumeFreelanceDate: "Slovensko | 2018 - Súčasnosť",
+  resumeFreelance1: "Tvorba vizuálnych identít, logotypov a súvisiacich značkových materiálov.",
+  resumeFreelance2: "Dizajn plagátov, grafiky kampaní, reklamných a propagačných materiálov.",
+  resumeFreelance3: "Tvorba digitálneho obsahu a grafiky pre sociálne siete.",
+  resumeFreelance4: "Sadzba, typografia a redakčný dizajn pre tlačené aj digitálne formáty.",
+  resumeFreelance5: "Tvorba vizuálnych konceptov a jednotných dizajnových systémov naprieč materiálmi projektu.",
+  resumeFreelance6: "Návrh a tvorba jednoduchých responzívnych webových stránok pomocou HTML, CSS a JavaScriptu.",
+  resumeFreelance7: "Príprava a úprava fotografického a video obsahu pre digitálnu komunikáciu.",
+  resumeFreelance8: "Samostatná realizácia projektov od úvodného konceptu a návrhu až po finálne spracovanie.",
 
-  resumeEventPromoter: "Propagácia podujatí — Grafický dizajnér",
-  resumeEvent1: "Vizuálna komunikácia divadelných a muzikálových inscenácií",
-  resumeEvent2: "Grafika pre sociálne siete a online komunikáciu",
-  resumeEvent3: "Plagáty a propagačné materiály",
-  resumeEvent4: "Tvorba vizuálov pre jednotlivé podujatia",
-  resumeEvent5: "Spolupráca na celkovej vizuálnej komunikácii podujatí",
+  // Midheaven
+  resumeMidheaven: "Midheaven - Hudobný a kreatívny projekt",
+  resumeMidheavenDate: "Slovensko | 2021 - Súčasnosť",
+  resumeMidheaven1: "Spevák, hlavný autor piesní a multiinštrumentalista v nezávislom alternatívnom hudobnom projekte.",
+  resumeMidheaven2: "Tvorba a rozvoj vizuálnej identity projektu a jeho celkového kreatívneho smerovania.",
+  resumeMidheaven3: "Dizajn obalov, grafiky hudobných vydaní, propagačných vizuálov, plagátov a súvisiacich materiálov.",
+  resumeMidheaven4: "Tvorba a správa webovej stránky a digitálnych platforiem kapely.",
+  resumeMidheaven5: "Kompozícia, aranžovanie, nahrávanie a produkcia hudby a spolupráca na hudobných vydaniach.",
+  resumeMidheaven6: "Plánovanie a tvorba vizuálneho a propagačného obsahu pre hudobné vydania a koncertnú činnosť.",
 
-  resumeMidheaven: "Midheaven — Hudobný a kreatívny projekt",
-  resumeMidheaven1: "Tvorba a rozvoj komplexnej vizuálnej identity projektu",
-  resumeMidheaven2: "Tvorba obsahu a vizuálov pre sociálne siete",
-  resumeMidheaven3: "Produkcia propagačných videí a vizuálneho obsahu",
-  resumeMidheaven4: "Dizajn obalov, grafiky k vydaniam, plagátov a propagačných materiálov",
-  resumeMidheaven5: "Plánovanie a realizácia vizuálnej komunikácie a kampaní",
-  resumeMidheaven6: "Tvorba a správa webovej stránky projektu",
-  resumeMidheaven7: "Samostatné vedenie kreatívneho smerovania projektu od konceptu po realizáciu",
-
-  resumeComposer: "Skladateľ, hudobný producent a zvukový dizajnér",
+  // Theatre composition
+  resumeComposer: "Skladateľ divadelnej hudby a zvukový dizajnér",
+  resumeComposerDate: "Slovensko | 2023 - Súčasnosť",
   resumeComposer1: "Kompozícia autorskej hudby a tvorba zvukového dizajnu pre divadelné inscenácie.",
-  resumeComposer2: "Tvorba hudobných konceptov, ambientných kompozícií a zvukových krajín.",
-  resumeComposer3: "Spolupráca s režisérmi a kreatívnymi tímami pri napĺňaní umeleckého smerovania inscenácií.",
-  resumeComposer4: "Produkcia, nahrávanie, mixáž a aranžovanie autorskej hudby.",
-  resumeComposer5: "Zvuková technika pri divadelných predstaveniach, koncertoch a hudobných projektoch.",
+  resumeComposer2: "Hudobné aranžovanie, nahrávanie, editácia a produkcia autorských skladieb.",
+  resumeComposer3: "Tvorba hudobných atmosfér a zvukových materiálov v súlade s dramatickým smerovaním inscenácie.",
+  resumeComposer4: "Spolupráca s režisérmi, účinkujúcimi a kreatívnymi tímami počas prípravy inscenácií.",
+  resumeComposer5: "Živá obsluha a prispôsobovanie zvukových materiálov rôznym priestorom, v ktorých sa predstavenia uvádzajú.",
 
-  resumeSoundEngineer: "Zvukový technik — Živé podujatia",
-  resumeSound1: "Zabezpečovanie ozvučenia divadelných predstavení, koncertov a konferencií.",
-  resumeSound2: "Práca s FOH mixážou, smerovaním signálu, odposluchmi, zapojením, kalibráciou a riešením technických problémov.",
-  resumeSound3: "Spolupráca s účinkujúcimi a režisérmi pri dosahovaní vyváženého a spoľahlivého zvuku.",
+  // Event promotion
+  resumeEventPromoter: "Propagácia podujatí a tvorba kampaní - Samostatná činnosť",
+  resumeEventDate: "Slovensko | 2025 - Súčasnosť",
+  resumeEvent1: "Tvorba lokálnych propagačných aktivít pre divadelné a muzikálové inscenácie.",
+  resumeEvent2: "Tvorba vizuálov kampaní, grafiky pre sociálne siete, náhľadových obrázkov udalostí a propagačných príspevkov.",
+  resumeEvent3: "Písanie a príprava propagačných textov pre digitálne kanály.",
+  resumeEvent4: "Správa informácií o podujatiach na sociálnych sieťach a nezávislom regionálnom webe.",
+  resumeEvent5: "Vytvorenie platformy Muzikály Považská Bystrica vrátane loga, vizuálnej identity a digitálnej prezentácie.",
+  resumeEvent6: "Organizácia lokálnej propagácie a distribúcia dodaných plagátov inscenácií.",
 
-  resumeTourGuide: "Sprievodca — Belianska jaskyňa",
-  resumeTour1: "Sprevádzanie skupín s približne 90 návštevníkmi.",
-  resumeTour2: "Komunikácia so slovenskými aj zahraničnými návštevníkmi.",
+  // Live sound
+  resumeSoundEngineer: "Zvukový technik - Živé podujatia a samostatná činnosť",
+  resumeSoundDate: "Slovensko | 2023 - Súčasnosť",
+  resumeSound1: "Ozvučovanie divadelných predstavení, koncertov, konferencií a živých podujatí.",
+  resumeSound2: "Príprava a obsluha zvukových systémov, mikrofónov, signálového routingu, odposluchov a FOH mixáže.",
+  resumeSound3: "Zvukové skúšky, riešenie technických problémov a koordinácia s účinkujúcimi a produkčnými tímami.",
+
+  // Tour guide
+  resumeTourGuide: "Sprievodca - Belianska jaskyňa",
+  resumeTourDate: "Slovensko | Sezónne, 2023 - 2026",
+  resumeTour1: "Sprevádzanie skupín návštevníkov v jaskyni vrátane skupín s približne 90 osobami.",
+  resumeTour2: "Poskytovanie informácií slovenským aj zahraničným návštevníkom.",
   resumeTour3: "Vedenie prehliadok v slovenskom, anglickom a poľskom jazyku.",
-  resumeTour4: "Samostatná organizácia a koordinácia skupín návštevníkov.",
-  resumeTour5: "Prispôsobovanie komunikácie rôznym návštevníkom a požiadavkám skupín.",
+  resumeTour4: "Organizácia skupín návštevníkov a zabezpečenie zrozumiteľnej komunikácie počas prehliadok.",
 
-  resumeCook: "Pomocný kuchár — Hotel Förer",
-  resumeCook1: "Pomoc pri organizácii práce v kuchyni, príprave jedál, dodržiavaní hygienických štandardov a zabezpečovaní plynulého chodu prevádzky.",
-  resumeCook2: "Práca v dynamickom prostredí vyžadujúcom disciplínu a dôslednosť.",
+  // Hospitality
+  resumeCook: "Pomocný kuchár - Hotel Förer",
+  resumeCookDate: "Rakúsko | Sezónne, 2024 - 2025",
+  resumeCook1: "Pomoc pri príprave jedál, organizácii práce v kuchyni a každodennom chode prevádzky.",
+  resumeCook2: "Dodržiavanie hygienických štandardov a práca v dynamickom prostredí kuchyne.",
 
+  // Projects
   resumeProjects: "→ Vybrané projekty",
+  projectCampaign: "Kampaň a propagácia",
+  projectPhotography: "Eventová fotografia",
+  projectWebsite: "Webdizajn a vývoj",
+  projectTheatreMusic: "Divadelná kompozícia",
+  projectLiveRecording: "Živá nahrávka a produkcia",
+  projectAlbum: "Album",
+  projectBook: "Písanie, dizajn a vlastné vydanie",
 
+  // Education
   resumeEducation: "→ Vzdelanie",
+  resumeSchool: "Stredná odborná škola technická Kukučínova",
   resumeEducationDegree: "Grafik digitálnych médií",
+  resumeErasmus: "Erasmus+ Medzinárodná výmena v oblasti dizajnu",
+  resumeErasmusLocation: "Írsko",
+  resumeErasmusDate: "Jún 2022",
+
+  // Skills
   resumeSkills: "→ Zručnosti",
-  resumeCore: "Kľúčové kompetencie",
-  resumeDesign: "Dizajn",
-  resumeContent: "Obsah a video",
-  resumeWeb: "Web",
-  resumeAudio: "Audio a kreatívna produkcia",
-  resumeSoftware: "Softvér",
-
   resumeLanguageSkills: "Jazyky",
-  resumeEnglish: "Angličtina",
-  resumePolish: "Poľština",
-  resumeGerman: "Nemčina",
-  resumeFrench: "Francúzština",
+  resumeSlovak: "Slovenčina - Rodný jazyk",
+  resumeEnglish: "Angličtina - Pokročilá",
+  resumePolish: "Poľština - Pokročilá",
+  resumeGerman: "Nemčina - Základy",
+  resumeFrench: "Francúzština - Začiatočník",
 
-  resumeMusicComposition: "Hudobná kompozícia",
-  resumeSoundDesign: "Zvukový dizajn",
-  resumeAudioProduction: "Zvuková produkcia",
-  resumeRecordingMixing: "Nahrávanie a mixáž",
+  resumeDesign: "Grafický a vizuálny dizajn",
   resumeGraphicDesign: "Grafický dizajn",
-  resumeBranding: "Tvorba značky",
-  resumeWebDesign: "Webdizajn",
-  resumeEventPromotionSkill: "Propagácia podujatí",
-  resumeVisualIdentity: "Tvorba vizuálnej identity",
-  resumeEditorialDesign: "Redakčný dizajn",
-  resumePosterDesign: "Dizajn plagátov",
+  resumeBranding: "Vizuálna identita a branding",
+  resumeVisualCommunication: "Vizuálna komunikácia",
+  resumeEditorialDesign: "Redakčný dizajn a sadzba",
+  resumeTypography: "Typografia a kompozícia",
+  resumePrintDesign: "Tlačený a propagačný dizajn",
   resumeSocialMediaDesign: "Dizajn pre sociálne siete",
-  resumeTypography: "Typografia",
-  resumeArtDirection: "Umelecké vedenie",
-  resumeSocialContent: "Obsah pre sociálne siete",
-  resumePromotionalContent: "Propagačný obsah",
+  resumeArtDirection: "Vizuálne smerovanie",
+
+  resumeDigital: "Digitálne prostredie a web",
+  resumeWebDesign: "Webdizajn",
+  resumeFrontEnd: "HTML, CSS a JavaScript",
+  resumeResponsive: "Responzívny webdizajn",
+  resumeSEO: "Základy SEO",
+
+  resumeContent: "Obsah a médiá",
+  resumePhotography: "Eventová a propagačná fotografia",
+  resumePhotoEditing: "Úprava fotografií a postprodukcia",
   resumeVideoEditing: "Strih videa",
-  resumePhotography: "Fotografia a vizuálny obsah",
-  resumeRecordingEditing: "Nahrávanie a editácia",
-  resumeLiveSound: "Živé ozvučenie",
+  resumeMotionGraphics: "Motion grafika",
+  resumeCopywriting: "Tvorba propagačných textov",
 
-  resumeOther: "→ Ostatné",
+  resumeMusicAudio: "Hudba a zvuk",
+  resumeMusicComposition: "Hudobná kompozícia a aranžovanie",
+  resumeMusicProduction: "Hudobná produkcia",
+  resumeRecordingMixing: "Nahrávanie a mixáž",
+  resumeSoundDesign: "Zvukový dizajn",
+  resumeLiveSound: "Živá zvuková réžia",
+
+  resumeSoftware: "Softvér",
+  resumeOther: "→ Ďalšie informácie",
   resumeDriversLicense: "Vodičské oprávnenie: AM / B / B1",
-  resumeValues: "Hodnoty: kreativita, čestnosť, inovácie, pracovitosť a profesionalita.",
-
-  resumeCollaboration: "→ Spolupráca",
-  resumeCollaborationTitle: "Zaujala vás moja tvorba?",
-  resumeCollaborationText: "Venujem sa tvorbe vizuálnych identít, propagačných materiálov, digitálnej grafiky a webových stránok pre hudobné, kultúrne a nezávislé projekty. Môj prístup spája jasne definované vizuálne systémy so zmyslom pre atmosféru. Každý projekt tak získava vlastnú identitu pri zachovaní funkčnosti a vizuálnej jednotnosti.",
-  resumeContact: "→ Kontaktovať"
+  resumeValues: "Pracovné hodnoty: kreativita, čestnosť, zvedavosť, dôslednosť a zmysel pre detail."
 };
 
+Object.assign(translations.sk, resumeTranslations);
 
 // Add resume translations to the Slovak dictionary.
 Object.assign(translations.sk, resumeTranslations);
