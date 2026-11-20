@@ -6,12 +6,12 @@ const translations = {
     heroMusician: "Musician",
     heroComposer: "Composer",
     heroDesigner: "Designer",
-	  
-	  
-	  	  graphicDesignIndex: "* Graphic Design",
-	  theatreCompositionsIndex : "* Theatre Compositions",
-	  alternativeMusicIndex : "* Alternative Music",
-	  eventPromotionIndex: "* Event Promotion",
+
+
+    graphicDesignIndex: "* Graphic Design",
+    theatreCompositionsIndex: "* Theatre Compositions",
+    alternativeMusicIndex: "* Alternative Music",
+    eventPromotionIndex: "* Event Promotion",
 
     graphicDesign: "* Graphic Design",
     theatreCompositions: "* Theatre Compositions",
@@ -30,28 +30,28 @@ const translations = {
 
     newestWorkTitle: "* Newest Work",
     newestWorkDescription: "→ Selected project, 'Na Skle Maľované' is an official promotional campaign that I'm currently working on for an upcoming musical production.",
-	  
-	  naSKleTags: "[Event Promotion] · [Social Media Management] · [Campaign Development] · [Graphic Design]",
-	  naSkleP: "A local promotional campaign developed for the musical production Na Skle Maľované, produced by Ján Ďurovčík.",
-	  
+
+    naSKleTags: "[Event Promotion] · [Social Media Management] · [Campaign Development] · [Graphic Design]",
+    naSkleP: "A local promotional campaign developed for the musical production Na Skle Maľované, produced by Ján Ďurovčík.",
+
 
     featuredWorkTitle: "* Featured Work",
     featuredWorkDescription: "→ Selected projects showcasing some of my most recent and favourite creative work across music, design, and visual media.",
 
-	  samsungTags: "[Event Photography] · [Photo Editing] · [Graphic Design]",
-	  samsungP: "Event photography, image selection and post-production for Samsung Solve for Tomorrow, including the preparation of final photographs for client delivery.",
-	  
+    samsungTags: "[Event Photography] · [Photo Editing] · [Graphic Design]",
+    samsungP: "Event photography, image selection and post-production for Samsung Solve for Tomorrow, including the preparation of final photographs for client delivery.",
+
     birthdayInvitation: "* Animated Birthday Invitation",
     birthdayInvitationTags: "[Graphic Design] · [Motion Graphics] · [Event Promotion]",
-	  birthdayP: "An original animated invitation produced for a 50th birthday celebration, combining motion graphics, video editing and custom-composed music.",
+    birthdayP: "An original animated invitation produced for a 50th birthday celebration, combining motion graphics, video editing and custom-composed music.",
 
 
     personalPortfolio: "* Personal Portfolio",
     personalPortfolioTags: "[Web Design] · [Front-end Development] · [SEO]",
-	  personalPortfolioP: "A self-designed and developed portfolio website presenting my work across music composition, theatre, graphic design and digital media.",
+    personalPortfolioP: "A self-designed and developed portfolio website presenting my work across music composition, theatre, graphic design and digital media.",
 
     adultsAreWeirdTags: "[Theatre Composition] · [Sound Engineering] · [Graphic Design]",
-	  adultsAreWeirdP: "Two original orchestral compositions created for the award-winning stage production Adults Are Definitely Very Weird.",
+    adultsAreWeirdP: "Two original orchestral compositions created for the award-winning stage production Adults Are Definitely Very Weird.",
 
     resumeLabel: "→ Resume",
     resumeTitle: "Seven years of multidisciplinary creative experience.",
@@ -75,11 +75,10 @@ const translations = {
 
     stillLearning: "* Skills & Technologies",
     skillsDescription: "→ A snapshot of the tools, disciplines, and skills I currently use across my creative work.",
-	  
-	  	  Advanced: "Advanced",
-	  Intermediate: "Intermediate",
-	  
-	
+
+    Advanced: "Advanced",
+    Intermediate: "Intermediate",
+
 
     graphicDesignSkill: "Graphic Design",
     musicComposition: "Music Composition",
@@ -88,22 +87,22 @@ const translations = {
     webDevelopment: "Web Development",
     projectDevelopment: "Project Development",
     communication: "Communication",
-	  
-	  
-	  referenceTitle: "* References",
-	  referenceSubTitle: "→ A selection of some of the kind words from people I've worked with.",
-	  
-	  
-	  	  	  	  referenceSpan01: "Program Manager at digiPeers",
-	  referenceText01: "!",
-	  
-	  referenceSpan02: "Actress & Clown Doctor at the Red Noses",
-	  referenceText02: "Jakub is a self-taught professional across almost all artistic disciplines. Music, singing, painting, drawing, and writing; only in acting does he fall a bit short. He is reliable and adept at handling technical requirements, whether for the sound setup of a theatrical performance or his own concerts.",
-	  
-	  
-	  referenceSpan03: "Website Administrator at digiPeers",
-	  referenceText03: "!",
-	  
+
+
+    referenceTitle: "* References",
+    referenceSubTitle: "→ A selection of some of the kind words from people I've worked with.",
+
+
+    referenceSpan01: "Program Manager at digiPeers",
+    referenceText01: "!",
+
+    referenceSpan02: "Actress & Clown Doctor at the Red Noses",
+    referenceText02: "Jakub is a self-taught professional across almost all artistic disciplines. Music, singing, painting, drawing, and writing; only in acting does he fall a bit short. He is reliable and adept at handling technical requirements, whether for the sound setup of a theatrical performance or his own concerts.",
+
+
+    referenceSpan03: "Website Administrator at digiPeers",
+    referenceText03: "!",
+
 
     collaborationLabel: "→ Collaboration",
     collaborationTitle: "Looking to get in touch for collaborations in music, design, or anything in between?",
@@ -137,23 +136,22 @@ const translations = {
     quickCigani: "Cigáni Idú Do Neba [P,D]",
     quickResume: "Resume [O]",
     quickContact: "Contact [O]",
-	  
-	  footerHeading: "* Wanna Work Together?",
-sendEmail: "Send me an e-mail",
-giveCall: "Give me a call",
-footerDisciplines: "* Disciplines",
-footerExplore: "* Explore",
-footerSocials: "* Socials",
-theatreCompositions: "Theatre Compositions",
-independentMusic: "Independent Music",
-graphicDesign: "Graphic Design",
-eventPromotion: "Event Promotion",
-aboutMe: "About Me",
-resume: "Resume",
-discography: "Discography"
-	  
-	  
-	  
+
+    footerHeading: "* Wanna Work Together?",
+    sendEmail: "Send me an e-mail",
+    giveCall: "Give me a call",
+    footerDisciplines: "* Disciplines",
+    footerExplore: "* Explore",
+    footerSocials: "* Socials",
+    theatreCompositions: "Theatre Compositions",
+    independentMusic: "Independent Music",
+    graphicDesign: "Graphic Design",
+    eventPromotion: "Event Promotion",
+    aboutMe: "About Me",
+    resume: "Resume",
+    discography: "Discography"
+
+
   },
 
 
@@ -163,11 +161,11 @@ discography: "Discography"
     heroComposer: "Skladateľ",
     heroDesigner: "Grafik",
 
-	  
-	  graphicDesignIndex: "* Grafický Dizajn",
-	  theatreCompositionsIndex : "* Divadelná Tvorba",
-	  alternativeMusicIndex : "* Alternatívna Hudba",
-	  eventPromotionIndex: "* Eventové Promo",
+
+    graphicDesignIndex: "* Grafický Dizajn",
+    theatreCompositionsIndex: "* Divadelná Tvorba",
+    alternativeMusicIndex: "* Alternatívna Hudba",
+    eventPromotionIndex: "* Eventové Promo",
 
     graphicDesign: "* Grafický Dizajn",
     theatreCompositions: "* Divadelná Tvorba",
@@ -186,28 +184,28 @@ discography: "Discography"
 
     newestWorkTitle: "* Najnovšia tvorba",
     newestWorkDescription: "→ Vybraný projekt „Na skle maľované“ je oficiálna propagačná kampaň, na ktorej momentálne pracujem pre pripravovanú muzikálovú inscenáciu.",
-	  
-	  	  naSkleTags: "[Eventové Promo] · [Správa Sociálnych Sietí] · [Tvorba Kampane] · [Grafický Dizajn]",
-	  naSkleP: "Lokálna propagačná kampaň vyvinutá pre muzikálovú inscenáciu Na Skle Maľované v produkcii Jána Ďurovčíka",
+
+    naSkleTags: "[Eventové Promo] · [Správa Sociálnych Sietí] · [Tvorba Kampane] · [Grafický Dizajn]",
+    naSkleP: "Lokálna propagačná kampaň vyvinutá pre muzikálovú inscenáciu Na Skle Maľované v produkcii Jána Ďurovčíka",
 
     featuredWorkTitle: "* Vybraná tvorba",
     featuredWorkDescription: "→ Výber projektov, ktoré predstavujú moju najnovšiu a najobľúbenejšiu tvorbu v oblasti hudby, dizajnu a vizuálnych médií.",
-	  
-  samsungTags: "[Event Fotografie] · [Foto Editing] · [Grafický Dizajn]",
-	    samsungP: "Fotografovanie podujatia, výber záberov a postprodukcia pre projekt Samsung Solve for Tomorrow, vrátane prípravy finálnych fotografií na odovzdanie klientovi.",
-	  
+
+    samsungTags: "[Event Fotografie] · [Foto Editing] · [Grafický Dizajn]",
+    samsungP: "Fotografovanie podujatia, výber záberov a postprodukcia pre projekt Samsung Solve for Tomorrow, vrátane prípravy finálnych fotografií na odovzdanie klientovi.",
+
 
     birthdayInvitation: "* Animovaná Narodeninová Pozvánka",
     birthdayInvitationTags: "[Grafický Dizajn] · [Motion Grafika] · [Eventové Promo]",
-	    birthdayP: "Originálna animovaná pozvánka vytvorená na oslavu 50. narodenín, ktorá kombinuje motion grafiku, strih videa a hudbu zloženú na mieru.",
+    birthdayP: "Originálna animovaná pozvánka vytvorená na oslavu 50. narodenín, ktorá kombinuje motion grafiku, strih videa a hudbu zloženú na mieru.",
 
 
     personalPortfolio: "* Osobné Portfólio",
     personalPortfolioTags: "[Web Dizajn] · [Front-end Vývoj] · [SEO]",
-	    personalPortfolioP: "Vlastnoručne navrhnuté a vytvorené portfólio, ktorá prezentuje moju tvorbu v oblastiach hudobnej kompozície, divadla, grafického dizajnu a digitálnych médií.",
+    personalPortfolioP: "Vlastnoručne navrhnuté a vytvorené portfólio, ktorá prezentuje moju tvorbu v oblastiach hudobnej kompozície, divadla, grafického dizajnu a digitálnych médií.",
 
     adultsAreWeirdTags: "[Divadelná Hudba] · [Zvuková Réžia] · [Grafický Dizajn]",
-	   adultsAreWeirdP: "Dve originálne orchestrálne skladby vytvorené pre oceňovanú divadelnú inscenáciu Adults Are Definitely Very Weird.",
+    adultsAreWeirdP: "Dve originálne orchestrálne skladby vytvorené pre oceňovanú divadelnú inscenáciu Adults Are Definitely Very Weird.",
 
     resumeLabel: "→ Resumé",
     resumeTitle: "Sedem rokov skúseností naprieč kreatívnymi disciplínami.",
@@ -232,9 +230,9 @@ discography: "Discography"
 
     stillLearning: "* Zručnosti & Technológie",
     skillsDescription: "→ Prehľad nástrojov, oblastí a zručností, ktoré momentálne využívam vo svojej tvorbe.",
-	  
-	    Advanced: "Pokročilý",
-	  Intermediate: "Stredne Pokročilý",
+
+    Advanced: "Pokročilý",
+    Intermediate: "Stredne Pokročilý",
 
     graphicDesignSkill: "Grafický Dizajn",
     musicComposition: "Hudobná Kompozícia",
@@ -243,20 +241,20 @@ discography: "Discography"
     webDevelopment: "Tvorba Webov",
     projectDevelopment: "Rozvoj Projektov",
     communication: "Komunikácia",
-	  
-	  referenceTitle: "* Referencie",
-	  referenceSubTitle: "→ Výber niekoľkých milých slov od ľudí, s ktorými som spolupracoval.",
-	  
-	  	  
-	  	  referenceSpan01: "Programový Manažér v digiPeers",
-	  referenceText01: "!",
-	  
-	  
-	  referenceSpan02: "Herečka & Klaunka v organizácii Červený Nos",
-	  referenceText02: "Jakub je profesionálny samouk skoro vo všetkých umeleckých smeroch. Hudba, spev, maľba, kresba, písanie, iba v herectve trošku pokuľháva. Je spoľahlivý a obratný v požiadavkách počas zvučenia predstavenia aj svojich koncertov.",
 
-	  referenceSpan03: "Administrátor Webovej Stránky v digiPeers",
-	  referenceText03: "!",
+    referenceTitle: "* Referencie",
+    referenceSubTitle: "→ Výber niekoľkých milých slov od ľudí, s ktorými som spolupracoval.",
+
+
+    referenceSpan01: "Programový Manažér v digiPeers",
+    referenceText01: "!",
+
+
+    referenceSpan02: "Herečka & Klaunka v organizácii Červený Nos",
+    referenceText02: "Jakub je profesionálny samouk skoro vo všetkých umeleckých smeroch. Hudba, spev, maľba, kresba, písanie, iba v herectve trošku pokuľháva. Je spoľahlivý a obratný v požiadavkách počas zvučenia predstavenia aj svojich koncertov.",
+
+    referenceSpan03: "Administrátor Webovej Stránky v digiPeers",
+    referenceText03: "!",
 
     collaborationLabel: "→ Spolupráca",
     collaborationTitle: "Hľadáš spoluprácu v oblasti hudby, dizajnu alebo čohokoľvek medzi tým?",
@@ -290,20 +288,20 @@ discography: "Discography"
     quickCigani: "Cigáni Idú Do Neba [P,D]",
     quickResume: "Resumé [O]",
     quickContact: "Kontakt [O]",
-	  
-	  	  footerHeading: "* Chceš Spoluprácu?",
-sendEmail: "Napíš mi e-mail",
-giveCall: "Ozvi sa mi",
-footerDisciplines: "* Disciplíny",
-footerExplore: "* Preskúmaj",
-footerSocials: "* Sociálne Siete",
-theatreCompositions: "Divadelná Tvorba",
-independentMusic: "Nezávislá Hudba",
-graphicDesign: "Grafický Dizajn",
-eventPromotion: "Eventové Promo",
-aboutMe: "O Mne",
-resume: "Resumé",
-discography: "Diskografia"
+
+    footerHeading: "* Chceš Spoluprácu?",
+    sendEmail: "Napíš mi e-mail",
+    giveCall: "Ozvi sa mi",
+    footerDisciplines: "* Disciplíny",
+    footerExplore: "* Preskúmaj",
+    footerSocials: "* Sociálne Siete",
+    theatreCompositions: "Divadelná Tvorba",
+    independentMusic: "Nezávislá Hudba",
+    graphicDesign: "Grafický Dizajn",
+    eventPromotion: "Eventové Promo",
+    aboutMe: "O Mne",
+    resume: "Resumé",
+    discography: "Diskografia"
   }
 
 };
@@ -431,10 +429,7 @@ const resumeTranslations = {
 };
 
 
-
 Object.assign(translations.sk, resumeTranslations);
-
-
 
 
 const originalI18nContent = new WeakMap();
@@ -444,12 +439,10 @@ function setLanguage(language) {
   if (!translations[language]) return;
 
 
-  // Translate regular text
   document.querySelectorAll("[data-i18n]").forEach(element => {
 
     const key = element.getAttribute("data-i18n");
 
-    // Save original content once
     if (!originalI18nContent.has(element)) {
       originalI18nContent.set(element, element.innerHTML);
     }
@@ -462,7 +455,6 @@ function setLanguage(language) {
 
     } else {
 
-      // Restore original content if no translation exists
       element.innerHTML = originalI18nContent.get(element);
 
     }
@@ -470,7 +462,6 @@ function setLanguage(language) {
   });
 
 
-  // Translate placeholders
   document.querySelectorAll("[data-i18n-placeholder]").forEach(element => {
 
     const key = element.getAttribute("data-i18n-placeholder");
@@ -494,37 +485,29 @@ function setLanguage(language) {
   });
 
 
-  // Update language toggle
-const languageToggle = document.getElementById("languageToggle");
+  const languageToggle = document.getElementById("languageToggle");
 
-if (languageToggle) {
-  languageToggle.setAttribute(
-    "aria-label",
-    language === "en" ? "Switch to Slovak" : "Switch to English"
-  );
+  if (languageToggle) {
+    languageToggle.setAttribute(
+      "aria-label",
+      language === "en" ? "Switch to Slovak" : "Switch to English"
+    );
 
-  languageToggle.setAttribute(
-    "title",
-    language === "en" ? "Slovenčina" : "English"
-  );
+    languageToggle.setAttribute(
+      "title",
+      language === "en" ? "Sloven?iina" : "English"
+    );
 
-  languageToggle.dataset.lang = language;
-}
+    languageToggle.dataset.lang = language;
+  }
 
-
-  // Update document language
   document.documentElement.lang = language;
 
 
-  // Save selected language
   localStorage.setItem("portfolioLanguage", language);
 
 }
 
-
-// ========================================
-// LANGUAGE FLAG ANIMATION
-// ========================================
 
 function showLanguageFlag(language) {
 
@@ -547,13 +530,12 @@ function showLanguageFlag(language) {
 
   flag.addEventListener("animationend", () => {
     flag.remove();
-  }, { once: true });
+  }, {
+    once: true
+  });
 
 }
 
-// ========================================
-// LANGUAGE TOGGLE EVENT
-// ========================================
 
 const languageToggle = document.getElementById("languageToggle");
 
@@ -567,20 +549,15 @@ if (languageToggle) {
 
     setLanguage(newLanguage);
 
-showLanguageFlag(newLanguage);
+    showLanguageFlag(newLanguage);
 
-if (newLanguage === "sk" && typeof showTranslationNotice === "function") {
-  showTranslationNotice();
-}
+    if (newLanguage === "sk" && typeof showTranslationNotice === "function") {
+      showTranslationNotice();
+    }
 
   });
 
 }
-
-
-// ========================================
-// INITIALIZE SAVED LANGUAGE
-// ========================================
 
 document.addEventListener("DOMContentLoaded", () => {
 

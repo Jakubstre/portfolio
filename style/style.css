@@ -659,7 +659,7 @@ body.menu-open {
   transition: transform 0.3s ease, color 0.3s ease;
 }
 .language-toggle:hover svg {
-  transform: scale(.9);
+  transform: rotate(90deg);
 }
 .right {
   display: flex;
@@ -716,9 +716,9 @@ body.menu-open {
 :root {
   --notch-closed-width: 500px;
   --notch-open-width: 100%;
-  --notch-radius: 22px;
+  --notch-radius: 20px;
   --notch-blue: blue;
-  --notch-transition: 0.55s cubic-bezier(0.22, 1, 0.36, 1);
+  --notch-transition: 1s cubic-bezier(0.22, 1, 0.36, 1);
 }
 nav {
   position: fixed;
@@ -770,7 +770,7 @@ body.menu-open .arrow {
   transition: transform 0.3s ease;
 }
 .search-icon:hover {
-  transform: scale(1.08);
+  transform: rotate(90deg);
 }
 .menu-overlay {
   position: fixed;
@@ -809,7 +809,7 @@ body.menu-open .arrow {
 }
 .menu-content {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   column-gap: 35px;
   row-gap: 12px;
   margin: 0;
@@ -818,7 +818,6 @@ body.menu-open .arrow {
 .menu-content a {
   display: flex;
   align-items: baseline;
-  justify-content: space-between;
   gap: 10px;
   color: var(--notch-blue);
   text-decoration: none;
@@ -1637,12 +1636,12 @@ hr {
   font-size: 25px;
   line-height: 1;
   cursor: pointer;
-  transition: transform .3s ease;
+  transition: transform 1s ease;
   transform-origin: center;
   margin-bottom: 2%;
 }
 .arrow:hover {
-  transform: scale(0.9);
+  transform: translateX(-8px);
 }
 .arrow.open {
   transform: rotate(90deg);
@@ -1673,12 +1672,7 @@ hr {
   justify-content: center;
   transition: transform .3s ease;
 }
-.search-icon:hover {
-  transform: scale(0.9);
-}
-.search-icon svg {
-  display: block;
-}
+
 .search-overlay {
   position: fixed;
   top: 0;
