@@ -31,10 +31,18 @@ const translations = {
     continueReading: "Continue Reading",
 
     newestWorkTitle: "* Newest Work",
-    newestWorkDescription: "→ Selected project, 'Na Skle Maľované' is an official promotional campaign that I'm currently working on for an upcoming musical production.",
+    newestWorkDescription: "→ Newest projects include Na Skle Maľované, an ongoing official promotional campaign for an upcoming musical production and a Christmas campaign concept developed and completed within one day for Upratovanie Liptov.",
+	  
+	     kampanHeadline: "* Christmas Campaign Development & Social Media Design",
+    kampanP: "A Christmas campaign concept for Upratovanie Liptov, built around the idea that not everything has to be done personally.",
+	  kampanTags: "[Campaign Development] · [Art Direction] · [Graphic Design] · [Social Media Management]",
 
     naSKleTags: "[Event Promotion] · [Social Media Management] · [Campaign Development] · [Graphic Design]",
     naSkleP: "A local promotional campaign developed for the musical production Na Skle Maľované, produced by Ján Ďurovčík.",
+	  
+	
+	  
+	  
 
     featuredWorkTitle: "* Featured Work",
     featuredWorkDescription: "→ Selected projects showcasing some of my most recent and favourite creative work across music, design, and visual media.",
@@ -178,8 +186,14 @@ const translations = {
     continueReading: "Čítať Ďalej",
 
     newestWorkTitle: "* Najnovšia tvorba",
-    newestWorkDescription: "→ Vybraný projekt „Na Skle Maľované“ je oficiálna propagačná kampaň, na ktorej momentálne pracujem pre pripravovanú muzikálovú inscenáciu.",
+    newestWorkDescription: "→ Medzi najnovšie projekty patrí Na Skle Maľované, prebiehajúca oficiálna propagačná kampaň pre pripravovanú muzikálovú produkciu a koncept vianočnej kampane vyvinutý a dokončený v priebehu jedného dňa pre Upratovanie Liptov.",
 
+	  
+	     kampanHeadline: "* Tvorba Vianočnej Kampane & Dizajn pre Sociálne Siete",
+    kampanP: "Koncept vianočnej kampane pre Upratovanie Liptov, postavený na myšlienke, že nie všetko treba robiť osobne.",
+	  kampanTags: "[Tvorba Kampane] · [Art Direction] · [Grafický Dizajn] · [Správa Sociálnych Sietí]",
+	  
+	  
     naSKleTags: "[Eventové Promo] · [Správa Sociálnych Sietí] · [Tvorba Kampane] · [Grafický Dizajn]",
     naSkleP: "Lokálna propagačná kampaň vyvinutá pre muzikálovú inscenáciu Na Skle Maľované v produkcii Jána Ďurovčíka.",
 
