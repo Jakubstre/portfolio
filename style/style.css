@@ -424,8 +424,9 @@ body.menu-open {
 }
 .work-grid-newest {
   display: grid;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   width: 100%;
+	gap: 35px;
 }
 .work-card-newest {
   display: flex;
@@ -805,7 +806,7 @@ body.menu-open .arrow {
 }
 
 .menu-overlay.active {
-  opacity: 1;
+	opacity: 1;
   visibility: visible;
   pointer-events: auto;
   transform: translate(-50%, 0) scale(1);
@@ -928,10 +929,10 @@ body.menu-open .arrow {
   margin-bottom: 35px;
 }
 .project-meta a {
-  text-decoration: none;
+  text-decoration: underline;
+	text-underline-offset: 8px;
+	font-size: 14px;
   color: blue;
-  font-size: 12px;
-  : 2px;
 }
 .meta-block {
   border-top: 1px solid rgba(0, 0, 255, .2);
@@ -940,7 +941,6 @@ body.menu-open .arrow {
 .meta-block span {
   display: block;
   font-size: 11px;
-  : 2px;
   opacity: .80;
   margin-bottom: 8px;
 }
@@ -948,6 +948,8 @@ body.menu-open .arrow {
   width: 100%;
   line-height: 1.6;
 }
+
+
 .project-description h1 {
   font-size: 58px;
   line-height: .98;

@@ -134,6 +134,10 @@ button, input, textarea {
     grid-template-columns: 1fr;
     gap: 55px;
   }
+	.work-grid-newest {
+   grid-template-columns: 1fr;
+    gap: 55px;
+}
   .section-header h2 {
     font-size: clamp(40px, 6vw, 65px);
   }
