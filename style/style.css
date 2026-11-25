@@ -1130,7 +1130,7 @@ justify-content: space-between;
     display: inline-flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 3px;
+  gap: 8px;
   border: none;
   box-shadow:
     0 4px 12px rgba(0, 0, 0, 0.10), 0 1px 3px rgba(0, 0, 0, 0.06);
@@ -1141,13 +1141,6 @@ justify-content: space-between;
   border-radius: 11px;
   transition: .3s;
 }
-
-.intro-button img{
-  width: 20px;
-  margin-right: 10px;
-	
-}
-
 
 .intro-button:hover {
   background: blue;
