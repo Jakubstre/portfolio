@@ -237,6 +237,12 @@ const pages = [
     title: "Animated Birthday Invitation [D]",
     url: "featured-work/gd-invitation.html"
   },
+	
+	 {
+    title: "Christmas Campaign [D]",
+    url: "featured-work/gd-christmas-campaign.html"
+  },
+
 
   {
     title: "Contents [O]",
